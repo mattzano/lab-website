@@ -1,0 +1,14 @@
+---
+title: "LAB"
+---
+
+## Welcome
+
+We are a computational biology lab studying RNA regulation, gene expression, and neurodegenerative disease using statistical and machine learning methods.
+
+### Research Areas
+
+-   Transcriptomics
+-   RNA biology
+-   Neurodegeneration
+-   Reproducible data science

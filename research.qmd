@@ -1,0 +1,13 @@
+---
+title: "Research"
+---
+
+## Current Projects
+
+### RNA regulation in neurodegeneration
+
+We study transcript-level regulation using large-scale RNA-seq datasets.
+
+### Method development
+
+We develop reproducible computational tools in R and bash.
