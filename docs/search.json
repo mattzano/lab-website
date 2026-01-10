@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "📍 University of Padova\n✉️ gianni.soraru@unipd.it\nProspective students and postdocs:\nPlease email with a CV and brief statement of interest."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Gianni Soraru’\nAssociate Professor\nDepartment of Neuroscience"
+  },
+  {
+    "objectID": "people.html#principal-investigator",
+    "href": "people.html#principal-investigator",
+    "title": "People",
+    "section": "",
+    "text": "Gianni Soraru’\nAssociate Professor\nDepartment of Neuroscience"
+  },
+  {
+    "objectID": "people.html#members",
+    "href": "people.html#members",
+    "title": "People",
+    "section": "Members",
+    "text": "Members\n\nFederica Paredi — Neurology Resident\nMatteo Zanovello — Neurology Resident / Postdoc\nEdoardo Girotto — PhD Student"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "We study transcript-level regulation using large-scale RNA-seq datasets.\n\n\n\nWe develop reproducible computational tools in R and bash."
+  },
+  {
+    "objectID": "research.html#current-projects",
+    "href": "research.html#current-projects",
+    "title": "Research",
+    "section": "",
+    "text": "We study transcript-level regulation using large-scale RNA-seq datasets.\n\n\n\nWe develop reproducible computational tools in R and bash."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "#zanovello_unexpected_2023\n#zanovello_brainstem_2021\n#chizari_tdp-43_2025"
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-articles",
+    "href": "publications.html#peer-reviewed-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "#zanovello_unexpected_2023\n#zanovello_brainstem_2021\n#chizari_tdp-43_2025"
+  }
+]
