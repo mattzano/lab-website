@@ -25,7 +25,7 @@
     "href": "people.html#members",
     "title": "People",
     "section": "Members",
-    "text": "Members\n\nMatteo Zanovello — Neurology Resident / Postdoc"
+    "text": "Members\n\nGiacomo Maria Minicuci - Neurologist / Neurophysiologist\nFederica Paredi / Neurology Resident\nMatteo Zanovello — Neurology Resident / Postdoc\nEdoardo Girotto - PhD Student\nMarta Conforti - Research Assistant"
   },
   {
     "objectID": "research.html",
@@ -54,5 +54,19 @@
     "title": "Publications",
     "section": "",
     "text": "1. Zanovello, M. et al. Unexpected frequency of the pathogenic AR CAG repeat expansion in the general population. Brain 146, 2723–2729 (2023).\n\n\n2. Zanovello, M. et al. Brainstem glucose hypermetabolism in ALS/FTD and shorten survival: A\\(^{\\textrm{18}}\\) F-FDG PET/MR study. Journal of Nuclear Medicine jnumed.121.262232 (2021) doi:10.2967/jnumed.121.262232.\n\n\n3. Chizari, S. et al. TDP-43 pathology induces CD8\\(^{\\textrm{+}}\\) T cell activation through cryptic epitope recognition. (2025) doi:10.1101/2025.06.22.660773."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "LAB",
+    "section": "",
+    "text": "We are a computational biology lab studying RNA regulation, gene expression, and neurodegenerative disease using statistical and machine learning methods.\n\n\n\nTranscriptomics\nRNA biology\nNeurodegeneration\nReproducible data science"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "LAB",
+    "section": "",
+    "text": "We are a computational biology lab studying RNA regulation, gene expression, and neurodegenerative disease using statistical and machine learning methods.\n\n\n\nTranscriptomics\nRNA biology\nNeurodegeneration\nReproducible data science"
   }
 ]
