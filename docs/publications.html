@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications – Lab</title>
+<title>Lab Publications – Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -89,35 +69,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -155,7 +106,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./publications.html" aria-current="page"> 
-<span class="menu-text">Publications</span></a>
+<span class="menu-text">Lab Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
@@ -177,7 +128,19 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#peer-reviewed-articles" id="toc-peer-reviewed-articles" class="nav-link active" data-scroll-target="#peer-reviewed-articles">Peer-reviewed articles</a></li>
+  <li><a href="#recent-publications" id="toc-recent-publications" class="nav-link active" data-scroll-target="#recent-publications">Recent Publications</a>
+  <ul class="collapse">
+  <li><a href="#tdp-43-loss-and-als-risk-snps-drive-mis-splicing-and-depletion-of-unc13a" id="toc-tdp-43-loss-and-als-risk-snps-drive-mis-splicing-and-depletion-of-unc13a" class="nav-link" data-scroll-target="#tdp-43-loss-and-als-risk-snps-drive-mis-splicing-and-depletion-of-unc13a">TDP-43 loss and ALS-risk SNPs drive mis-splicing and depletion of UNC13A</a></li>
+  <li><a href="#mis-spliced-transcripts-generate-de-novo-proteins-in-tdp-43related-alsftd" id="toc-mis-spliced-transcripts-generate-de-novo-proteins-in-tdp-43related-alsftd" class="nav-link" data-scroll-target="#mis-spliced-transcripts-generate-de-novo-proteins-in-tdp-43related-alsftd">Mis-spliced transcripts generate de novo proteins in TDP-43–related ALS/FTD</a></li>
+  <li><a href="#increased-frequency-of-repeat-expansion-mutations-across-different-populations" id="toc-increased-frequency-of-repeat-expansion-mutations-across-different-populations" class="nav-link" data-scroll-target="#increased-frequency-of-repeat-expansion-mutations-across-different-populations">Increased frequency of repeat expansion mutations across different populations</a></li>
+  <li><a href="#tdp-43-loss-induces-cryptic-polyadenylation-in-alsftd" id="toc-tdp-43-loss-induces-cryptic-polyadenylation-in-alsftd" class="nav-link" data-scroll-target="#tdp-43-loss-induces-cryptic-polyadenylation-in-alsftd">TDP-43 loss induces cryptic polyadenylation in ALS/FTD</a></li>
+  <li><a href="#polygr-and-polypr-knock-in-mice-reveal-a-conserved-neuroprotective-extracellular-matrix-signature-in-c9orf72-alsftd-neurons" id="toc-polygr-and-polypr-knock-in-mice-reveal-a-conserved-neuroprotective-extracellular-matrix-signature-in-c9orf72-alsftd-neurons" class="nav-link" data-scroll-target="#polygr-and-polypr-knock-in-mice-reveal-a-conserved-neuroprotective-extracellular-matrix-signature-in-c9orf72-alsftd-neurons">PolyGR and polyPR knock-in mice reveal a conserved neuroprotective extracellular matrix signature in C9orf72 ALS/FTD neurons</a></li>
+  <li><a href="#creation-of-de-novo-cryptic-splicing-for-als-and-ftd-precision-medicine" id="toc-creation-of-de-novo-cryptic-splicing-for-als-and-ftd-precision-medicine" class="nav-link" data-scroll-target="#creation-of-de-novo-cryptic-splicing-for-als-and-ftd-precision-medicine">Creation of de novo cryptic splicing for ALS and FTD precision medicine</a></li>
+  <li><a href="#loss-of-tdp-43-induces-synaptic-dysfunction-that-is-rescued-by-unc13a-splice-switching-asos" id="toc-loss-of-tdp-43-induces-synaptic-dysfunction-that-is-rescued-by-unc13a-splice-switching-asos" class="nav-link" data-scroll-target="#loss-of-tdp-43-induces-synaptic-dysfunction-that-is-rescued-by-unc13a-splice-switching-asos">Loss of TDP-43 induces synaptic dysfunction that is rescued by UNC13A splice-switching ASOs</a></li>
+  <li><a href="#unexpected-frequency-of-the-pathogenic-ar-cag-repeat-expansion-in-the-general-population" id="toc-unexpected-frequency-of-the-pathogenic-ar-cag-repeat-expansion-in-the-general-population" class="nav-link" data-scroll-target="#unexpected-frequency-of-the-pathogenic-ar-cag-repeat-expansion-in-the-general-population">Unexpected frequency of the pathogenic AR CAG repeat expansion in the general population</a></li>
+  <li><a href="#brain-stem-glucose-hypermetabolism-in-amyotrophic-lateral-sclerosisfrontotemporal-dementia-and-shortened-survival-an-18f-fdg-petmri-study" id="toc-brain-stem-glucose-hypermetabolism-in-amyotrophic-lateral-sclerosisfrontotemporal-dementia-and-shortened-survival-an-18f-fdg-petmri-study" class="nav-link" data-scroll-target="#brain-stem-glucose-hypermetabolism-in-amyotrophic-lateral-sclerosisfrontotemporal-dementia-and-shortened-survival-an-18f-fdg-petmri-study">Brain Stem Glucose Hypermetabolism in Amyotrophic Lateral Sclerosis/Frontotemporal Dementia and Shortened Survival: An 18F-FDG PET/MRI Study</a></li>
+  <li><a href="#common-alsftd-risk-variants-in-unc13a-exacerbate-its-cryptic-splicing-and-loss-upon-tdp-43-mislocalization" id="toc-common-alsftd-risk-variants-in-unc13a-exacerbate-its-cryptic-splicing-and-loss-upon-tdp-43-mislocalization" class="nav-link" data-scroll-target="#common-alsftd-risk-variants-in-unc13a-exacerbate-its-cryptic-splicing-and-loss-upon-tdp-43-mislocalization">Common ALS/FTD risk variants in UNC13A exacerbate its cryptic splicing and loss upon TDP-43 mislocalization</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -186,7 +149,8 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publications</h1>
+<h1 class="title">Lab Publications</h1>
+<p class="subtitle lead">Automated Google Scholar Sync</p>
 </div>
 
 
@@ -203,21 +167,113 @@ window.Quarto = {
 </header>
 
 
-<section id="peer-reviewed-articles" class="level2">
-<h2 class="anchored" data-anchor-id="peer-reviewed-articles">Peer-reviewed articles</h2>
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-zanovello_unexpected_2023" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Zanovello, M. <em>et al.</em> <a href="https://doi.org/10.1093/brain/awad050">Unexpected frequency of the pathogenic <em>AR</em> <span>CAG</span> repeat expansion in the general population</a>. <em>Brain</em> <strong>146</strong>, 2723–2729 (2023).</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div id="ref-zanovello_brainstem_2021" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Zanovello, M. <em>et al.</em> Brainstem glucose hypermetabolism in <span>ALS</span>/<span>FTD</span> and shorten survival: A<span class="math inline">\(^{\textrm{18}}\)</span> <span>F</span>-<span>FDG</span> <span>PET</span>/<span>MR</span> study. <em>Journal of Nuclear Medicine</em> jnumed.121.262232 (2021) doi:<a href="https://doi.org/10.2967/jnumed.121.262232">10.2967/jnumed.121.262232</a>.</div>
-</div>
-<div id="ref-chizari_tdp-43_2025" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Chizari, S. <em>et al.</em> <span>TDP</span>-43 pathology induces <span>CD8</span><span class="math inline">\(^{\textrm{+}}\)</span> <span>T</span> cell activation through cryptic epitope recognition. (2025) doi:<a href="https://doi.org/10.1101/2025.06.22.660773">10.1101/2025.06.22.660773</a>.</div>
+<div class="callout-title-container flex-fill">
+Note
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>Last updated automatically by Lab Agent via Google Scholar.</p>
+</div>
+</div>
+<section id="recent-publications" class="level2">
+<h2 class="anchored" data-anchor-id="recent-publications">Recent Publications</h2>
+<section id="tdp-43-loss-and-als-risk-snps-drive-mis-splicing-and-depletion-of-unc13a" class="level3">
+<h3 class="anchored" data-anchor-id="tdp-43-loss-and-als-risk-snps-drive-mis-splicing-and-depletion-of-unc13a"><a href="#">TDP-43 loss and ALS-risk SNPs drive mis-splicing and depletion of UNC13A</a></h3>
+<ul>
+<li><strong>Authors:</strong> Matteo Zanovello</li>
+<li><strong>Journal / Venue:</strong> <em>N/A</em> (2022)</li>
+<li><strong>Citations:</strong> 571</li>
+</ul>
+<hr>
+</section>
+<section id="mis-spliced-transcripts-generate-de-novo-proteins-in-tdp-43related-alsftd" class="level3">
+<h3 class="anchored" data-anchor-id="mis-spliced-transcripts-generate-de-novo-proteins-in-tdp-43related-alsftd"><a href="#">Mis-spliced transcripts generate de novo proteins in TDP-43–related ALS/FTD</a></h3>
+<ul>
+<li><strong>Authors:</strong> Matteo Zanovello</li>
+<li><strong>Journal / Venue:</strong> <em>N/A</em> (2024)</li>
+<li><strong>Citations:</strong> 197</li>
+</ul>
+<hr>
+</section>
+<section id="increased-frequency-of-repeat-expansion-mutations-across-different-populations" class="level3">
+<h3 class="anchored" data-anchor-id="increased-frequency-of-repeat-expansion-mutations-across-different-populations"><a href="#">Increased frequency of repeat expansion mutations across different populations</a></h3>
+<ul>
+<li><strong>Authors:</strong> Matteo Zanovello</li>
+<li><strong>Journal / Venue:</strong> <em>N/A</em> (2024)</li>
+<li><strong>Citations:</strong> 98</li>
+</ul>
+<hr>
+</section>
+<section id="tdp-43-loss-induces-cryptic-polyadenylation-in-alsftd" class="level3">
+<h3 class="anchored" data-anchor-id="tdp-43-loss-induces-cryptic-polyadenylation-in-alsftd"><a href="#">TDP-43 loss induces cryptic polyadenylation in ALS/FTD</a></h3>
+<ul>
+<li><strong>Authors:</strong> Matteo Zanovello</li>
+<li><strong>Journal / Venue:</strong> <em>N/A</em> (2025)</li>
+<li><strong>Citations:</strong> 49</li>
+</ul>
+<hr>
+</section>
+<section id="polygr-and-polypr-knock-in-mice-reveal-a-conserved-neuroprotective-extracellular-matrix-signature-in-c9orf72-alsftd-neurons" class="level3">
+<h3 class="anchored" data-anchor-id="polygr-and-polypr-knock-in-mice-reveal-a-conserved-neuroprotective-extracellular-matrix-signature-in-c9orf72-alsftd-neurons"><a href="#">PolyGR and polyPR knock-in mice reveal a conserved neuroprotective extracellular matrix signature in C9orf72 ALS/FTD neurons</a></h3>
+<ul>
+<li><strong>Authors:</strong> Matteo Zanovello</li>
+<li><strong>Journal / Venue:</strong> <em>N/A</em> (2024)</li>
+<li><strong>Citations:</strong> 49</li>
+</ul>
+<hr>
+</section>
+<section id="creation-of-de-novo-cryptic-splicing-for-als-and-ftd-precision-medicine" class="level3">
+<h3 class="anchored" data-anchor-id="creation-of-de-novo-cryptic-splicing-for-als-and-ftd-precision-medicine"><a href="#">Creation of de novo cryptic splicing for ALS and FTD precision medicine</a></h3>
+<ul>
+<li><strong>Authors:</strong> Matteo Zanovello</li>
+<li><strong>Journal / Venue:</strong> <em>N/A</em> (2024)</li>
+<li><strong>Citations:</strong> 46</li>
+</ul>
+<hr>
+</section>
+<section id="loss-of-tdp-43-induces-synaptic-dysfunction-that-is-rescued-by-unc13a-splice-switching-asos" class="level3">
+<h3 class="anchored" data-anchor-id="loss-of-tdp-43-induces-synaptic-dysfunction-that-is-rescued-by-unc13a-splice-switching-asos"><a href="#">Loss of TDP-43 induces synaptic dysfunction that is rescued by UNC13A splice-switching ASOs</a></h3>
+<ul>
+<li><strong>Authors:</strong> Matteo Zanovello</li>
+<li><strong>Journal / Venue:</strong> <em>N/A</em> (2024)</li>
+<li><strong>Citations:</strong> 42</li>
+</ul>
+<hr>
+</section>
+<section id="unexpected-frequency-of-the-pathogenic-ar-cag-repeat-expansion-in-the-general-population" class="level3">
+<h3 class="anchored" data-anchor-id="unexpected-frequency-of-the-pathogenic-ar-cag-repeat-expansion-in-the-general-population"><a href="#">Unexpected frequency of the pathogenic AR CAG repeat expansion in the general population</a></h3>
+<ul>
+<li><strong>Authors:</strong> Matteo Zanovello</li>
+<li><strong>Journal / Venue:</strong> <em>N/A</em> (2023)</li>
+<li><strong>Citations:</strong> 37</li>
+</ul>
+<hr>
+</section>
+<section id="brain-stem-glucose-hypermetabolism-in-amyotrophic-lateral-sclerosisfrontotemporal-dementia-and-shortened-survival-an-18f-fdg-petmri-study" class="level3">
+<h3 class="anchored" data-anchor-id="brain-stem-glucose-hypermetabolism-in-amyotrophic-lateral-sclerosisfrontotemporal-dementia-and-shortened-survival-an-18f-fdg-petmri-study"><a href="#">Brain Stem Glucose Hypermetabolism in Amyotrophic Lateral Sclerosis/Frontotemporal Dementia and Shortened Survival: An 18F-FDG PET/MRI Study</a></h3>
+<ul>
+<li><strong>Authors:</strong> Matteo Zanovello</li>
+<li><strong>Journal / Venue:</strong> <em>N/A</em> (2022)</li>
+<li><strong>Citations:</strong> 32</li>
+</ul>
+<hr>
+</section>
+<section id="common-alsftd-risk-variants-in-unc13a-exacerbate-its-cryptic-splicing-and-loss-upon-tdp-43-mislocalization" class="level3">
+<h3 class="anchored" data-anchor-id="common-alsftd-risk-variants-in-unc13a-exacerbate-its-cryptic-splicing-and-loss-upon-tdp-43-mislocalization"><a href="#">Common ALS/FTD risk variants in UNC13A exacerbate its cryptic splicing and loss upon TDP-43 mislocalization</a></h3>
+<ul>
+<li><strong>Authors:</strong> Matteo Zanovello</li>
+<li><strong>Journal / Venue:</strong> <em>N/A</em> (2021)</li>
+<li><strong>Citations:</strong> 31</li>
+</ul>
+<hr>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

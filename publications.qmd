@@ -1,11 +1,91 @@
 ---
-title: "Publications"
-bibliography: references.bib
-csl: nature.csl
-nocite: "@*"
+title: "Lab Publications"
+subtitle: "Automated Google Scholar Sync"
 ---
 
-## Peer-reviewed articles
-
-::: {#refs}
+:::{.callout-note}
+Last updated automatically by Lab Agent via Google Scholar.
 :::
+
+## Recent Publications
+
+### [TDP-43 loss and ALS-risk SNPs drive mis-splicing and depletion of UNC13A](#)
+
+- **Authors:** Matteo Zanovello
+- **Journal / Venue:** *N/A* (2022)
+- **Citations:** 571
+
+---
+
+### [Mis-spliced transcripts generate de novo proteins in TDP-43–related ALS/FTD](#)
+
+- **Authors:** Matteo Zanovello
+- **Journal / Venue:** *N/A* (2024)
+- **Citations:** 197
+
+---
+
+### [Increased frequency of repeat expansion mutations across different populations](#)
+
+- **Authors:** Matteo Zanovello
+- **Journal / Venue:** *N/A* (2024)
+- **Citations:** 98
+
+---
+
+### [TDP-43 loss induces cryptic polyadenylation in ALS/FTD](#)
+
+- **Authors:** Matteo Zanovello
+- **Journal / Venue:** *N/A* (2025)
+- **Citations:** 49
+
+---
+
+### [PolyGR and polyPR knock-in mice reveal a conserved neuroprotective extracellular matrix signature in C9orf72 ALS/FTD neurons](#)
+
+- **Authors:** Matteo Zanovello
+- **Journal / Venue:** *N/A* (2024)
+- **Citations:** 49
+
+---
+
+### [Creation of de novo cryptic splicing for ALS and FTD precision medicine](#)
+
+- **Authors:** Matteo Zanovello
+- **Journal / Venue:** *N/A* (2024)
+- **Citations:** 46
+
+---
+
+### [Loss of TDP-43 induces synaptic dysfunction that is rescued by UNC13A splice-switching ASOs](#)
+
+- **Authors:** Matteo Zanovello
+- **Journal / Venue:** *N/A* (2024)
+- **Citations:** 42
+
+---
+
+### [Unexpected frequency of the pathogenic AR CAG repeat expansion in the general population](#)
+
+- **Authors:** Matteo Zanovello
+- **Journal / Venue:** *N/A* (2023)
+- **Citations:** 37
+
+---
+
+### [Brain Stem Glucose Hypermetabolism in Amyotrophic Lateral Sclerosis/Frontotemporal Dementia and Shortened Survival: An 18F-FDG PET/MRI Study](#)
+
+- **Authors:** Matteo Zanovello
+- **Journal / Venue:** *N/A* (2022)
+- **Citations:** 32
+
+---
+
+### [Common ALS/FTD risk variants in UNC13A exacerbate its cryptic splicing and loss upon TDP-43 mislocalization](#)
+
+- **Authors:** Matteo Zanovello
+- **Journal / Venue:** *N/A* (2021)
+- **Citations:** 31
+
+---
+
