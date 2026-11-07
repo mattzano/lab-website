@@ -1,9 +1,86 @@
 ---
-title: "Contact"
+pagetitle: "Get in touch · NeuroMuscle Lab"
+page-layout: custom
 ---
 
-📍 University of Padova\
-✉️ gianni.soraru\@unipd.it
+::: {.nm-wrap .nm-contact}
 
-**Prospective students and postdocs:**\
-Please email with a CV and brief statement of interest.
+::: nm-pagehead
+# Get in touch
+:::
+
+::: panel-tabset
+
+## Information
+
+::: nm-grid-3
+
+::: nm-card
+[Email]{.nm-kicker}
+
+[gianni.soraru@unipd.it](mailto:gianni.soraru@unipd.it){style="font-size: 1.4rem; font-weight: 600"}
+
+[Prof. Gianni Sorarù, principal investigator]{.nm-muted}
+:::
+
+::: nm-card
+[Lab]{.nm-kicker}
+
+**Campus Biomedico Pietro d'Abano**
+
+[Via Orus 2B, Padova, Italy]{.nm-muted}
+
+[Open in map](https://www.openstreetmap.org/search?query=Via%20Orus%202B%2C%20Padova)
+:::
+
+::: nm-card
+[Clinic]{.nm-kicker}
+
+**Motor Neuron Disease Clinic**
+
+[Azienda Ospedale Università Padova, Via Nicolò Giustiniani 2, Padova]{.nm-muted}
+
+[Open in map](https://www.openstreetmap.org/search?query=Via%20Nicol%C3%B2%20Giustiniani%202%2C%20Padova)
+:::
+
+:::
+
+## Work with us
+
+::: nm-work
+
+::: nm-card
+### Work with us
+
+We welcome students, residents and postdocs interested in neuromuscular disease. Tell us about yourself and what you would like to work on, and we will get back to you.
+:::
+
+::: nm-card
+```{=html}
+<!-- The form posts to Formspree (https://formspree.io). Create a free form there for
+     gianni.soraru@unipd.it and replace YOUR_FORM_ID below with the ID it gives you. -->
+<form class="nm-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <input type="hidden" name="_subject" value="Work with us: new request from neuromusclelab.org">
+  <div class="nm-row">
+    <div><label for="f-name">Name *</label><input class="form-control" id="f-name" name="name" type="text" autocomplete="given-name" required></div>
+    <div><label for="f-surname">Surname *</label><input class="form-control" id="f-surname" name="surname" type="text" autocomplete="family-name" required></div>
+    <div><label for="f-email">E-mail *</label><input class="form-control" id="f-email" name="email" type="email" autocomplete="email" required></div>
+    <div><label for="f-phone">Telephone (optional)</label><input class="form-control" id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+  </div>
+  <div><label for="f-msg">Message *</label><textarea class="form-control" id="f-msg" name="message" rows="6" required></textarea></div>
+  <div class="form-check">
+    <input class="form-check-input" id="f-privacy" name="privacy_consent" type="checkbox" value="yes" required>
+    <label class="form-check-label" for="f-privacy">I have read the <a href="privacy.html">privacy policy</a> and consent to the processing of my personal data. *</label>
+  </div>
+  <div><button class="nm-btn nm-btn-muscle" type="submit" style="border: 0">Send request</button></div>
+</form>
+```
+:::
+
+:::
+
+:::
+
+[Back to the start](index.qmd){.nm-next .nm-up}
+
+:::

@@ -1,17 +1,60 @@
 ---
-title: "People"
+pagetitle: "Team · NeuroMuscle Lab"
+page-layout: custom
 ---
 
-## Principal Investigator
+::::::::::::::: nm-wrap
+::: nm-pagehead
+# Meet the team
 
-**Gianni Soraru'**\
-Associate Professor\
-Department of Neuroscience
+Neurologists, neurophysiologists, researchers and clinical research staff working between the neuromuscular clinic and the lab.
+:::
 
-## Members
+::::::::::: nm-team
+::: nm-person
+![](images/team/soraru.jpg){fig-alt="Gianni Sorarù"} [Gianni Sorarù]{.nm-name} [Principal investigator]{.nm-role} [ALS, SBMA and other motor neuron diseases]{.nm-focus}
+:::
 
--   Giacomo Maria Minicuci - Neurologist / Neurophysiologist
--   Federica Paredi / Neurology Resident
--   Matteo Zanovello — Neurology Resident / Postdoc
--   Edoardo Girotto - PhD Student
--   Marta Conforti - Research Assistant
+::: nm-person
+![](images/team/minicuci.jpg){fig-alt="Giacomo Maria Minicuci"} [Giacomo Maria Minicuci]{.nm-name} [Neurologist and neurophysiologist]{.nm-role} [SBMA outcome measures and ALS biomarkers]{.nm-focus}
+:::
+
+::: nm-person
+![](images/team/zanovello.jpg){fig-alt="Matteo Zanovello"} [Matteo Zanovello]{.nm-name} [Neurology resident and postdoc]{.nm-role} [TDP-43 cryptic exons, repeat expansions and SBMA]{.nm-focus}
+:::
+
+::: nm-person
+![](images/team/paredi.jpg){fig-alt="Federica Paredi"} [Federica Paredi]{.nm-name} [Neurology resident]{.nm-role} [SBMA clinical outcomes and cognition]{.nm-focus}
+:::
+
+::: nm-person
+![](images/team/girotto.jpg){fig-alt="Edoardo Girotto"} [Edoardo Girotto]{.nm-name} [PhD student]{.nm-role} [Phosphorylated tau in ALS skeletal muscle]{.nm-focus}
+:::
+
+::: nm-person
+![](images/team/conforti.jpg){fig-alt="Marta Conforti"} [Marta Conforti]{.nm-name} [Research assistant]{.nm-role} [Developing ELISA assays for new biomarkers]{.nm-focus}
+:::
+
+::: nm-person
+![](images/team/salmaso.jpg){fig-alt="Serenella Salmaso"} [Serenella Salmaso]{.nm-name} [Case manager]{.nm-role}
+:::
+
+::: nm-person
+![](images/team/lazzaretto.jpg){fig-alt="Silvia Lazzaretto"} [Silvia Lazzaretto]{.nm-name} [Clinical trial manager]{.nm-role}
+:::
+:::::::::::
+
+:::: nm-join
+<div>
+
+## Join us
+
+Prospective students and postdocs are welcome. Send us your CV and a brief statement of interest.
+
+</div>
+
+[Work with us](contact.qmd){.nm-btn .nm-btn-muscle}
+::::
+
+[Keep scrolling to our publications](publications.qmd){.nm-next}
+:::::::::::::::

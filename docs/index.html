@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LAB – Lab</title>
+<title>NeuroMuscle Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,35 +25,19 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./images/mark.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5fa72de93cbae4c0cbe295517ef86d6e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -68,12 +52,33 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Fonts are self-hosted (SIL Open Font License) so no visitor data goes to Google Fonts. -->
+<style>
+@font-face { font-family: "Anybody"; font-style: normal; font-display: swap; font-weight: 100 900; font-stretch: 50% 150%;
+  src: url("theme/fonts/anybody-latin-standard-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Anybody"; font-style: normal; font-display: swap; font-weight: 100 900; font-stretch: 50% 150%;
+  src: url("theme/fonts/anybody-latin-ext-standard-normal.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Schibsted Grotesk"; font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url("theme/fonts/schibsted-grotesk-latin-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Schibsted Grotesk"; font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url("theme/fonts/schibsted-grotesk-latin-ext-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Schibsted Grotesk"; font-style: italic; font-display: swap; font-weight: 400 900;
+  src: url("theme/fonts/schibsted-grotesk-latin-wght-italic.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Schibsted Grotesk"; font-style: italic; font-display: swap; font-weight: 400 900;
+  src: url("theme/fonts/schibsted-grotesk-latin-ext-wght-italic.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+</style>
+<meta name="theme-color" content="#0B2530">
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -81,36 +86,37 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/mark.svg" alt="NeuroMuscle Lab" class="navbar-logo light-content">
+    <img src="./images/mark.svg" alt="NeuroMuscle Lab" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Lab</span>
+    <span class="navbar-title">NeuroMuscle Lab</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
-<span class="menu-text">People</span></a>
-  </li>  
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./lab.html"> 
+<span class="menu-text">Lab</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">Team</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Lab Publications</span></a>
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+<span class="menu-text">Get in touch</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -120,69 +126,181 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
-  <ul class="collapse">
-  <li><a href="#research-areas" id="toc-research-areas" class="nav-link" data-scroll-target="#research-areas">Research Areas</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">LAB</h1>
+
+
+
+<div class="nm-wrap nm-hero">
+<svg class="nm-hero-art" viewbox="0 0 820 760" role="img" aria-label="Illustration of a motor unit: one axon branching onto four of six striated muscle fibres">
+  <g class="on"><line class="fib" x1="40" y1="230" x2="790" y2="230"></line><line class="str" x1="58" y1="230" x2="772" y2="230"></line></g>
+  <g class="off"><line class="fib" x1="10" y1="300" x2="760" y2="300"></line><line class="str" x1="28" y1="300" x2="742" y2="300"></line></g>
+  <g class="on"><line class="fib" x1="70" y1="370" x2="810" y2="370"></line><line class="str" x1="88" y1="370" x2="792" y2="370"></line></g>
+  <g class="on"><line class="fib" x1="30" y1="440" x2="770" y2="440"></line><line class="str" x1="48" y1="440" x2="752" y2="440"></line></g>
+  <g class="off"><line class="fib" x1="90" y1="510" x2="800" y2="510"></line><line class="str" x1="108" y1="510" x2="782" y2="510"></line></g>
+  <g class="on"><line class="fib" x1="50" y1="580" x2="780" y2="580"></line><line class="str" x1="68" y1="580" x2="762" y2="580"></line></g>
+  <path class="myelin" d="M 520 -10 C 515 60, 495 110, 470 150"></path>
+  <path class="ax" stroke-width="3.5" d="M 520 -10 C 515 60, 495 110, 470 150"></path>
+  <path class="ax" stroke-width="2.5" d="M 470 150 C 520 165, 585 178, 610 202"></path>
+  <path class="ax" stroke-width="2.5" d="M 470 150 C 400 190, 320 250, 300 342"></path>
+  <path class="ax" stroke-width="2.5" d="M 470 150 C 560 220, 690 300, 700 412"></path>
+  <path class="ax" stroke-width="2.5" d="M 470 150 C 462 300, 444 450, 450 552"></path>
+  <path class="ap" stroke-width="4" d="M 520 -10 C 515 60, 495 110, 470 150"></path>
+  <path class="apb" stroke-width="3" d="M 470 150 C 520 165, 585 178, 610 202"></path>
+  <path class="apb" stroke-width="3" d="M 470 150 C 400 190, 320 250, 300 342"></path>
+  <path class="apb" stroke-width="3" d="M 470 150 C 560 220, 690 300, 700 412"></path>
+  <path class="apb" stroke-width="3" d="M 470 150 C 462 300, 444 450, 450 552"></path>
+  <g class="ep"><circle class="halo" cx="610" cy="208" r="30"></circle><circle cx="596" cy="210" r="6"></circle><circle cx="607" cy="204" r="6"></circle><circle cx="619" cy="206" r="6"></circle><circle cx="628" cy="212" r="5"></circle><circle cx="603" cy="217" r="5"></circle></g>
+  <g class="ep"><circle class="halo" cx="300" cy="348" r="30"></circle><circle cx="286" cy="350" r="6"></circle><circle cx="297" cy="344" r="6"></circle><circle cx="309" cy="346" r="6"></circle><circle cx="318" cy="352" r="5"></circle><circle cx="293" cy="357" r="5"></circle></g>
+  <g class="ep"><circle class="halo" cx="700" cy="418" r="30"></circle><circle cx="686" cy="420" r="6"></circle><circle cx="697" cy="414" r="6"></circle><circle cx="709" cy="416" r="6"></circle><circle cx="718" cy="422" r="5"></circle><circle cx="693" cy="427" r="5"></circle></g>
+  <g class="ep"><circle class="halo" cx="450" cy="558" r="30"></circle><circle cx="436" cy="560" r="6"></circle><circle cx="447" cy="554" r="6"></circle><circle cx="459" cy="556" r="6"></circle><circle cx="468" cy="562" r="5"></circle><circle cx="443" cy="567" r="5"></circle></g>
+</svg>
+<div class="nm-hero-text">
+  <h1>From motor neuron to muscle fibre.</h1>
+  <p class="nm-lead">We study the neuromuscular system as one working unit: the neuron, the junction, and the fibre it drives.</p>
+  <div class="nm-actions">
+    <a class="nm-btn nm-btn-nerve" href="research.html">Our research</a>
+    <a class="nm-btn nm-btn-ghost" href="people.html">Meet the team</a>
+  </div>
+</div>
+<div class="nm-hero-meta">
+  <div><strong>Prof. Gianni Sorarù</strong><span>Principal investigator</span></div>
+  <div><strong>Department of Neuroscience</strong><span>Università degli Studi di Padova</span></div>
+  <div><strong>Padova University Hospital</strong><span>Padova, Italy</span></div>
+</div>
+</div>
+<div class="nm-wrap nm-section">
+<section id="what-we-study" class="level2 nm-split">
+<h2 data-anchor-id="what-we-study">What we study</h2>
+<p>We are neurologists and researchers studying ALS, SBMA and related neuromuscular diseases. We combine patient cohorts and clinical trials with RNA biology, genetics and reproducible, large-scale data analysis.</p>
+</section>
+<div class="nm-grid-3" style="margin-top: 72px">
+<div class="nm-card">
+<svg class="nm-icon" viewbox="0 0 44 44" aria-hidden="true"><circle cx="14" cy="14" r="8" fill="none" stroke="#6DB9EA" stroke-width="2.5"></circle><path d="M 20 20 C 26 26, 30 30, 40 40" fill="none" stroke="#6DB9EA" stroke-width="2.5" stroke-linecap="round"></path></svg>
+<section id="the-motor-neuron" class="level3">
+<h3 data-anchor-id="the-motor-neuron">The motor neuron</h3>
+<p><span class="nm-line">TDP-43 loss and cryptic splicing</span></p>
+<p>When TDP-43 leaves the nucleus, neurons include cryptic exons that switch off genes such as UNC13A and STMN2. We map these events in patient samples and large RNA-seq datasets, and test them as biomarkers and therapeutic targets.</p>
+<p><a href="./research.html">Read more</a></p>
+</section>
+</div>
+<div class="nm-card">
+<svg class="nm-icon" viewbox="0 0 44 44" aria-hidden="true"><path d="M 6 4 C 10 14, 16 20, 22 24" fill="none" stroke="#6DB9EA" stroke-width="2.5" stroke-linecap="round"></path><circle cx="18" cy="30" r="4" fill="#6DB9EA"></circle><circle cx="27" cy="28" r="4" fill="#6DB9EA"></circle><line x1="4" y1="38" x2="40" y2="38" stroke="#78D3A6" stroke-width="5" stroke-linecap="round"></line></svg>
+<section id="the-junction" class="level3">
+<h3 data-anchor-id="the-junction">The junction</h3>
+<p><span class="nm-line">Synapses and the immune response</span></p>
+<p>Loss of TDP-43 disrupts synaptic function, and its cryptic peptides can be recognised by CD8 T cells. We study both at the neuromuscular junction, in human models and in patients.</p>
+<p><a href="./research.html">Read more</a></p>
+</section>
+</div>
+<div class="nm-card">
+<svg class="nm-icon" viewbox="0 0 44 44" aria-hidden="true"><line x1="6" y1="22" x2="38" y2="22" stroke="#78D3A6" stroke-opacity="0.35" stroke-width="20" stroke-linecap="round"></line><line x1="10" y1="22" x2="34" y2="22" stroke="#78D3A6" stroke-width="16" stroke-dasharray="2 5"></line></svg>
+<section id="the-muscle-fibre" class="level3">
+<h3 data-anchor-id="the-muscle-fibre">The muscle fibre</h3>
+<p><span class="nm-line">SBMA and repeat expansions</span></p>
+<p>The AR CAG expansion behind SBMA is more common in the population than once thought. We follow patients over time, define meaningful changes in function, and run clinical trials.</p>
+<p><a href="./research.html">Read more</a></p>
+</section>
+</div>
+</div>
+</div>
+<div class="nm-wrap nm-section">
+<div class="nm-grid-2">
+<div class="nm-photo-panel">
+<!-- Replace this panel with a lab photo, e.g. ![](images/lab.jpg){fig-alt="The lab"} -->
+</div>
+<section id="the-lab" class="level2 nm-lab-teaser" style="padding-top: 24px">
+<h2 data-anchor-id="the-lab">The lab</h2>
+<p>Our lab is in the Campus Biomedico Pietro d’Abano, Via Orus 2B, Padova. Our patients are seen at the Motor Neuron Disease Clinic of Azienda Ospedale Università Padova.</p>
+<p><a href="./lab.html">Explore the lab</a></p>
+</section>
+</div>
+</div>
+<div class="nm-wrap nm-section">
+<section id="recent-publications" class="level2 nm-split">
+<h2 data-anchor-id="recent-publications">Recent publications</h2>
+<p><a href="./publications.html">All publications</a></p>
+</section>
+<div style="margin-top: 48px">
+<div class="nm-pubrow">
+<p><span class="nm-year">2026</span></p>
+<div>
+<p><a href="https://link.springer.com/article/10.1007/s00415-026-14032-4">Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy</a> <span class="nm-meta">Zanovello M, et al.&nbsp;<em>Journal of Neurology</em></span></p>
+</div>
+</div>
+<div class="nm-pubrow">
+<p><span class="nm-year">2026</span></p>
+<div>
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.78195">High prevalence of SOD1 pathogenic variants in the UK Biobank: implications for early intervention in amyotrophic lateral sclerosis</a> <span class="nm-meta">Gagliardi D, et al.&nbsp;<em>Annals of Neurology</em></span></p>
+</div>
+</div>
+<div class="nm-pubrow">
+<p><span class="nm-year">2025</span></p>
+<div>
+<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12262510/">TDP-43 pathology induces CD8+ T cell activation through cryptic epitope recognition</a> <span class="nm-meta">Chizari S, Zanovello M, et al.&nbsp;<em>bioRxiv</em></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="nm-band">
+<section id="get-in-touch" class="level2 nm-wrap">
+<h2 data-anchor-id="get-in-touch">Get in touch</h2>
+<p><a href="mailto:gianni.soraru@unipd.it">gianni.soraru@unipd.it</a></p>
+<p><span class="nm-muted">Campus Biomedico Pietro d’Abano, Via Orus 2B, Padova</span></p>
+</section>
+</div>
+<div class="nm-wrap">
+<p><a href="./research.html" class="nm-next">Keep scrolling to discover our research</a></p>
 </div>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
+<footer class="nm-footer" aria-label="Site footer">
+  <div class="nm-footer-top">
+    <div class="nm-footer-logos">
+      <img src="images/logos/unipd.png" alt="Università degli Studi di Padova" width="195" height="64">
+      <img src="images/logos/aopd.svg" alt="Azienda Ospedale Università Padova" width="146" height="64">
+    </div>
+    <div class="nm-footer-contact">
+      <span class="nm-footer-name">NeuroMuscle Lab</span>
+      <span>Department of Neuroscience, Università degli Studi di Padova</span>
+      <span>Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova</span>
+      <a href="mailto:gianni.soraru@unipd.it">gianni.soraru@unipd.it</a>
+    </div>
   </div>
-  
-
-
-</header>
-
-
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
-<p>We are a computational biology lab studying RNA regulation, gene expression, and neurodegenerative disease using statistical and machine learning methods.</p>
-<section id="research-areas" class="level3">
-<h3 class="anchored" data-anchor-id="research-areas">Research Areas</h3>
-<ul>
-<li>Transcriptomics</li>
-<li>RNA biology</li>
-<li>Neurodegeneration</li>
-<li>Reproducible data science</li>
-</ul>
-
-
-</section>
-</section>
-
-</main> <!-- /main -->
+  <div class="nm-footer-bottom">
+    <span>Prof. Gianni Sorarù, principal investigator</span>
+    <span class="nm-footer-links"><a href="privacy.html">Privacy policy</a><span>Built with Quarto</span></span>
+  </div>
+</footer>
+<script>
+/* Symmune-style page chaining: keep scrolling past the end of a page to move to the next one. */
+(function () {
+  var next = document.querySelector('a.nm-next:not(.nm-up)');
+  if (!next) return;
+  var pull = 0, timer = null, THRESHOLD = 900;
+  function atBottom() {
+    return window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+  }
+  function setPull(v) {
+    pull = Math.max(0, v);
+    next.style.setProperty('--nm-pull', Math.min(pull / THRESHOLD, 1));
+    if (pull >= THRESHOLD) { window.location.href = next.href; }
+  }
+  window.addEventListener('wheel', function (e) {
+    if (!atBottom() || e.deltaY <= 0) { setPull(0); return; }
+    setPull(pull + e.deltaY);
+    clearTimeout(timer);
+    timer = setTimeout(function () { setPull(0); }, 700);
+  }, { passive: true });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -247,7 +365,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/neuromusclelab\.org");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

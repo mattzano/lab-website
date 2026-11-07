@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Lab</title>
+<title>Research · NeuroMuscle Lab – NeuroMuscle Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,35 +25,19 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./images/mark.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5fa72de93cbae4c0cbe295517ef86d6e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -68,12 +52,33 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Fonts are self-hosted (SIL Open Font License) so no visitor data goes to Google Fonts. -->
+<style>
+@font-face { font-family: "Anybody"; font-style: normal; font-display: swap; font-weight: 100 900; font-stretch: 50% 150%;
+  src: url("theme/fonts/anybody-latin-standard-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Anybody"; font-style: normal; font-display: swap; font-weight: 100 900; font-stretch: 50% 150%;
+  src: url("theme/fonts/anybody-latin-ext-standard-normal.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Schibsted Grotesk"; font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url("theme/fonts/schibsted-grotesk-latin-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Schibsted Grotesk"; font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url("theme/fonts/schibsted-grotesk-latin-ext-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Schibsted Grotesk"; font-style: italic; font-display: swap; font-weight: 400 900;
+  src: url("theme/fonts/schibsted-grotesk-latin-wght-italic.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Schibsted Grotesk"; font-style: italic; font-display: swap; font-weight: 400 900;
+  src: url("theme/fonts/schibsted-grotesk-latin-ext-wght-italic.woff2") format("woff2-variations");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+</style>
+<meta name="theme-color" content="#0B2530">
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -81,36 +86,37 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/mark.svg" alt="NeuroMuscle Lab" class="navbar-logo light-content">
+    <img src="./images/mark.svg" alt="NeuroMuscle Lab" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Lab</span>
+    <span class="navbar-title">NeuroMuscle Lab</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
-<span class="menu-text">People</span></a>
-  </li>  
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./lab.html"> 
+<span class="menu-text">Lab</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">Team</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Lab Publications</span></a>
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+<span class="menu-text">Get in touch</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -120,68 +126,124 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#current-projects" id="toc-current-projects" class="nav-link active" data-scroll-target="#current-projects">Current Projects</a>
-  <ul class="collapse">
-  <li><a href="#rna-regulation-in-neurodegeneration" id="toc-rna-regulation-in-neurodegeneration" class="nav-link" data-scroll-target="#rna-regulation-in-neurodegeneration">RNA regulation in neurodegeneration</a></li>
-  <li><a href="#method-development" id="toc-method-development" class="nav-link" data-scroll-target="#method-development">Method development</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Research</h1>
+
+
+
+<div class="nm-wrap">
+<section id="our-research" class="level1 nm-pagehead">
+<h1>Our research</h1>
+<p>We follow disease along the motor unit, from the motor neuron through the junction to the muscle fibre, and bring what we learn back to the clinic.</p>
+</section>
+<div class="nm-topic">
+<div>
+<p><span class="nm-num">01</span></p>
+<section id="the-motor-neuron" class="level2">
+<h2 data-anchor-id="the-motor-neuron">The motor neuron</h2>
+<p><span class="nm-line">TDP-43 loss and cryptic splicing</span></p>
+</section>
+</div>
+<div>
+<p>In most people with ALS and many with frontotemporal dementia, the RNA-binding protein TDP-43 leaves the nucleus of affected neurons. Without it, neurons splice cryptic exons into their mRNAs, which can switch off genes they need, such as UNC13A and STMN2.</p>
+<p>We map these events in patient tissue and large RNA-seq datasets, ask which of them can be measured as biomarkers, and work with collaborators on splice-switching therapies that restore normal splicing.</p>
+<p><span class="nm-kicker">Selected papers</span></p>
+<ul>
+<li><a href="https://www.nature.com/articles/s41586-022-04436-3">TDP-43 loss and ALS-risk SNPs drive mis-splicing and depletion of UNC13A.</a> <em>Nature</em>, 2022</li>
+<li><a href="https://www.nature.com/articles/s41593-025-02050-w">TDP-43 loss induces cryptic polyadenylation in ALS/FTD.</a> <em>Nature Neuroscience</em>, 2025</li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12697360/">U7 small nuclear RNA splice-switching therapeutics for STMN2 and UNC13A in ALS.</a> <em>bioRxiv</em>, 2025</li>
+</ul>
+</div>
+</div>
+<div class="nm-topic">
+<div>
+<p><span class="nm-num">02</span></p>
+<section id="the-junction" class="level2">
+<h2 data-anchor-id="the-junction">The junction</h2>
+<p><span class="nm-line">Synapses and the immune response</span></p>
+</section>
+</div>
+<div>
+<p>Loss of TDP-43 disrupts synaptic function, and restoring UNC13A splicing with antisense oligonucleotides can rescue it. We are extending this work to the neuromuscular junction, where the motor neuron meets the muscle.</p>
+<p>Cryptic exons also make new peptides. With collaborators we showed that some of them are recognised by clonally expanded CD8 T cells in ALS and inclusion body myositis, linking adaptive immunity directly to TDP-43 pathology.</p>
+<p><span class="nm-kicker">Selected papers</span></p>
+<ul>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11230273/">Loss of TDP-43 induces synaptic dysfunction that is rescued by UNC13A splice-switching ASOs.</a> <em>bioRxiv</em>, 2024</li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12262510/">TDP-43 pathology induces CD8+ T cell activation through cryptic epitope recognition.</a> <em>bioRxiv</em>, 2025</li>
+<li><a href="https://www.science.org/doi/abs/10.1126/scitranslmed.adg7162">Mis-spliced transcripts generate de novo proteins in TDP-43–related ALS/FTD.</a> <em>Science Translational Medicine</em>, 2024</li>
+</ul>
+</div>
+</div>
+<div class="nm-topic">
+<div>
+<p><span class="nm-num">03</span></p>
+<section id="the-muscle-fibre" class="level2">
+<h2 data-anchor-id="the-muscle-fibre">The muscle fibre</h2>
+<p><span class="nm-line">SBMA, repeat expansions and muscle biomarkers</span></p>
+</section>
+</div>
+<div>
+<p>Spinal and bulbar muscular atrophy (SBMA) is caused by a CAG repeat expansion in the androgen receptor gene. Our population genetics work shows that this expansion is more common than once thought.</p>
+<p>We follow a large SBMA cohort over time, validate outcome measures and define what counts as a meaningful change for patients, so that clinical trials are easier to interpret. In ALS, we study phosphorylated tau in skeletal muscle and develop ELISA assays for new biomarkers.</p>
+<p><span class="nm-kicker">Selected papers</span></p>
+<ul>
+<li><a href="https://academic.oup.com/brain/article-abstract/146/7/2723/7043521">Unexpected frequency of the pathogenic AR CAG repeat expansion in the general population.</a> <em>Brain</em>, 2023</li>
+<li><a href="https://link.springer.com/article/10.1007/s00415-026-14032-4">Estimating the minimal clinically important difference of functional outcomes in SBMA.</a> <em>Journal of Neurology</em>, 2026</li>
+<li><a href="https://doi.org/10.1007/s10072-026-09052-x">Reliability and construct validity of the Italian version of the AMAT scale in SBMA.</a> <em>Neurological Sciences</em>, 2026</li>
+</ul>
+</div>
+</div>
+<p><a href="./lab.html" class="nm-next">Keep scrolling to discover our lab</a></p>
 </div>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
+<footer class="nm-footer" aria-label="Site footer">
+  <div class="nm-footer-top">
+    <div class="nm-footer-logos">
+      <img src="images/logos/unipd.png" alt="Università degli Studi di Padova" width="195" height="64">
+      <img src="images/logos/aopd.svg" alt="Azienda Ospedale Università Padova" width="146" height="64">
+    </div>
+    <div class="nm-footer-contact">
+      <span class="nm-footer-name">NeuroMuscle Lab</span>
+      <span>Department of Neuroscience, Università degli Studi di Padova</span>
+      <span>Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova</span>
+      <a href="mailto:gianni.soraru@unipd.it">gianni.soraru@unipd.it</a>
+    </div>
   </div>
-  
-
-
-</header>
-
-
-<section id="current-projects" class="level2">
-<h2 class="anchored" data-anchor-id="current-projects">Current Projects</h2>
-<section id="rna-regulation-in-neurodegeneration" class="level3">
-<h3 class="anchored" data-anchor-id="rna-regulation-in-neurodegeneration">RNA regulation in neurodegeneration</h3>
-<p>We study transcript-level regulation using large-scale RNA-seq datasets.</p>
-</section>
-<section id="method-development" class="level3">
-<h3 class="anchored" data-anchor-id="method-development">Method development</h3>
-<p>We develop reproducible computational tools in R and bash.</p>
-
-
-</section>
-</section>
-
-</main> <!-- /main -->
+  <div class="nm-footer-bottom">
+    <span>Prof. Gianni Sorarù, principal investigator</span>
+    <span class="nm-footer-links"><a href="privacy.html">Privacy policy</a><span>Built with Quarto</span></span>
+  </div>
+</footer>
+<script>
+/* Symmune-style page chaining: keep scrolling past the end of a page to move to the next one. */
+(function () {
+  var next = document.querySelector('a.nm-next:not(.nm-up)');
+  if (!next) return;
+  var pull = 0, timer = null, THRESHOLD = 900;
+  function atBottom() {
+    return window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+  }
+  function setPull(v) {
+    pull = Math.max(0, v);
+    next.style.setProperty('--nm-pull', Math.min(pull / THRESHOLD, 1));
+    if (pull >= THRESHOLD) { window.location.href = next.href; }
+  }
+  window.addEventListener('wheel', function (e) {
+    if (!atBottom() || e.deltaY <= 0) { setPull(0); return; }
+    setPull(pull + e.deltaY);
+    clearTimeout(timer);
+    timer = setTimeout(function () { setPull(0); }, 700);
+  }, { passive: true });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -246,7 +308,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/neuromusclelab\.org");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

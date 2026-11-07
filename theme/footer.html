@@ -1,0 +1,40 @@
+<footer class="nm-footer" aria-label="Site footer">
+  <div class="nm-footer-top">
+    <div class="nm-footer-logos">
+      <img src="images/logos/unipd.png" alt="Università degli Studi di Padova" width="195" height="64">
+      <img src="images/logos/aopd.svg" alt="Azienda Ospedale Università Padova" width="146" height="64">
+    </div>
+    <div class="nm-footer-contact">
+      <span class="nm-footer-name">NeuroMuscle Lab</span>
+      <span>Department of Neuroscience, Università degli Studi di Padova</span>
+      <span>Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova</span>
+      <a href="mailto:gianni.soraru@unipd.it">gianni.soraru@unipd.it</a>
+    </div>
+  </div>
+  <div class="nm-footer-bottom">
+    <span>Prof. Gianni Sorarù, principal investigator</span>
+    <span class="nm-footer-links"><a href="privacy.html">Privacy policy</a><span>Built with Quarto</span></span>
+  </div>
+</footer>
+<script>
+/* Symmune-style page chaining: keep scrolling past the end of a page to move to the next one. */
+(function () {
+  var next = document.querySelector('a.nm-next:not(.nm-up)');
+  if (!next) return;
+  var pull = 0, timer = null, THRESHOLD = 900;
+  function atBottom() {
+    return window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+  }
+  function setPull(v) {
+    pull = Math.max(0, v);
+    next.style.setProperty('--nm-pull', Math.min(pull / THRESHOLD, 1));
+    if (pull >= THRESHOLD) { window.location.href = next.href; }
+  }
+  window.addEventListener('wheel', function (e) {
+    if (!atBottom() || e.deltaY <= 0) { setPull(0); return; }
+    setPull(pull + e.deltaY);
+    clearTimeout(timer);
+    timer = setTimeout(function () { setPull(0); }, 700);
+  }, { passive: true });
+})();
+</script>

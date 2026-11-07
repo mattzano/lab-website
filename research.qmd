@@ -1,13 +1,82 @@
 ---
-title: "Research"
+pagetitle: "Research · NeuroMuscle Lab"
+page-layout: custom
 ---
 
-## Current Projects
+::: nm-wrap
 
-### RNA regulation in neurodegeneration
+::: nm-pagehead
+# Our research
 
-We study transcript-level regulation using large-scale RNA-seq datasets.
+We follow disease along the motor unit, from the motor neuron through the junction to the muscle fibre, and bring what we learn back to the clinic.
+:::
 
-### Method development
+::: nm-topic
+::: {}
+[01]{.nm-num}
 
-We develop reproducible computational tools in R and bash.
+## The motor neuron
+
+[TDP-43 loss and cryptic splicing]{.nm-line}
+:::
+
+::: {}
+In most people with ALS and many with frontotemporal dementia, the RNA-binding protein TDP-43 leaves the nucleus of affected neurons. Without it, neurons splice cryptic exons into their mRNAs, which can switch off genes they need, such as UNC13A and STMN2.
+
+We map these events in patient tissue and large RNA-seq datasets, ask which of them can be measured as biomarkers, and work with collaborators on splice-switching therapies that restore normal splicing.
+
+[Selected papers]{.nm-kicker}
+
+- [TDP-43 loss and ALS-risk SNPs drive mis-splicing and depletion of UNC13A.](https://www.nature.com/articles/s41586-022-04436-3) *Nature*, 2022
+- [TDP-43 loss induces cryptic polyadenylation in ALS/FTD.](https://www.nature.com/articles/s41593-025-02050-w) *Nature Neuroscience*, 2025
+- [U7 small nuclear RNA splice-switching therapeutics for STMN2 and UNC13A in ALS.](https://pmc.ncbi.nlm.nih.gov/articles/PMC12697360/) *bioRxiv*, 2025
+:::
+:::
+
+::: nm-topic
+::: {}
+[02]{.nm-num}
+
+## The junction
+
+[Synapses and the immune response]{.nm-line}
+:::
+
+::: {}
+Loss of TDP-43 disrupts synaptic function, and restoring UNC13A splicing with antisense oligonucleotides can rescue it. We are extending this work to the neuromuscular junction, where the motor neuron meets the muscle.
+
+Cryptic exons also make new peptides. With collaborators we showed that some of them are recognised by clonally expanded CD8 T cells in ALS and inclusion body myositis, linking adaptive immunity directly to TDP-43 pathology.
+
+[Selected papers]{.nm-kicker}
+
+- [Loss of TDP-43 induces synaptic dysfunction that is rescued by UNC13A splice-switching ASOs.](https://pmc.ncbi.nlm.nih.gov/articles/PMC11230273/) *bioRxiv*, 2024
+- [TDP-43 pathology induces CD8+ T cell activation through cryptic epitope recognition.](https://pmc.ncbi.nlm.nih.gov/articles/PMC12262510/) *bioRxiv*, 2025
+- [Mis-spliced transcripts generate de novo proteins in TDP-43–related ALS/FTD.](https://www.science.org/doi/abs/10.1126/scitranslmed.adg7162) *Science Translational Medicine*, 2024
+:::
+:::
+
+::: nm-topic
+::: {}
+[03]{.nm-num}
+
+## The muscle fibre
+
+[SBMA, repeat expansions and muscle biomarkers]{.nm-line}
+:::
+
+::: {}
+Spinal and bulbar muscular atrophy (SBMA) is caused by a CAG repeat expansion in the androgen receptor gene. Our population genetics work shows that this expansion is more common than once thought.
+
+We follow a large SBMA cohort over time, validate outcome measures and define what counts as a meaningful change for patients, so that clinical trials are easier to interpret. In ALS, we study phosphorylated tau in skeletal muscle and develop ELISA assays for new biomarkers.
+
+[Selected papers]{.nm-kicker}
+
+- [Unexpected frequency of the pathogenic AR CAG repeat expansion in the general population.](https://academic.oup.com/brain/article-abstract/146/7/2723/7043521) *Brain*, 2023
+- [Estimating the minimal clinically important difference of functional outcomes in SBMA.](https://link.springer.com/article/10.1007/s00415-026-14032-4) *Journal of Neurology*, 2026
+- [Reliability and construct validity of the Italian version of the AMAT scale in SBMA.](https://doi.org/10.1007/s10072-026-09052-x) *Neurological Sciences*, 2026
+:::
+:::
+
+[Keep scrolling to discover our lab](lab.qmd){.nm-next}
+
+:::

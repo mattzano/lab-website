@@ -1,21 +1,49 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - research.qmd
+    - lab.qmd
+    - people.qmd
+    - publications.qmd
+    - contact.qmd
+    - privacy.qmd
+  resources:
+    - theme/fonts/
+    - images/
 
 website:
-  title: "Lab"
+  title: "NeuroMuscle Lab"
+  site-url: https://neuromusclelab.org
+  description: "NeuroMuscle Lab, Università degli Studi di Padova: from motor neuron to muscle fibre."
+  favicon: images/mark.svg
+  search: false
+  page-navigation: false
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - people.qmd
-      - research.qmd
-      - publications.qmd
-      - contact.qmd
+    logo: images/mark.svg
+    logo-alt: "NeuroMuscle Lab"
+    title: "NeuroMuscle Lab"
+    right:
+      - href: research.qmd
+        text: Research
+      - href: lab.qmd
+        text: Lab
+      - href: people.qmd
+        text: Team
+      - href: publications.qmd
+        text: Publications
+      - href: contact.qmd
+        text: Get in touch
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    theme:
+      - darkly
+      - theme/neuromuscle.scss
+    include-in-header: theme/head.html
+    include-after-body: theme/footer.html
+    toc: false
+    anchor-sections: false
     citeproc: true
+    lang: en
