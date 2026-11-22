@@ -207,7 +207,7 @@
     "href": "index.html#news",
     "title": "NeuroMuscle Lab",
     "section": "News",
-    "text": "News\nAll news"
+    "text": "News\n\n\n  14 November 2026 Paper · SBMA   How fatigability progresses in SBMA Our study in Muscle & Nerve follows six-minute walk test fatigability in 168 people with SBMA over time.  \n  11 November 2026 Paper · ALS · TDP-43   Correcting UNC13A splicing rescues synapses after TDP-43 loss A Nature paper with UCL colleagues shows that fixing a single cryptic splicing event in UNC13A restores synaptic function in human neurons.  \n  26 September 2026 Event · ALS · Muscle   Skeletal Muscle in ALS: an international conference in Padova On 25–26 September 2026 we co-organised a two-day international meeting on the role of skeletal muscle in ALS.  \n\nNo matching items\n\nAll news"
   },
   {
     "objectID": "pazienti.html#il-nostro-ambulatorio",
@@ -383,5 +383,19 @@
     "title": "NeuroMuscle Lab",
     "section": "Please note",
     "text": "Please note\nThis website cannot give medical advice. Do not send medical records or personal health information through the contact form. In an emergency, call 112."
+  },
+  {
+    "objectID": "index.html#latest-papers",
+    "href": "index.html#latest-papers",
+    "title": "NeuroMuscle Lab",
+    "section": "Latest papers",
+    "text": "Latest papers\n\n2026TDP-43 dysfunction induces cryptic circular RNAs in ALS/FTDDattilo D, Pellegrini F, Barattucci S, …, Zanovello M, …, Fratta PbioRxiv · Sep 2026\n2026Integrating Genetic Modifier Genotype With Serum Proteomics in Duchenne Muscular Dystrophy Clinical Trials Links LTBP4 Genetic Modifier to IL-23/CD93 Pathways in MuscleDang UJ, Fang Y, Sabbatini D, Pegoraro E, …, Hoffman EPAm J Med Genet A · Aug 2026\n2026The UNC13A cryptic exon associates with cognitive impairment in Alzheimer's diseaseReeves MM, Aviles Carpintero S, Zanovello M, …, Prudencio MAlzheimers Res Ther · Aug 2026\n2026Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophyZanovello M, Sabbatini D, Paredi F, …, Minicuci GM, Pegoraro E, …, Sorarù GJ Neurol · Jul 2026\n\nAll publications"
+  },
+  {
+    "objectID": "lab.html#what-we-can-measure",
+    "href": "lab.html#what-we-can-measure",
+    "title": "NeuroMuscle Lab",
+    "section": "What we can measure",
+    "text": "What we can measure\n\n\n\nClinical cohorts and outcomes\nLong-term follow-up of people with ALS and SBMA with standard functional scales, the six-minute walk test and patient-anchored change scores. Answers: how disease progresses, and which change is meaningful for a trial.\n\n\nNeurophysiology\nElectromyography, nerve conduction studies, transcranial magnetic stimulation for cortical excitability and motor evoked potentials. Answers: how much upper and lower motor neuron function is lost.\n\n\nBrain imaging\nMRI, including the motor band sign, and [18F]FDG-PET. Answers: where and how strongly the motor system and its glia are affected.\n\n\nFluid biomarkers\nNeurofilaments, chitinases, serum p-tau181 and creatinine in blood and CSF, and new ELISA assays developed in the lab. Answers: who progresses faster, and whether a treatment reaches its target.\n\n\nMuscle pathology\nHistology and immunostaining of patient muscle biopsies, including phosphorylated tau and markers of regeneration and innervation. Answers: what happens in muscle, not only in the nerve.\n\n\nRNA and genomic data\nRNA-seq analysis of cryptic splicing and polyadenylation, and repeat expansion and variant analysis in population datasets such as the UK Biobank. Answers: which RNA changes mark TDP-43 loss, and how common disease variants are."
   }
 ]

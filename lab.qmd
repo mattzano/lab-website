@@ -34,6 +34,39 @@ We analyse large RNA-seq and genomic datasets with reproducible pipelines in R a
 :::
 
 ::: nm-section
+## What we can measure
+
+<!-- DRAFT drawn from the lab's publications: check, correct or cut each line before publishing. -->
+
+::: nm-techniques
+::: {}
+### Clinical cohorts and outcomes
+Long-term follow-up of people with ALS and SBMA with standard functional scales, the six-minute walk test and patient-anchored change scores. [Answers: how disease progresses, and which change is meaningful for a trial.]{.nm-muted}
+:::
+::: {}
+### Neurophysiology
+Electromyography, nerve conduction studies, transcranial magnetic stimulation for cortical excitability and motor evoked potentials. [Answers: how much upper and lower motor neuron function is lost.]{.nm-muted}
+:::
+::: {}
+### Brain imaging
+MRI, including the motor band sign, and [18F]FDG-PET. [Answers: where and how strongly the motor system and its glia are affected.]{.nm-muted}
+:::
+::: {}
+### Fluid biomarkers
+Neurofilaments, chitinases, serum p-tau181 and creatinine in blood and CSF, and new ELISA assays developed in the lab. [Answers: who progresses faster, and whether a treatment reaches its target.]{.nm-muted}
+:::
+::: {}
+### Muscle pathology
+Histology and immunostaining of patient muscle biopsies, including phosphorylated tau and markers of regeneration and innervation. [Answers: what happens in muscle, not only in the nerve.]{.nm-muted}
+:::
+::: {}
+### RNA and genomic data
+RNA-seq analysis of cryptic splicing and polyadenylation, and repeat expansion and variant analysis in population datasets such as the UK Biobank. [Answers: which RNA changes mark TDP-43 loss, and how common disease variants are.]{.nm-muted}
+:::
+:::
+:::
+
+::: nm-section
 ## Who we work with
 
 ::: nm-collab

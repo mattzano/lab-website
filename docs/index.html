@@ -26,6 +26,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
@@ -43,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5e49fed5625536532c60c9ce0ea8afb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-651114166c135a832cdfdf51e76d97c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -111,35 +112,6 @@ ul.task-list li input[type="checkbox"] {
 </style>
 <meta name="theme-color" content="#0B2530">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <meta property="og:title" content="NeuroMuscle Lab">
 <meta property="og:image" content="https://neuromusclelab.org/images/social-card.png">
@@ -248,106 +220,125 @@ window.Quarto = {
 </svg>
 <div class="nm-hero-text">
   <h1>From motor neuron to muscle fibre.</h1>
-  <p class="nm-lead">We study the neuromuscular system as one working unit: the neuron, the junction, and the fibre it drives.</p>
+  <p class="nm-lead">We study the neuromuscular system as one working unit: the neuron, the junction, and the fibre it drives. Clinic, bench and data, in Padova.</p>
   <div class="nm-actions">
-    <a class="nm-btn nm-btn-nerve" href="research.html">Our research</a>
-    <a class="nm-btn nm-btn-ghost" href="people.html">Meet the team</a>
+    <a class="nm-btn nm-btn-muscle" href="contact.html#work">Join the lab</a>
+    <a class="nm-btn nm-btn-ghost" href="research.html">Our research</a>
   </div>
 </div>
 <div class="nm-hero-meta">
   <div><strong>Prof. Gianni Sorarù</strong><span>Principal investigator</span></div>
   <div><strong>Department of Neuroscience</strong><span>Università degli Studi di Padova</span></div>
-  <div><strong>Padova University Hospital</strong><span>Padova, Italy</span></div>
+  <div><strong>Motor Neuron Disease Centre</strong><span>Azienda Ospedale Università Padova</span></div>
 </div>
 </div>
-<div class="nm-wrap nm-section">
-<section id="what-we-study" class="level2 nm-split">
-<h2 data-anchor-id="what-we-study">What we study</h2>
-<p>We are neurologists and researchers studying ALS, SBMA and related neuromuscular diseases. We combine patient cohorts and clinical trials with RNA biology, genetics and reproducible, large-scale data analysis.</p>
+<section class="nm-wrap nm-unit" aria-labelledby="unit-title">
+  <div class="nm-unit-head">
+    <h2 id="unit-title">One motor unit, five lines of research</h2>
+    <p>Each line studies a different part of the same unit: the genes in the neuron's nucleus, the RNA in its cell body, the signal along its axon, the junction where it ends, and the muscle fibre it drives.</p>
+  </div>
+  <ol class="nm-stations">
+  <li class="nm-station nm-at-nucleus">
+    <div class="nm-station-mark"><span class="nm-node" aria-hidden="true"></span><span class="nm-part">Nucleus</span></div>
+    <div class="nm-station-body">
+      <h3><a href="research.html#genetics">Genetics</a></h3>
+      <p>Population datasets such as the UK Biobank show that repeat expansions and risk variants for neuromuscular disease are more common than diagnosed cases suggest. We estimate who carries them and what changes their effect.</p>
+      <a class="nm-station-paper" href="https://doi.org/10.1002/ana.78195"><span>High prevalence of SOD1 pathogenic variants in the UK Biobank</span><em>Ann Neurol · 2026</em></a>
+    </div>
+  </li>
+  <li class="nm-station nm-at-soma">
+    <div class="nm-station-mark"><span class="nm-node" aria-hidden="true"></span><span class="nm-part">Cell body</span></div>
+    <div class="nm-station-body">
+      <h3><a href="research.html#tdp-43-and-rna">TDP-43 and RNA</a></h3>
+      <p>When TDP-43 leaves the nucleus, cells include cryptic exons that switch off genes such as UNC13A and STMN2. With UCL Queen Square we map these events, test them as biomarkers and study splice-correcting therapies.</p>
+      <a class="nm-station-paper" href="https://doi.org/10.1038/s41586-026-11256-2"><span>UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss</span><em>Nature · 2026</em></a>
+    </div>
+  </li>
+  <li class="nm-station nm-at-axon">
+    <div class="nm-station-mark"><span class="nm-node" aria-hidden="true"></span><span class="nm-part">Axon</span></div>
+    <div class="nm-station-body">
+      <h3><a href="research.html#als-biomarkers">ALS biomarkers</a></h3>
+      <p>We combine neurophysiology, MRI and [18F]FDG-PET with fluid markers such as neurofilaments and chitinases to measure upper and lower motor neuron involvement and to predict how ALS will progress.</p>
+      <a class="nm-station-paper" href="https://doi.org/10.1002/acn3.70521"><span>Metabolic and fluid biomarkers support microglia activation in amyotrophic lateral sclerosis</span><em>Ann Clin Transl Neurol · 2026</em></a>
+    </div>
+  </li>
+  <li class="nm-station nm-at-junction">
+    <div class="nm-station-mark"><svg class="nm-endplate" viewbox="0 0 40 28" aria-hidden="true"><circle cx="8" cy="16" r="5"></circle><circle cx="17" cy="10" r="5"></circle><circle cx="27" cy="12" r="5"></circle><circle cx="34" cy="19" r="4"></circle><circle cx="15" cy="22" r="4"></circle></svg><span class="nm-part">Junction</span></div>
+    <div class="nm-station-body">
+      <h3><a href="research.html#muscle-and-junction">Muscle and junction</a></h3>
+      <p>Muscle is more than a passive victim of motor neuron loss. In patient biopsies and disease models we study regeneration, innervation and the neuromuscular junction, and develop ELISA assays for new biomarkers.</p>
+      <a class="nm-station-paper" href="https://doi.org/10.1111/bpa.13328"><span>Protective role of angiogenin in muscle regeneration in ALS</span><em>Brain Pathol · 2024</em></a>
+    </div>
+  </li>
+  <li class="nm-station nm-at-fibre">
+    <div class="nm-station-mark"><span class="nm-node" aria-hidden="true"></span><span class="nm-part">Fibre</span></div>
+    <div class="nm-station-body">
+      <h3><a href="research.html#sbma">SBMA</a></h3>
+      <p>We follow people with Kennedy's disease over many years, measure the smallest changes in function that patients notice, and coordinate the clenbuterol trial in SBMA.</p>
+      <a class="nm-station-paper" href="https://doi.org/10.1002/mus.70457"><span>Longitudinal progression of 6-minute walk test-derived fatigability in SBMA</span><em>Muscle Nerve · 2026</em></a>
+    </div>
+  </li>
+  </ol>
 </section>
-<div class="nm-grid-3" style="margin-top: 72px">
-<div class="nm-card">
-<svg class="nm-icon" viewbox="0 0 44 44" aria-hidden="true"><circle cx="14" cy="14" r="8" fill="none" stroke="#6DB9EA" stroke-width="2.5"></circle><path d="M 20 20 C 26 26, 30 30, 40 40" fill="none" stroke="#6DB9EA" stroke-width="2.5" stroke-linecap="round"></path></svg>
-<section id="the-motor-neuron" class="level3">
-<h3 data-anchor-id="the-motor-neuron">The motor neuron</h3>
-<p><span class="nm-line">TDP-43 loss and cryptic splicing</span></p>
-<p>When TDP-43 leaves the nucleus, neurons include cryptic exons that switch off genes such as UNC13A and STMN2. We map these events in patient samples and large RNA-seq datasets, and test them as biomarkers and therapeutic targets.</p>
-<p><a href="./research.html">Read more</a></p>
+
+<section class="nm-wrap nm-people-strip" aria-labelledby="people-title">
+  <div class="nm-people-copy">
+    <h2 id="people-title">Clinicians and scientists, side by side</h2>
+    <p>Neurologists, a neurophysiologist, a neuropsychologist, lab scientists, a biostatistician and the trial team work on the same patients and the same questions.</p>
+    <a class="nm-arrow" href="people.html">Meet the team</a>
+  </div>
+  <ul class="nm-faces">
+    <li><img src="images/team/soraru.jpg" alt="Prof. Gianni Sorarù" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/minicuci.jpg" alt="Dr. Giacomo Maria Minicuci" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/paredi.jpg" alt="Dr. Federica Paredi" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/zanovello.jpg" alt="Dr. Matteo Zanovello" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/cannata.jpg" alt="Dr. Isabella Cannata" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/salmaso.jpg" alt="Serenella Salmaso" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/lazzaretto.jpg" alt="Silvia Lazzaretto" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/girotto.jpg" alt="Edoardo Girotto" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/cavallo.jpg" alt="Francesco Cavallo" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/conforti.jpg" alt="Marta Conforti" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/sabbatini.jpg" alt="Dr. Daniele Sabbatini" width="120" height="150" loading="lazy"></li>
+  </ul>
 </section>
+<div class="nm-wrap nm-home-feeds">
+<section id="latest-papers" class="level2 nm-home-col">
+<h2 data-anchor-id="latest-papers">Latest papers</h2>
+<div class="nm-publist nm-publist-home">
+<div class="nm-pubrow"><span class="nm-year">2026</span><div><a href="https://doi.org/10.64898/2026.09.17.752342">TDP-43 dysfunction induces cryptic circular RNAs in ALS/FTD</a><span class="nm-authors">Dattilo D, Pellegrini F, Barattucci S, …, <strong>Zanovello M</strong>, …, Fratta P</span><span class="nm-meta"><em>bioRxiv</em> · Sep 2026</span></div></div>
+<div class="nm-pubrow"><span class="nm-year">2026</span><div><a href="https://doi.org/10.1002/ajmg.a.70277">Integrating Genetic Modifier Genotype With Serum Proteomics in Duchenne Muscular Dystrophy Clinical Trials Links LTBP4 Genetic Modifier to IL-23/CD93 Pathways in Muscle</a><span class="nm-authors">Dang UJ, Fang Y, <strong>Sabbatini D</strong>, <strong>Pegoraro E</strong>, …, Hoffman EP</span><span class="nm-meta"><em>Am J Med Genet A</em> · Aug 2026</span></div></div>
+<div class="nm-pubrow"><span class="nm-year">2026</span><div><a href="https://doi.org/10.1186/s13195-026-02157-7">The UNC13A cryptic exon associates with cognitive impairment in Alzheimer's disease</a><span class="nm-authors">Reeves MM, Aviles Carpintero S, <strong>Zanovello M</strong>, …, Prudencio M</span><span class="nm-meta"><em>Alzheimers Res Ther</em> · Aug 2026</span></div></div>
+<div class="nm-pubrow"><span class="nm-year">2026</span><div><a href="https://doi.org/10.1007/s00415-026-14032-4">Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy</a><span class="nm-authors"><strong>Zanovello M</strong>, <strong>Sabbatini D</strong>, <strong>Paredi F</strong>, …, <strong>Minicuci GM</strong>, <strong>Pegoraro E</strong>, …, <strong>Sorarù G</strong></span><span class="nm-meta"><em>J Neurol</em> · Jul 2026</span></div></div>
 </div>
-<div class="nm-card">
-<svg class="nm-icon" viewbox="0 0 44 44" aria-hidden="true"><path d="M 6 4 C 10 14, 16 20, 22 24" fill="none" stroke="#6DB9EA" stroke-width="2.5" stroke-linecap="round"></path><circle cx="18" cy="30" r="4" fill="#6DB9EA"></circle><circle cx="27" cy="28" r="4" fill="#6DB9EA"></circle><line x1="4" y1="38" x2="40" y2="38" stroke="#78D3A6" stroke-width="5" stroke-linecap="round"></line></svg>
-<section id="the-junction" class="level3">
-<h3 data-anchor-id="the-junction">The junction</h3>
-<p><span class="nm-line">Synapses and the immune response</span></p>
-<p>Loss of TDP-43 disrupts synaptic function, and its cryptic peptides can be recognised by CD8 T cells. We study both at the neuromuscular junction, in human models and in patients.</p>
-<p><a href="./research.html">Read more</a></p>
+<p><a href="./publications.html" class="nm-arrow">All publications</a></p>
 </section>
-</div>
-<div class="nm-card">
-<svg class="nm-icon" viewbox="0 0 44 44" aria-hidden="true"><line x1="6" y1="22" x2="38" y2="22" stroke="#78D3A6" stroke-opacity="0.35" stroke-width="20" stroke-linecap="round"></line><line x1="10" y1="22" x2="34" y2="22" stroke="#78D3A6" stroke-width="16" stroke-dasharray="2 5"></line></svg>
-<section id="the-muscle-fibre" class="level3">
-<h3 data-anchor-id="the-muscle-fibre">The muscle fibre</h3>
-<p><span class="nm-line">SBMA and repeat expansions</span></p>
-<p>The AR CAG expansion behind SBMA is more common in the population than once thought. We follow patients over time, define meaningful changes in function, and run clinical trials.</p>
-<p><a href="./research.html">Read more</a></p>
-</section>
-</div>
-</div>
-</div>
-<div class="nm-wrap nm-section">
-<section id="the-lab" class="level2 nm-split">
-<h2 data-anchor-id="the-lab">The lab</h2>
-<p>Our lab is in the Campus Biomedico Pietro d’Abano, Via Orus 2B, Padova. Our patients are seen at the Motor Neuron Disease Centre of Azienda Ospedale Università Padova, where we also run clinical trials. <a href="./lab.html">Explore the lab</a> · <a href="./trials.html">Clinical trials</a></p>
-</section>
-</div>
-<div class="nm-wrap nm-section">
-<section id="recent-publications" class="level2 nm-split">
-<h2 data-anchor-id="recent-publications">Recent publications</h2>
-<p><a href="./publications.html">All publications</a></p>
-</section>
-<div style="margin-top: 48px">
-<div class="nm-pubrow">
-<p><span class="nm-year">2026</span></p>
-<div>
-<p><a href="https://link.springer.com/article/10.1007/s00415-026-14032-4">Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy</a> <span class="nm-meta">Zanovello M, et al.&nbsp;<em>Journal of Neurology</em></span></p>
-</div>
-</div>
-<div class="nm-pubrow">
-<p><span class="nm-year">2026</span></p>
-<div>
-<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.78195">High prevalence of SOD1 pathogenic variants in the UK Biobank: implications for early intervention in amyotrophic lateral sclerosis</a> <span class="nm-meta">Gagliardi D, et al.&nbsp;<em>Annals of Neurology</em></span></p>
-</div>
-</div>
-<div class="nm-pubrow">
-<p><span class="nm-year">2025</span></p>
-<div>
-<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12262510/">TDP-43 pathology induces CD8+ T cell activation through cryptic epitope recognition</a> <span class="nm-meta">Chizari S, Zanovello M, et al.&nbsp;<em>bioRxiv</em></span></p>
-</div>
-</div>
-</div>
-</div>
-<div class="nm-wrap nm-section">
-<section id="news" class="level2 nm-split">
+<section id="news" class="level2 nm-home-col">
 <h2 data-anchor-id="news">News</h2>
-<p><a href="./news.html">All news</a></p>
-</section>
-<div id="listing-news-home" style="margin-top: 40px" class="quarto-listing quarto-listing-container-custom">
+<div id="listing-news-home" class="quarto-listing quarto-listing-container-custom">
 <div class="nm-newslist">
-<p><a class="nm-newsitem" href="./news/2026-11-14-sbma-fatigability.html" data-index="0" data-categories="UGFwZXIlMkNTQk1B" data-listing-date-sort="1794610800000" data-listing-file-modified-sort="1795368941544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114"> <span class="nm-newsdate listing-date">14 November 2026</span> <span class="nm-newsbody"> <span class="nm-newscats">Paper · SBMA</span> <span class="nm-newstitle listing-title">How fatigability progresses in SBMA</span> <span class="nm-newsdesc listing-description">Our study in Muscle &amp; Nerve follows six-minute walk test fatigability in 168 people with SBMA over time.</span> </span> </a></p>
-<p><a class="nm-newsitem" href="./news/2026-11-11-unc13a-nature.html" data-index="1" data-categories="UGFwZXIlMkNBTFMlMkNURFAtNDM=" data-listing-date-sort="1794351600000" data-listing-file-modified-sort="1795368941266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126"> <span class="nm-newsdate listing-date">11 November 2026</span> <span class="nm-newsbody"> <span class="nm-newscats">Paper · ALS · TDP-43</span> <span class="nm-newstitle listing-title">Correcting UNC13A splicing rescues synapses after TDP-43 loss</span> <span class="nm-newsdesc listing-description">A Nature paper with UCL colleagues shows that fixing a single cryptic splicing event in UNC13A restores synaptic function in human neurons.</span> </span> </a></p>
-<p><a class="nm-newsitem" href="./news/2026-09-26-skeletal-muscle-in-als.html" data-index="2" data-categories="RXZlbnQlMkNBTFMlMkNNdXNjbGU=" data-listing-date-sort="1790373600000" data-listing-file-modified-sort="1795368940993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101"> <span class="nm-newsdate listing-date">26 September 2026</span> <span class="nm-newsbody"> <span class="nm-newscats">Event · ALS · Muscle</span> <span class="nm-newstitle listing-title">Skeletal Muscle in ALS: an international conference in Padova</span> <span class="nm-newsdesc listing-description">On 25–26 September 2026 we co-organised a two-day international meeting on the role of skeletal muscle in ALS.</span> </span> </a></p>
+<p><a class="nm-newsitem" href="./news/2026-11-14-sbma-fatigability.html" data-index="0" data-categories="UGFwZXIlMkNTQk1B" data-listing-date-sort="1794610800000" data-listing-file-modified-sort="1795368941544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114"> <span class="nm-newsmeta"> <span class="nm-newsdate listing-date">14 November 2026</span> <span class="nm-newscats">Paper · SBMA</span> </span> <span class="nm-newsbody"> <span class="nm-newstitle listing-title">How fatigability progresses in SBMA</span> <span class="nm-newsdesc listing-description">Our study in Muscle &amp; Nerve follows six-minute walk test fatigability in 168 people with SBMA over time.</span> </span> </a></p>
+<p><a class="nm-newsitem" href="./news/2026-11-11-unc13a-nature.html" data-index="1" data-categories="UGFwZXIlMkNBTFMlMkNURFAtNDM=" data-listing-date-sort="1794351600000" data-listing-file-modified-sort="1795368941266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126"> <span class="nm-newsmeta"> <span class="nm-newsdate listing-date">11 November 2026</span> <span class="nm-newscats">Paper · ALS · TDP-43</span> </span> <span class="nm-newsbody"> <span class="nm-newstitle listing-title">Correcting UNC13A splicing rescues synapses after TDP-43 loss</span> <span class="nm-newsdesc listing-description">A Nature paper with UCL colleagues shows that fixing a single cryptic splicing event in UNC13A restores synaptic function in human neurons.</span> </span> </a></p>
+<p><a class="nm-newsitem" href="./news/2026-09-26-skeletal-muscle-in-als.html" data-index="2" data-categories="RXZlbnQlMkNBTFMlMkNNdXNjbGU=" data-listing-date-sort="1790373600000" data-listing-file-modified-sort="1795368940993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101"> <span class="nm-newsmeta"> <span class="nm-newsdate listing-date">26 September 2026</span> <span class="nm-newscats">Event · ALS · Muscle</span> </span> <span class="nm-newsbody"> <span class="nm-newstitle listing-title">Skeletal Muscle in ALS: an international conference in Padova</span> <span class="nm-newsdesc listing-description">On 25–26 September 2026 we co-organised a two-day international meeting on the role of skeletal muscle in ALS.</span> </span> </a></p>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-</div>
-<div class="nm-band">
-<section id="get-in-touch" class="level2 nm-wrap">
-<h2 data-anchor-id="get-in-touch">Get in touch</h2>
-<p><a href="mailto:gianni.soraru@unipd.it">gianni.soraru@unipd.it</a></p>
-<p><span class="nm-muted">Campus Biomedico Pietro d’Abano, Via Orus 2B, Padova</span></p>
+<p><a href="./news.html" class="nm-arrow">All news</a></p>
 </section>
 </div>
+<section class="nm-joinfield" aria-labelledby="join-title">
+  <div class="nm-wrap nm-join-inner">
+    <h2 id="join-title">Join the lab</h2>
+    <div>
+      <p>We welcome students, residents and postdocs interested in neuromuscular disease, at the bench, in the clinic or with data. Tell us what you would like to work on.</p>
+      <a class="nm-btn nm-btn-ink" href="contact.html#work">Write to us</a>
+    </div>
+  </div>
+</section>
+<nav class="nm-wrap nm-routes" aria-label="Other visitors">
+  <a href="patients.html">For patients and families</a>
+  <a href="pazienti.html" lang="it">Per pazienti e famiglie</a>
+  <a href="trials.html">Clinical trials and sponsors</a>
+</nav>
 <div class="nm-wrap">
 <p><a href="./research.html" class="nm-next">Keep scrolling to discover our research</a></p>
 </div>
@@ -394,6 +385,36 @@ window.Quarto = {
     clearTimeout(timer);
     timer = setTimeout(function () { setPull(0); }, 700);
   }, { passive: true });
+})();
+
+/* Home: the spine draws itself station by station as you scroll; stations light as they arrive. */
+(function () {
+  var stations = document.querySelectorAll('.nm-unit .nm-station');
+  if (!stations.length) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    stations.forEach(function (s) { s.classList.add('is-on'); });
+    return;
+  }
+  var queued = false;
+  function update() {
+    queued = false;
+    var line = window.innerHeight * 0.62;
+    stations.forEach(function (s) {
+      var r = s.getBoundingClientRect();
+      var p = Math.max(0, Math.min(1, (line - r.top) / r.height));
+      s.style.setProperty('--draw', p.toFixed(4));
+      s.classList.toggle('is-on', r.top + 40 < line);
+    });
+  }
+  window.addEventListener('scroll', function () { if (!queued) { queued = true; requestAnimationFrame(update); } }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+/* Contact: #work opens the "Work with us" tab. */
+(function () {
+  if (location.hash !== '#work') return;
+  var tab = Array.prototype.find.call(document.querySelectorAll('.panel-tabset .nav-link'), function (a) { return /work with us/i.test(a.textContent); });
+  if (tab) { tab.click(); tab.scrollIntoView({ block: 'start' }); }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

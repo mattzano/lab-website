@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-22T18:52:41+00:00",
+  "title": "Design System: NeuroMuscle Lab",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Deep Tissue Teal",
+        "canonical": "#0B2530",
+        "oklch": "oklch(25.0% 0.038 228.9)",
+        "tonalRamp": [
+          "#040D11",
+          "#19272E",
+          "#32454F",
+          "#4D6571",
+          "#6D8793",
+          "#93A9B4",
+          "#BACDD6",
+          "#E2F1F9"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel Teal",
+        "canonical": "#12394A",
+        "oklch": "oklch(32.6% 0.053 230.3)",
+        "tonalRamp": [
+          "#010D14",
+          "#132832",
+          "#2A4654",
+          "#446778",
+          "#64889A",
+          "#8BAABA",
+          "#B4CEDB",
+          "#DEF2FD"
+        ]
+      },
+      "soma": {
+        "role": "neutral",
+        "displayName": "Soma Teal",
+        "canonical": "#163646",
+        "oklch": "oklch(31.7% 0.047 232.7)",
+        "tonalRamp": [
+          "#030D13",
+          "#152831",
+          "#2E4653",
+          "#486676",
+          "#688799",
+          "#8FAAB9",
+          "#B7CDDA",
+          "#E0F2FC"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#2A5563",
+        "oklch": "oklch(42.5% 0.053 221.5)",
+        "tonalRamp": [
+          "#010D13",
+          "#102931",
+          "#284752",
+          "#416875",
+          "#618997",
+          "#89ABB8",
+          "#B2CFD9",
+          "#DDF3FB"
+        ]
+      },
+      "edge": {
+        "role": "neutral",
+        "displayName": "Edge",
+        "canonical": "#5C7F88",
+        "oklch": "oklch(57.3% 0.042 215.4)",
+        "tonalRamp": [
+          "#020D11",
+          "#15282D",
+          "#2D474D",
+          "#48676F",
+          "#688991",
+          "#8FABB2",
+          "#B7CED4",
+          "#E0F2F7"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Bright Text",
+        "canonical": "#E6F0F1",
+        "oklch": "oklch(94.8% 0.011 204.1)",
+        "tonalRamp": [
+          "#090C0C",
+          "#212627",
+          "#3D4344",
+          "#5B6364",
+          "#7C8485",
+          "#9FA7A7",
+          "#C4CACB",
+          "#EBEFF0"
+        ]
+      },
+      "nav-text": {
+        "role": "neutral",
+        "displayName": "Nav Text",
+        "canonical": "#CFE0E3",
+        "oklch": "oklch(89.5% 0.019 209.4)",
+        "tonalRamp": [
+          "#070C0D",
+          "#1F2728",
+          "#394446",
+          "#566467",
+          "#778588",
+          "#9BA8AA",
+          "#C1CBCD",
+          "#E8F0F2"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Body Text",
+        "canonical": "#C4D7DB",
+        "oklch": "oklch(86.6% 0.021 211.8)",
+        "tonalRamp": [
+          "#060C0E",
+          "#1E2729",
+          "#384447",
+          "#556468",
+          "#758689",
+          "#9AA8AB",
+          "#C0CCCE",
+          "#E7F0F2"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Text",
+        "canonical": "#A3BEC4",
+        "oklch": "oklch(78.3% 0.031 212.6)",
+        "tonalRamp": [
+          "#050D0F",
+          "#1A282B",
+          "#33464A",
+          "#4F666B",
+          "#6F878C",
+          "#95A9AE",
+          "#BCCDD1",
+          "#E4F1F4"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Placeholder",
+        "canonical": "#7C9AA1",
+        "oklch": "oklch(66.6% 0.035 213.5)",
+        "tonalRamp": [
+          "#040D10",
+          "#18282C",
+          "#31464B",
+          "#4C666C",
+          "#6D888E",
+          "#92AAAF",
+          "#BACDD2",
+          "#E2F2F5"
+        ]
+      },
+      "nerve": {
+        "role": "secondary",
+        "displayName": "Nerve Blue",
+        "canonical": "#6DB9EA",
+        "oklch": "oklch(75.6% 0.104 238.5)",
+        "tonalRamp": [
+          "#000D1E",
+          "#002841",
+          "#074768",
+          "#1F6891",
+          "#458AB5",
+          "#74ADD2",
+          "#A2D0F0",
+          "#D0F4FF"
+        ]
+      },
+      "link": {
+        "role": "secondary",
+        "displayName": "Signal Link",
+        "canonical": "#8FCBEF",
+        "oklch": "oklch(81.4% 0.080 235.4)",
+        "tonalRamp": [
+          "#000D19",
+          "#05293A",
+          "#1B475E",
+          "#326885",
+          "#548AA9",
+          "#7FACC7",
+          "#AACFE6",
+          "#D6F3FF"
+        ]
+      },
+      "link-hover": {
+        "role": "secondary",
+        "displayName": "Pale Signal",
+        "canonical": "#B9E0F6",
+        "oklch": "oklch(88.6% 0.051 232.8)",
+        "tonalRamp": [
+          "#020D14",
+          "#142832",
+          "#2C4654",
+          "#466678",
+          "#66889A",
+          "#8DAABA",
+          "#B5CDDB",
+          "#DFF2FD"
+        ]
+      },
+      "muscle": {
+        "role": "primary",
+        "displayName": "Muscle Green",
+        "canonical": "#78D3A6",
+        "oklch": "oklch(79.8% 0.110 161.0)",
+        "tonalRamp": [
+          "#001104",
+          "#002F19",
+          "#004F33",
+          "#17734E",
+          "#41956E",
+          "#73B694",
+          "#A1D8BB",
+          "#D0FAE3"
+        ]
+      },
+      "muscle-light": {
+        "role": "primary",
+        "displayName": "Pale Muscle",
+        "canonical": "#9BE0BD",
+        "oklch": "oklch(85.1% 0.085 161.8)",
+        "tonalRamp": [
+          "#001006",
+          "#042D1D",
+          "#1A4D37",
+          "#316F53",
+          "#549174",
+          "#7FB298",
+          "#ABD5BE",
+          "#D7F8E6"
+        ]
+      },
+      "field-ink": {
+        "role": "neutral",
+        "displayName": "Field Ink",
+        "canonical": "#0E3340",
+        "oklch": "oklch(30.1% 0.047 225.1)",
+        "tonalRamp": [
+          "#020D12",
+          "#142830",
+          "#2C4651",
+          "#466774",
+          "#668896",
+          "#8DAAB7",
+          "#B5CED8",
+          "#DFF2FA"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home hero statement only."
+      },
+      "page-title": {
+        "displayName": "Page title",
+        "purpose": "Inner page heads and article titles."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads; the Join field head scales to 6rem."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card, trial, technique, member and station titles."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Nerve-blue years, dates, line numbers, trial stats and initials in Anybody."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Muted paragraph beside or under a page or section head."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, about 62ch."
+      },
+      "item-title": {
+        "displayName": "Item title",
+        "purpose": "Paper and news titles, names, button text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase anatomy names beside spine nodes and news categories beside dates; never above a heading."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lead-ring",
+        "value": "inset 0 0 0 1.5px #78D3A6",
+        "purpose": "The one trial the lab coordinates."
+      },
+      {
+        "name": "node-halo",
+        "value": "0 0 0 7px rgba(109, 185, 234, 0.18)",
+        "purpose": "A lit node of Ranvier on the home spine."
+      },
+      {
+        "name": "nucleus-core",
+        "value": "inset 0 0 0 6px rgba(11, 37, 48, 0.55)",
+        "purpose": "Inner ring of the lit nucleus node."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Button press, arrow bar, node and endplate lighting."
+      },
+      {
+        "name": "press",
+        "value": "transform 160ms; scale(0.97)",
+        "purpose": "Every button on :active."
+      },
+      {
+        "name": "arrow-extend",
+        "value": "width 200ms ease-out",
+        "purpose": "Arrow-link bar 22px to 36px on hover."
+      },
+      {
+        "name": "node-light",
+        "value": "300ms ease-out",
+        "purpose": "Spine node fill and endplate bouton scale 1.15 when a station arrives."
+      },
+      {
+        "name": "spine-draw",
+        "value": "clip-path inset driven by scroll (station top crossing 62% of viewport)",
+        "purpose": "Each home station reveals its spine segment once; fully drawn under reduced motion."
+      },
+      {
+        "name": "action-potential",
+        "value": "stroke-dashoffset 4.2s linear infinite, branches delayed 0.7s",
+        "purpose": "Hero axon signal; hidden under reduced motion."
+      },
+      {
+        "name": "page-pull",
+        "value": "conic-gradient sweep, 900px of wheel delta",
+        "purpose": "Page-chain ring fill before navigating to the next page."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "480px"
+      },
+      {
+        "name": "sm",
+        "value": "600px"
+      },
+      {
+        "name": "md-rows",
+        "value": "700px"
+      },
+      {
+        "name": "team-2",
+        "value": "800px"
+      },
+      {
+        "name": "md",
+        "value": "900px"
+      },
+      {
+        "name": "lg",
+        "value": "1100px"
+      },
+      {
+        "name": "nav-collapse",
+        "value": "1200px"
+      },
+      {
+        "name": "xl",
+        "value": "1400px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Muscle-green pill; the site's call to action (Join the lab, Work with us, Send request).",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-btn ds-btn-muscle\" href=\"#\">Join the lab</a></div>",
+      "css": ":host{--g:#0B2530;--p:#12394A;--r:#2A5563;--e:#5C7F88;--t:#E6F0F1;--b:#C4D7DB;--m:#A3BEC4;--n:#6DB9EA;--k:#78D3A6;--ease:cubic-bezier(0.23,1,0.32,1);}.ds-stage{background:#0B2530;padding:24px;}.ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 28px;border-radius:999px;font-weight:600;font-size:1.05rem;border:1.5px solid transparent;cursor:pointer;text-decoration:none;font-family:'Schibsted Grotesk',system-ui,sans-serif;transition:transform 160ms var(--ease),background-color 160ms ease,border-color 160ms ease;}.ds-btn:active{transform:scale(0.97);}.ds-btn:focus-visible{outline:2px solid #78D3A6;outline-offset:3px;}.ds-btn-muscle{background:#78D3A6;color:#0B2530;}.ds-btn-muscle:hover{background:#9BE0BD;}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Edge-outlined pill, always paired after a primary.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\">Our research</a></div>",
+      "css": ":host{--g:#0B2530;--p:#12394A;--r:#2A5563;--e:#5C7F88;--t:#E6F0F1;--b:#C4D7DB;--m:#A3BEC4;--n:#6DB9EA;--k:#78D3A6;--ease:cubic-bezier(0.23,1,0.32,1);}.ds-stage{background:#0B2530;padding:24px;}.ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 28px;border-radius:999px;font-weight:600;font-size:1.05rem;border:1.5px solid transparent;cursor:pointer;text-decoration:none;font-family:'Schibsted Grotesk',system-ui,sans-serif;transition:transform 160ms var(--ease),background-color 160ms ease,border-color 160ms ease;}.ds-btn:active{transform:scale(0.97);}.ds-btn:focus-visible{outline:2px solid #78D3A6;outline-offset:3px;}.ds-btn-ghost{background:transparent;border-color:#5C7F88;color:#E6F0F1;}.ds-btn-ghost:hover{border-color:#E6F0F1;}"
+    },
+    {
+      "name": "Ink Button on Join Field",
+      "kind": "custom",
+      "refersTo": "join-field",
+      "description": "The one drenched muscle-green field per page, with the ground-coloured ink button.",
+      "html": "<section class=\"ds-join\"><h2>Join the lab</h2><div><p>We welcome students, residents and postdocs interested in neuromuscular disease.</p><a class=\"ds-btn ds-btn-ink\" href=\"#\">Write to us</a></div></section>",
+      "css": ":host{--g:#0B2530;--p:#12394A;--r:#2A5563;--e:#5C7F88;--t:#E6F0F1;--b:#C4D7DB;--m:#A3BEC4;--n:#6DB9EA;--k:#78D3A6;--ease:cubic-bezier(0.23,1,0.32,1);}.ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 28px;border-radius:999px;font-weight:600;font-size:1.05rem;border:1.5px solid transparent;cursor:pointer;text-decoration:none;font-family:'Schibsted Grotesk',system-ui,sans-serif;transition:transform 160ms var(--ease),background-color 160ms ease,border-color 160ms ease;}.ds-btn:active{transform:scale(0.97);}.ds-btn:focus-visible{outline:2px solid #78D3A6;outline-offset:3px;}.ds-join{background:#78D3A6;color:#0B2530;padding:56px 40px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;font-family:'Schibsted Grotesk',system-ui,sans-serif;}.ds-join h2{font-family:Anybody,'Arial Narrow',sans-serif;font-weight:800;font-stretch:115%;font-size:3.5rem;line-height:0.92;letter-spacing:-0.03em;margin:0;color:#0B2530;}.ds-join p{color:#0E3340;font-size:1.1rem;margin:0 0 24px;}.ds-btn-ink{background:#0B2530;color:#E6F0F1;}.ds-btn-ink:hover{background:#12394A;}.ds-btn-ink:focus-visible{outline-color:#0B2530;}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-contact",
+      "description": "Ground navbar: wide Anybody wordmark, muscle underline on the active link, nerve Contact pill.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-brand\">NeuroMuscle Lab</span><span class=\"ds-links\"><a href=\"#\" class=\"on\">Research</a><a href=\"#\">Lab</a><a href=\"#\">Team</a><a href=\"#\" class=\"ds-contact\">Contact</a></span></nav>",
+      "css": ":host{--g:#0B2530;--p:#12394A;--r:#2A5563;--e:#5C7F88;--t:#E6F0F1;--b:#C4D7DB;--m:#A3BEC4;--n:#6DB9EA;--k:#78D3A6;--ease:cubic-bezier(0.23,1,0.32,1);}.ds-nav{background:#0B2530;min-height:88px;padding:0 32px;display:flex;align-items:center;justify-content:space-between;gap:24px;font-family:'Schibsted Grotesk',system-ui,sans-serif;}.ds-brand{font-family:Anybody,'Arial Narrow',sans-serif;font-weight:800;font-stretch:125%;font-size:1.35rem;letter-spacing:-0.01em;color:#E6F0F1;}.ds-links{display:flex;align-items:center;gap:4px;}.ds-links a{color:#CFE0E3;text-decoration:none;padding:8px 14px;font-size:1rem;}.ds-links a:hover{color:#E6F0F1;}.ds-links a.on{color:#78D3A6;text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:2px;}.ds-links a.ds-contact{color:#6DB9EA;border:1.5px solid #6DB9EA;border-radius:999px;padding:10px 22px;margin-left:12px;}.ds-links a.ds-contact:hover{background:#6DB9EA;color:#0B2530;}.ds-links a:focus-visible{outline:2px solid #78D3A6;outline-offset:3px;border-radius:4px;}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Panel-teal field, 12px radius, 52px tall, nerve border on focus.",
+      "html": "<div class=\"ds-stage\"><label class=\"ds-label\" for=\"ds-in\">Email</label><input id=\"ds-in\" class=\"ds-input\" placeholder=\"name@university.it\"></div>",
+      "css": ":host{--g:#0B2530;--p:#12394A;--r:#2A5563;--e:#5C7F88;--t:#E6F0F1;--b:#C4D7DB;--m:#A3BEC4;--n:#6DB9EA;--k:#78D3A6;--ease:cubic-bezier(0.23,1,0.32,1);}.ds-stage{background:#0B2530;padding:24px;font-family:'Schibsted Grotesk',system-ui,sans-serif;}.ds-label{display:block;font-size:0.95rem;font-weight:600;color:#E6F0F1;margin-bottom:8px;}.ds-input{width:100%;box-sizing:border-box;min-height:52px;padding:0 16px;border-radius:12px;border:1.5px solid #5C7F88;background:#12394A;color:#E6F0F1;font-size:1.05rem;font-family:'Schibsted Grotesk',system-ui,sans-serif;transition:border-color 160ms ease;}.ds-input::placeholder{color:#7C9AA1;}.ds-input:focus{border-color:#6DB9EA;outline:none;}.ds-input:focus-visible{outline:2px solid #78D3A6;outline-offset:3px;}"
+    },
+    {
+      "name": "Ruled Paper Row",
+      "kind": "card",
+      "refersTo": "",
+      "description": "Hairline-ruled list row with a nerve-blue Anybody year; the default way to list real items.",
+      "html": "<div class=\"ds-rows\"><a class=\"ds-row\" href=\"#\"><span class=\"ds-year\">2026</span><span><span class=\"ds-t\">UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss</span><span class=\"ds-meta\">Nature</span></span></a><a class=\"ds-row\" href=\"#\"><span class=\"ds-year\">2024</span><span><span class=\"ds-t\">Protective role of angiogenin in muscle regeneration in ALS</span><span class=\"ds-meta\">Brain Pathol</span></span></a></div>",
+      "css": ":host{--g:#0B2530;--p:#12394A;--r:#2A5563;--e:#5C7F88;--t:#E6F0F1;--b:#C4D7DB;--m:#A3BEC4;--n:#6DB9EA;--k:#78D3A6;--ease:cubic-bezier(0.23,1,0.32,1);}.ds-rows{background:#0B2530;padding:24px;font-family:'Schibsted Grotesk',system-ui,sans-serif;}.ds-row{display:grid;grid-template-columns:120px 1fr;gap:32px;padding:24px 0;border-top:1px solid #2A5563;text-decoration:none;}.ds-row:last-child{border-bottom:1px solid #2A5563;}.ds-year{font-family:Anybody,'Arial Narrow',sans-serif;font-weight:700;font-size:1.75rem;color:#6DB9EA;}.ds-t{display:block;color:#E6F0F1;font-weight:600;font-size:1.2rem;line-height:1.35;transition:color 160ms ease;}.ds-meta{display:block;color:#A3BEC4;margin-top:6px;}.ds-row:hover .ds-t{color:#8FCBEF;}.ds-row:focus-visible{outline:2px solid #78D3A6;outline-offset:3px;}"
+    },
+    {
+      "name": "Trial Card",
+      "kind": "card",
+      "refersTo": "trial-card",
+      "description": "Panel-teal object card; the coordinated trial carries the inset muscle lead ring.",
+      "html": "<div class=\"ds-stage\"><article class=\"ds-trial ds-lead\"><h3>Clenbuterol in SBMA</h3><p>Clenbuterol versus placebo in spinal and bulbar muscular atrophy.</p><span class=\"ds-stats\"><strong>Coordinating centre</strong></span></article></div>",
+      "css": ":host{--g:#0B2530;--p:#12394A;--r:#2A5563;--e:#5C7F88;--t:#E6F0F1;--b:#C4D7DB;--m:#A3BEC4;--n:#6DB9EA;--k:#78D3A6;--ease:cubic-bezier(0.23,1,0.32,1);}.ds-stage{background:#0B2530;padding:24px;font-family:'Schibsted Grotesk',system-ui,sans-serif;}.ds-trial{background:#12394A;border-radius:20px;padding:28px 30px;display:flex;flex-direction:column;gap:10px;color:#C4D7DB;}.ds-trial h3{font-family:Anybody,'Arial Narrow',sans-serif;font-weight:700;font-stretch:105%;font-size:1.55rem;line-height:1.15;letter-spacing:-0.02em;color:#E6F0F1;margin:0;}.ds-trial p{margin:0;}.ds-stats{display:block;margin-top:8px;padding-top:14px;border-top:1px solid #2A5563;font-size:0.98rem;}.ds-stats strong{font-family:Anybody,'Arial Narrow',sans-serif;font-size:1.15rem;color:#E6F0F1;}.ds-lead{box-shadow:inset 0 0 0 1.5px #78D3A6;}"
+    },
+    {
+      "name": "Arrow Link",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Semibold link with a muscle bar that extends on hover.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-arrow\" href=\"#\">Meet the team</a></div>",
+      "css": ":host{--g:#0B2530;--p:#12394A;--r:#2A5563;--e:#5C7F88;--t:#E6F0F1;--b:#C4D7DB;--m:#A3BEC4;--n:#6DB9EA;--k:#78D3A6;--ease:cubic-bezier(0.23,1,0.32,1);}.ds-stage{background:#0B2530;padding:24px;font-family:'Schibsted Grotesk',system-ui,sans-serif;}.ds-arrow{display:inline-flex;align-items:center;gap:10px;font-weight:600;color:#E6F0F1;text-decoration:none;}.ds-arrow::after{content:'';width:22px;height:2px;background:#78D3A6;transition:width 200ms var(--ease);}.ds-arrow:hover::after{width:36px;}.ds-arrow:focus-visible{outline:2px solid #78D3A6;outline-offset:3px;border-radius:4px;}"
+    },
+    {
+      "name": "Motor-Unit Station",
+      "kind": "custom",
+      "refersTo": "station-paper",
+      "description": "Home signature: an axon station with myelin dashes, a node of Ranvier, the anatomy label beside the node, and a station-paper tile.",
+      "html": "<div class=\"ds-st\"><div class=\"ds-mark\"><span class=\"ds-node\"></span><span class=\"ds-part\">Axon</span></div><div><h3>ALS biomarkers</h3><p>Neurophysiology, MRI and PET with neurofilaments and chitinases.</p><a class=\"ds-paper\" href=\"#\"><span>Metabolic and fluid biomarkers support microglia activation in ALS</span><em>Ann Clin Transl Neurol · 2026</em></a></div></div>",
+      "css": ":host{--g:#0B2530;--p:#12394A;--r:#2A5563;--e:#5C7F88;--t:#E6F0F1;--b:#C4D7DB;--m:#A3BEC4;--n:#6DB9EA;--k:#78D3A6;--ease:cubic-bezier(0.23,1,0.32,1);}.ds-st{background:#0B2530;display:grid;grid-template-columns:180px 1fr;padding:40px 24px 40px 0;position:relative;font-family:'Schibsted Grotesk',system-ui,sans-serif;color:#C4D7DB;}.ds-st::before{content:'';position:absolute;left:16px;top:0;bottom:0;width:12px;background:repeating-linear-gradient(180deg,rgba(109,185,234,0.34) 0 34px,transparent 34px 42px);}.ds-st::after{content:'';position:absolute;left:20.5px;top:0;bottom:0;width:3px;background:#6DB9EA;}.ds-mark{position:relative;z-index:1;display:flex;align-items:center;height:2.4rem;padding-left:56px;}.ds-node{position:absolute;left:17px;top:50%;width:10px;height:10px;margin-top:-5px;border-radius:50%;background:#6DB9EA;box-shadow:0 0 0 7px rgba(109,185,234,0.18);}.ds-part{font-size:0.8rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#6DB9EA;}.ds-st h3{font-family:Anybody,'Arial Narrow',sans-serif;font-weight:800;font-stretch:112%;font-size:2.2rem;line-height:1;letter-spacing:-0.02em;color:#E6F0F1;margin:0 0 12px;}.ds-st p{margin:0 0 18px;}.ds-paper{display:flex;flex-direction:column;gap:4px;padding:16px 20px;border:1px solid #2A5563;border-radius:14px;text-decoration:none;transition:border-color 200ms ease,background-color 200ms ease;}.ds-paper span{color:#E6F0F1;font-weight:600;line-height:1.35;}.ds-paper em{color:#A3BEC4;font-style:normal;font-size:0.92rem;}.ds-paper:hover{border-color:#6DB9EA;background:rgba(18,57,74,0.6);}.ds-paper:focus-visible{outline:2px solid #78D3A6;outline-offset:3px;}"
+    },
+    {
+      "name": "Page Chain",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "'Keep scrolling to...' link on a hairline with the muscle ring that fills as you scroll past the end.",
+      "html": "<div class=\"ds-stage\"><a class=\"ds-next\" href=\"#\" style=\"--pull:0.4\">Keep scrolling to discover our research</a></div>",
+      "css": ":host{--g:#0B2530;--p:#12394A;--r:#2A5563;--e:#5C7F88;--t:#E6F0F1;--b:#C4D7DB;--m:#A3BEC4;--n:#6DB9EA;--k:#78D3A6;--ease:cubic-bezier(0.23,1,0.32,1);}.ds-stage{background:#0B2530;padding:24px;font-family:'Schibsted Grotesk',system-ui,sans-serif;}.ds-next{display:flex;align-items:center;justify-content:flex-end;gap:16px;padding:36px 0 12px;border-top:1px solid #2A5563;color:#E6F0F1;font-size:1.1rem;text-decoration:none;}.ds-next::after{content:'';width:44px;height:44px;flex-shrink:0;border-radius:50%;border:1.5px solid #78D3A6;background:no-repeat center/20px url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 2v15M4 11l6 6 6-6' fill='none' stroke='%2378D3A6' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E\"),conic-gradient(rgba(120,211,166,0.35) calc(var(--pull) * 360deg),transparent 0);}.ds-next:hover{color:#8FCBEF;}.ds-next:focus-visible{outline:2px solid #78D3A6;outline-offset:3px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Motor Unit, Read Top to Bottom",
+    "overview": "The site is a dark anatomical plate. A deep teal ground (the colour of tissue under a fluorescence scope) carries two signal colours that are never decorative: nerve blue marks everything that belongs to the neuron side (axon, nodes, dates, the active tab), muscle green marks everything that belongs to the fibre side (roles, the active nav item, the primary action, the one drenched field). The motor-unit illustration in the hero, the striated texture on placeholder frames, and the home page's gutter spine all draw from the same small anatomy kit: a 3px axon, dashed myelin, round nodes, a five-bouton endplate, horizontal or vertical striations.\n\nDensity is editorial and calm. Content runs in a 1440px column with a fluid gutter; sections are separated by generous vertical air and 1px hairline rules, not by boxes. Lists of real things (papers, news, techniques, collaborators, trials by year) are hairline-ruled rows with a nerve-blue Anybody date or number on the left. Panels are rare and reserved for things that are truly objects (a trial, a map, a form field). Headlines are wide and heavy; reading text is plain, unhurried Schibsted Grotesk.\n\nMotion is physiological rather than decorative: an action potential runs down the hero axon every 4.2s, the home spine draws itself station by station with a clip-path as you scroll, nodes light when their section arrives, and the page chain fills a conic ring as you keep scrolling past the end. Everything stops or resolves to its final state under reduced motion.",
+    "keyCharacteristics": [
+      "Deep teal ground with tonal panels; no light mode.",
+      "Two semantic accents: nerve blue (neuron side, data, navigation) and muscle green (fibre side, action, people).",
+      "Anybody at heavy weight and wide stretch for display; Schibsted Grotesk for everything read.",
+      "Hairline-ruled rows over cards; pills for every control.",
+      "Anatomy as the only ornament: axon, myelin, node, endplate, striation.",
+      "Every page ends in a \"Keep scrolling to...\" chain to the next page."
+    ],
+    "rules": [
+      {
+        "name": "The Two Sides Rule",
+        "body": "Blue belongs to the nerve and green to the muscle. Data that indexes (years, dates, numbers, markers) is nerve blue; things a person does or is (actions, roles, active state) are muscle green. Never swap them for variety.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Drenched Field Rule",
+        "body": "Muscle green fills at most one full-bleed area per page (the Join field on home). Elsewhere green appears only as text, a line, a ring or a button.",
+        "section": "colors"
+      },
+      {
+        "name": "The Wide Heavy Rule",
+        "body": "Anybody is only ever used heavy (700+) and stretched (105%+). It never sets running text, and Schibsted never sets a display head.",
+        "section": "typography"
+      },
+      {
+        "name": "The Label Beside Rule",
+        "body": "An uppercase label sits beside its anchor (next to the spine node, or with the date in a news row), never stacked above a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tone Not Shadow Rule",
+        "body": "To lift something, move it from ground to panel teal; to separate things, draw a 1px hairline. Never float a surface with a blurred shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep nerve blue for the neuron side and indexing data, and muscle green for the fibre side, actions and people (The Two Sides Rule).",
+      "**Do** list real items as hairline-ruled rows with a nerve-blue Anybody date or number in the lead column.",
+      "**Do** use a full pill (999px) at 52px height for every button and switch, with the 0.97 press scale.",
+      "**Do** lift with panel teal and separate with a 1px hairline (The Tone Not Shadow Rule).",
+      "**Do** set every display head in Anybody 700 to 800 at 105% stretch or wider, with negative tracking.",
+      "**Do** end every page with a \"Keep scrolling to...\" page-chain link.",
+      "**Do** resolve every animation to its final, fully drawn state under `prefers-reduced-motion`.",
+      "**Do** use the striated panel as the stand-in for any missing photograph."
+    ],
+    "donts": [
+      "**Don't** add a light theme or a white surface; the ground is always deep teal.",
+      "**Don't** use blurred drop shadows; the only shadows are inset rings and the node halo.",
+      "**Don't** fill more than one full-bleed area with muscle green on a page.",
+      "**Don't** put a muscle-green button on the muscle-green field; use the ink button there.",
+      "**Don't** stack an uppercase label above a heading; labels sit beside their node or with the date.",
+      "**Don't** set running text in Anybody or headlines in Schibsted Grotesk.",
+      "**Don't** add icon glyphs or decorative illustration outside the anatomy kit (axon, myelin, node, endplate, striation).",
+      "**Don't** load fonts or assets from third-party hosts; fonts are self-hosted."
+    ]
+  }
+}

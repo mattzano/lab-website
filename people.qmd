@@ -23,6 +23,11 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 [ALS, SBMA and other motor neuron diseases]{.nm-focus}
 :::
 
+::: {.nm-person .nm-nophoto}
+[Prof. Elena Pegoraro]{.nm-name}
+[Head of Neuromuscular Laboratory]{.nm-role}
+:::
+
 ::: nm-person
 ![](images/team/minicuci.jpg){fig-alt="Dr. Giacomo Maria Minicuci"}
 [Dr. Giacomo Maria Minicuci]{.nm-name}
@@ -96,11 +101,6 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 ![](images/team/sabbatini.jpg){fig-alt="Dr. Daniele Sabbatini"}
 [Dr. Daniele Sabbatini]{.nm-name}
 [Biostatistician]{.nm-role}
-:::
-
-::: {.nm-person .nm-nophoto}
-[Prof. Elena Pegoraro]{.nm-name}
-[Head of Neuromuscular Laboratory]{.nm-role}
 :::
 
 :::

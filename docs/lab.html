@@ -26,6 +26,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
@@ -41,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5e49fed5625536532c60c9ce0ea8afb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-651114166c135a832cdfdf51e76d97c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -181,6 +182,36 @@ ul.task-list li input[type="checkbox"] {
 <p>We analyse large RNA-seq and genomic datasets with reproducible pipelines in R and bash, from transcript-level splicing to repeat expansions across whole populations.</p>
 </section>
 </div>
+<section id="what-we-can-measure" class="level2 nm-section">
+<h2 data-anchor-id="what-we-can-measure">What we can measure</h2>
+<!-- DRAFT drawn from the lab's publications: check, correct or cut each line before publishing. -->
+<div class="nm-techniques">
+<section id="clinical-cohorts-and-outcomes" class="level3">
+<h3 data-anchor-id="clinical-cohorts-and-outcomes">Clinical cohorts and outcomes</h3>
+<p>Long-term follow-up of people with ALS and SBMA with standard functional scales, the six-minute walk test and patient-anchored change scores. <span class="nm-muted">Answers: how disease progresses, and which change is meaningful for a trial.</span></p>
+</section>
+<section id="neurophysiology" class="level3">
+<h3 data-anchor-id="neurophysiology">Neurophysiology</h3>
+<p>Electromyography, nerve conduction studies, transcranial magnetic stimulation for cortical excitability and motor evoked potentials. <span class="nm-muted">Answers: how much upper and lower motor neuron function is lost.</span></p>
+</section>
+<section id="brain-imaging" class="level3">
+<h3 data-anchor-id="brain-imaging">Brain imaging</h3>
+<p>MRI, including the motor band sign, and [18F]FDG-PET. <span class="nm-muted">Answers: where and how strongly the motor system and its glia are affected.</span></p>
+</section>
+<section id="fluid-biomarkers" class="level3">
+<h3 data-anchor-id="fluid-biomarkers">Fluid biomarkers</h3>
+<p>Neurofilaments, chitinases, serum p-tau181 and creatinine in blood and CSF, and new ELISA assays developed in the lab. <span class="nm-muted">Answers: who progresses faster, and whether a treatment reaches its target.</span></p>
+</section>
+<section id="muscle-pathology" class="level3">
+<h3 data-anchor-id="muscle-pathology">Muscle pathology</h3>
+<p>Histology and immunostaining of patient muscle biopsies, including phosphorylated tau and markers of regeneration and innervation. <span class="nm-muted">Answers: what happens in muscle, not only in the nerve.</span></p>
+</section>
+<section id="rna-and-genomic-data" class="level3">
+<h3 data-anchor-id="rna-and-genomic-data">RNA and genomic data</h3>
+<p>RNA-seq analysis of cryptic splicing and polyadenylation, and repeat expansion and variant analysis in population datasets such as the UK Biobank. <span class="nm-muted">Answers: which RNA changes mark TDP-43 loss, and how common disease variants are.</span></p>
+</section>
+</div>
+</section>
 <section id="who-we-work-with" class="level2 nm-section">
 <h2 data-anchor-id="who-we-work-with">Who we work with</h2>
 <div class="nm-collab">
@@ -248,6 +279,36 @@ ul.task-list li input[type="checkbox"] {
     clearTimeout(timer);
     timer = setTimeout(function () { setPull(0); }, 700);
   }, { passive: true });
+})();
+
+/* Home: the spine draws itself station by station as you scroll; stations light as they arrive. */
+(function () {
+  var stations = document.querySelectorAll('.nm-unit .nm-station');
+  if (!stations.length) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    stations.forEach(function (s) { s.classList.add('is-on'); });
+    return;
+  }
+  var queued = false;
+  function update() {
+    queued = false;
+    var line = window.innerHeight * 0.62;
+    stations.forEach(function (s) {
+      var r = s.getBoundingClientRect();
+      var p = Math.max(0, Math.min(1, (line - r.top) / r.height));
+      s.style.setProperty('--draw', p.toFixed(4));
+      s.classList.toggle('is-on', r.top + 40 < line);
+    });
+  }
+  window.addEventListener('scroll', function () { if (!queued) { queued = true; requestAnimationFrame(update); } }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+/* Contact: #work opens the "Work with us" tab. */
+(function () {
+  if (location.hash !== '#work') return;
+  var tab = Array.prototype.find.call(document.querySelectorAll('.panel-tabset .nav-link'), function (a) { return /work with us/i.test(a.textContent); });
+  if (tab) { tab.click(); tab.scrollIntoView({ block: 'start' }); }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

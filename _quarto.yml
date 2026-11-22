@@ -68,4 +68,5 @@ format:
     toc: false
     anchor-sections: false
     citeproc: true
+    html-math-method: plain
     lang: en

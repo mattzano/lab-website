@@ -40,6 +40,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MEMBERS = os.path.join(ROOT, "data", "members.json")
 CACHE = os.path.join(ROOT, "data", "publications.json")
 FEED = os.path.join(ROOT, "_publications", "feed.md")
+HOME = os.path.join(ROOT, "_publications", "home.md")  # short list for the home page
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 OPENALEX = "https://api.openalex.org/works"
@@ -333,6 +334,28 @@ def render(cfg, records, matches, cites, generated):
     return "\n".join(out)
 
 
+def render_home(cfg, records, matches, n=4):
+    """The newest few lab papers, for the home page."""
+    excl = set(cfg["settings"].get("exclude_types", []))
+    pos = {}
+    for items in matches.values():
+        for pmid, idx in items.items():
+            pos.setdefault(pmid, set()).add(idx)
+    by = {r["pmid"]: r for r in records}
+    lab = [by[p] for p in pos if p in by and not (set(by[p].get("types", [])) & excl)]
+    lab.sort(key=lambda r: (rec_date(r), r["pmid"]), reverse=True)
+    # skip papers the home page already cites by DOI (the research spine)
+    try:
+        cited = open(os.path.join(ROOT, "index.qmd"), encoding="utf-8").read().lower()
+    except OSError:
+        cited = ""
+    lab = [r for r in lab if not (r.get("doi") and r["doi"].lower() in cited)]
+    out = ["```{=html}", '<div class="nm-publist nm-publist-home">']
+    out += [pub_row(r, pos.get(r["pmid"], set())) for r in lab[:n]]
+    out += ["</div>", "```", ""]
+    return "\n".join(out)
+
+
 def pub_row(r, positions, show_year=True):
     return (f'<div class="nm-pubrow"><span class="nm-year">{rec_date(r).year}</span><div>'
             f'<a href="{esc(link_for(r))}">{esc(clean_title(r["title"]))}</a>'
@@ -404,6 +427,8 @@ def main():
     os.makedirs(os.path.dirname(FEED), exist_ok=True)
     with open(FEED, "w", encoding="utf-8") as f:
         f.write(render(cfg, [records[p] for p in keep], matches, cites, generated))
+    with open(HOME, "w", encoding="utf-8") as f:
+        f.write(render_home(cfg, [records[p] for p in keep], matches))
     print(f"Wrote {os.path.relpath(FEED, ROOT)} and {os.path.relpath(CACHE, ROOT)}")
 
 

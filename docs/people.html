@@ -26,6 +26,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
@@ -41,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5e49fed5625536532c60c9ce0ea8afb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-651114166c135a832cdfdf51e76d97c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -173,6 +174,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="nm-person">
 <p><img src="images/team/soraru.jpg" class="img-fluid" alt="Prof. Gianni Sorarù"> <span class="nm-name">Prof.&nbsp;Gianni Sorarù</span> <span class="nm-role">Associate Professor of Neurology</span> <span class="nm-focus">ALS, SBMA and other motor neuron diseases</span></p>
 </div>
+<div class="nm-person nm-nophoto">
+<p><span class="nm-name">Prof.&nbsp;Elena Pegoraro</span> <span class="nm-role">Head of Neuromuscular Laboratory</span></p>
+</div>
 <div class="nm-person">
 <p><img src="images/team/minicuci.jpg" class="img-fluid" alt="Dr. Giacomo Maria Minicuci"> <span class="nm-name">Dr.&nbsp;Giacomo Maria Minicuci</span> <span class="nm-role">Neurologist, Neurophysiologist · Co-Investigator</span> <span class="nm-focus">SBMA outcome measures and ALS biomarkers</span></p>
 </div>
@@ -208,9 +212,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="nm-person">
 <p><img src="images/team/sabbatini.jpg" class="img-fluid" alt="Dr. Daniele Sabbatini"> <span class="nm-name">Dr.&nbsp;Daniele Sabbatini</span> <span class="nm-role">Biostatistician</span></p>
-</div>
-<div class="nm-person nm-nophoto">
-<p><span class="nm-name">Prof.&nbsp;Elena Pegoraro</span> <span class="nm-role">Head of Neuromuscular Laboratory</span></p>
 </div>
 </div>
 <div class="nm-join">
@@ -264,6 +265,36 @@ ul.task-list li input[type="checkbox"] {
     clearTimeout(timer);
     timer = setTimeout(function () { setPull(0); }, 700);
   }, { passive: true });
+})();
+
+/* Home: the spine draws itself station by station as you scroll; stations light as they arrive. */
+(function () {
+  var stations = document.querySelectorAll('.nm-unit .nm-station');
+  if (!stations.length) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    stations.forEach(function (s) { s.classList.add('is-on'); });
+    return;
+  }
+  var queued = false;
+  function update() {
+    queued = false;
+    var line = window.innerHeight * 0.62;
+    stations.forEach(function (s) {
+      var r = s.getBoundingClientRect();
+      var p = Math.max(0, Math.min(1, (line - r.top) / r.height));
+      s.style.setProperty('--draw', p.toFixed(4));
+      s.classList.toggle('is-on', r.top + 40 < line);
+    });
+  }
+  window.addEventListener('scroll', function () { if (!queued) { queued = true; requestAnimationFrame(update); } }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+/* Contact: #work opens the "Work with us" tab. */
+(function () {
+  if (location.hash !== '#work') return;
+  var tab = Array.prototype.find.call(document.querySelectorAll('.panel-tabset .nav-link'), function (a) { return /work with us/i.test(a.textContent); });
+  if (tab) { tab.click(); tab.scrollIntoView({ block: 'start' }); }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

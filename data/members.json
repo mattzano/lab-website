@@ -45,6 +45,27 @@
       "exclude_pmids": []
     },
     {
+      "id": "pegoraro",
+      "name": "Prof. Elena Pegoraro",
+      "short": "Pegoraro E",
+      "role": "Head of Neuromuscular Laboratory",
+      "photo": "",
+      "pubmed_query": "Pegoraro E[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Pegoraro"
+      ],
+      "first_names": [
+        "Elena"
+      ],
+      "initials": "E",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
       "id": "minicuci",
       "name": "Dr. Giacomo Maria Minicuci",
       "short": "Minicuci GM",
@@ -288,28 +309,6 @@
       ],
       "key_pmids": [],
       "exclude_pmids": []
-    },
-    {
-      "id": "pegoraro",
-      "name": "Prof. Elena Pegoraro",
-      "short": "Pegoraro E",
-      "role": "Head of Neuromuscular Laboratory",
-      "photo": "",
-      "pubmed_query": "Pegoraro E[Author] AND (Padova[ad] OR Padua[ad])",
-      "last_names": [
-        "Pegoraro"
-      ],
-      "first_names": [
-        "Elena"
-      ],
-      "initials": "E",
-      "affiliations": [
-        "Padova",
-        "Padua"
-      ],
-      "key_pmids": [],
-      "exclude_pmids": [],
-      "publications": false
     }
   ]
 }

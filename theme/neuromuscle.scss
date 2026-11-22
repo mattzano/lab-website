@@ -1,5 +1,8 @@
 /*-- scss:defaults --*/
 
+// No Google Fonts: darkly would otherwise @import Lato from fonts.googleapis.com
+$web-font-path: false;
+
 $nm-ground:  #0B2530;
 $nm-panel:   #12394A;
 $nm-rule:    #2A5563;
@@ -413,4 +416,167 @@ a.nm-lang:hover { border-color: $nm-text; }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .navbar .navbar-nav .nav-link { padding-left: 9px !important; padding-right: 9px !important; font-size: .95rem; }
   .navbar .navbar-title { font-size: 1.15rem; }
+}
+
+/* ======================================================================
+   Home: "Along the motor unit"
+   ====================================================================== */
+:root {
+  --nm-ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --nm-spine-x: 22px;       /* centre of the axon inside the mark column */
+  --nm-mark-w: 220px;
+}
+
+/* Browser surfaces carry the palette */
+::selection { background: rgba(120, 211, 166, 0.35); color: $nm-text; }
+html { scrollbar-color: $nm-edge $nm-ground; accent-color: $nm-muscle; }
+:focus-visible { outline: 2px solid $nm-muscle; outline-offset: 3px; border-radius: 4px; }
+a { text-underline-offset: 0.2em; }
+
+/* Buttons respond to press (transform only, fast release) */
+.nm-btn { transition: transform 160ms var(--nm-ease-out), background-color 160ms ease, border-color 160ms ease; }
+.nm-btn:active { transform: scale(0.97); }
+.nm-btn-ink { background: $nm-ground; color: $nm-text !important; }
+@media (hover: hover) and (pointer: fine) { .nm-btn-ink:hover { background: #12394A; } }
+
+/* Hero: bigger statement */
+.nm-hero-text h1 { font-size: clamp(3rem, 7vw, 6rem); line-height: 0.92; font-stretch: 112%; letter-spacing: -0.03em; max-width: 9.5em; text-wrap: balance; }
+.nm-hero-text { max-width: 860px; }
+
+/* Arrow links */
+a.nm-arrow { display: inline-flex; align-items: center; gap: 10px; font-weight: 600; color: $nm-text; text-decoration: none; margin-top: 24px; }
+a.nm-arrow::after { content: ""; width: 22px; height: 2px; background: $nm-muscle; transition: width 200ms var(--nm-ease-out); }
+@media (hover: hover) and (pointer: fine) { a.nm-arrow:hover::after { width: 36px; } }
+
+/* --- The motor unit: the spine is drawn per station, and its material changes along the unit --- */
+.nm-unit { position: relative; padding-top: clamp(72px, 9vw, 132px); padding-bottom: 24px; --nm-pad: clamp(32px, 4vw, 56px); }
+.nm-unit-head { margin-left: var(--nm-mark-w); max-width: 760px; padding-bottom: clamp(40px, 5vw, 72px); }
+.nm-unit-head h2 { margin: 0 0 16px; }
+.nm-unit-head p { margin: 0; font-size: 1.15rem; color: $nm-body; max-width: 62ch; }
+
+.nm-stations { list-style: none; margin: 0; padding: 0; }
+.nm-station { --draw: 1; --y: calc(var(--nm-pad) + 1.2rem); display: grid; grid-template-columns: var(--nm-mark-w) minmax(0, 1fr); padding: var(--nm-pad) 0; position: relative; }
+.nm-station + .nm-station { background: linear-gradient(rgba(42, 85, 99, 0.6), rgba(42, 85, 99, 0.6)) no-repeat var(--nm-mark-w) 0 / calc(100% - var(--nm-mark-w)) 1px; }
+.nm-station::before, .nm-station::after { content: ""; position: absolute; pointer-events: none; clip-path: inset(0 0 calc((1 - var(--draw)) * 100%) 0); }
+.nm-station-mark { position: relative; z-index: 1; display: flex; align-items: center; gap: 18px; padding-left: calc(var(--nm-spine-x) + 34px); height: 2.4rem; }
+.nm-node { position: absolute; left: calc(var(--nm-spine-x) - 9px); top: 50%; width: 18px; height: 18px; margin-top: -9px; border-radius: 50%; background: $nm-ground; border: 3px solid $nm-nerve; transition: background-color 300ms var(--nm-ease-out), box-shadow 300ms var(--nm-ease-out); }
+.nm-station.is-on .nm-node { background: $nm-nerve; }
+.nm-part { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: $nm-nerve; }
+
+/* Soma: one cell body holds the nucleus (Genetics) and the cytoplasm (TDP-43) */
+.nm-at-nucleus::before, .nm-at-soma::before { left: calc(var(--nm-spine-x) - 24px); width: 48px; background: #163646; border: 2px solid rgba(109, 185, 234, 0.7); }
+.nm-at-nucleus::before { top: calc(var(--y) - 40px); bottom: -1px; border-bottom: 0; border-radius: 24px 24px 0 0; }
+.nm-at-soma::before { top: 0; height: calc(var(--y) + 44px); border-top: 0; border-radius: 0 0 24px 24px; }
+.nm-at-nucleus .nm-node { width: 26px; height: 26px; margin-top: -13px; left: calc(var(--nm-spine-x) - 13px); border-color: $nm-nerve; background: rgba(11, 37, 48, 0.9); }
+.nm-at-nucleus.is-on .nm-node { background: $nm-nerve; box-shadow: inset 0 0 0 6px rgba(11, 37, 48, 0.55); }
+.nm-at-soma .nm-node { width: 12px; height: 12px; margin-top: -6px; left: calc(var(--nm-spine-x) - 6px); border-width: 2px; }
+/* axon hillock: the axon leaves the cell body */
+.nm-at-soma::after { left: calc(var(--nm-spine-x) - 1.5px); width: 3px; top: calc(var(--y) + 44px); bottom: 0; background: $nm-nerve; }
+
+/* Axon: myelinated, interrupted by a node of Ranvier at the station */
+.nm-at-axon::before { left: calc(var(--nm-spine-x) - 6px); width: 12px; top: 0; bottom: 0;
+  background: repeating-linear-gradient(180deg, rgba(109, 185, 234, 0.34) 0 34px, transparent 34px 42px);
+  -webkit-mask: linear-gradient(180deg, #000 calc(var(--y) - 16px), transparent calc(var(--y) - 16px) calc(var(--y) + 16px), #000 calc(var(--y) + 16px));
+          mask: linear-gradient(180deg, #000 calc(var(--y) - 16px), transparent calc(var(--y) - 16px) calc(var(--y) + 16px), #000 calc(var(--y) + 16px)); }
+.nm-at-axon::after { left: calc(var(--nm-spine-x) - 1.5px); width: 3px; top: 0; bottom: 0; background: $nm-nerve; }
+.nm-at-axon .nm-node { width: 10px; height: 10px; margin-top: -5px; left: calc(var(--nm-spine-x) - 5px); border-width: 0; background: $nm-nerve; }
+.nm-at-axon.is-on .nm-node { box-shadow: 0 0 0 7px rgba(109, 185, 234, 0.18); }
+
+/* Junction: the axon ends on its endplate; the muscle fibre begins */
+.nm-at-junction::after { left: calc(var(--nm-spine-x) - 1.5px); width: 3px; top: 0; height: calc(var(--y) - 6px); background: $nm-nerve; }
+.nm-at-junction::before, .nm-at-fibre::before { left: calc(var(--nm-spine-x) - 16px); width: 32px; background-color: rgba(120, 211, 166, 0.16);
+  background-image: repeating-linear-gradient(180deg, rgba(120, 211, 166, 0.6) 0 2px, transparent 2px 11px); }
+.nm-at-junction::before { top: var(--y); bottom: -1px; border-radius: 16px 16px 0 0; }
+.nm-at-fibre::before { top: 0; bottom: 0; border-radius: 0 0 16px 16px; }
+.nm-endplate { position: absolute; left: calc(var(--nm-spine-x) - 20px); top: 50%; width: 40px; height: 28px; margin-top: -18px; fill: $nm-nerve; z-index: 1; }
+.nm-endplate circle { transition: transform 300ms var(--nm-ease-out); transform-box: fill-box; transform-origin: center; }
+.nm-station.is-on .nm-endplate circle { transform: scale(1.15); }
+.nm-at-junction .nm-part { color: $nm-muscle; }
+.nm-at-fibre .nm-part { color: $nm-muscle; }
+.nm-at-fibre .nm-node { display: none; }
+
+/* Station body: text and its paper side by side on wide screens */
+.nm-station-body { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: clamp(32px, 4vw, 64px); align-items: start; }
+.nm-station-body h3 { grid-column: 1 / -1; margin: 0 0 14px; font-size: clamp(1.9rem, 3.4vw, 3rem); line-height: 1; font-stretch: 112%; }
+.nm-station-body h3 a { color: $nm-text; text-decoration: none; }
+@media (hover: hover) and (pointer: fine) { .nm-station-body h3 a:hover { color: $nm-muscle; } }
+.nm-station-body p { margin: 0 0 20px; font-size: 1.1rem; color: $nm-body; max-width: 62ch; }
+a.nm-station-paper { display: flex; flex-direction: column; gap: 4px; padding: 16px 20px; border: 1px solid $nm-rule; border-radius: 14px; text-decoration: none; transition: border-color 200ms ease, background-color 200ms ease; }
+a.nm-station-paper span { color: $nm-text; font-weight: 600; line-height: 1.35; }
+a.nm-station-paper em { color: $nm-muted; font-style: normal; font-size: 0.92rem; }
+@media (hover: hover) and (pointer: fine) { a.nm-station-paper:hover { border-color: $nm-nerve; background: rgba(18, 57, 74, 0.6); } }
+@media (max-width: 1100px) { .nm-station-body { grid-template-columns: minmax(0, 1fr); } }
+
+/* --- People strip --- */
+.nm-people-strip { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(32px, 5vw, 80px); align-items: center; padding-top: clamp(88px, 10vw, 150px); }
+.nm-people-copy h2 { margin: 0 0 16px; }
+.nm-people-copy p { margin: 0; color: $nm-body; font-size: 1.1rem; max-width: 46ch; }
+.nm-faces { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
+.nm-faces li:nth-child(n+7) { transform: translateX(calc(50% + 6px)); }
+.nm-faces img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 14px; display: block; filter: grayscale(1) contrast(1.06) brightness(0.96); background: $nm-panel; }
+
+/* --- Latest papers + news, two columns --- */
+.nm-home-feeds { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(40px, 6vw, 96px); padding-top: clamp(88px, 10vw, 150px); }
+.nm-home-feeds h2 { margin-bottom: 8px; }
+.nm-publist-home .nm-pubrow { grid-template-columns: 1fr; gap: 4px; }
+.nm-publist-home .nm-year { display: none; }
+.nm-home-col .nm-newsitem { grid-template-columns: 1fr; gap: 6px; }
+.nm-home-col .nm-newsdesc { display: none; }
+
+/* --- Join the lab: the page's one drenched field --- */
+.nm-joinfield { background: $nm-muscle; color: $nm-ground; margin-top: clamp(96px, 11vw, 160px); }
+.nm-join-inner { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(32px, 5vw, 80px); align-items: end; padding-top: clamp(64px, 8vw, 112px); padding-bottom: clamp(64px, 8vw, 112px); }
+.nm-joinfield h2 { color: $nm-ground; margin: 0; white-space: nowrap; font-size: clamp(2.8rem, 6.2vw, 6rem); line-height: 0.92; font-stretch: 115%; letter-spacing: -0.03em; }
+.nm-joinfield p { color: #0E3340; font-size: 1.2rem; margin: 0 0 28px; max-width: 46ch; }
+.nm-joinfield ::selection { background: $nm-ground; color: $nm-muscle; }
+.nm-joinfield :focus-visible { outline-color: $nm-ground; }
+
+.nm-routes { display: flex; flex-wrap: wrap; gap: 12px 40px; padding-top: 32px; padding-bottom: 8px; }
+.nm-routes a { color: $nm-text; font-weight: 600; text-decoration: underline; text-decoration-color: $nm-edge; text-decoration-thickness: 1.5px; }
+@media (hover: hover) and (pointer: fine) { .nm-routes a:hover { text-decoration-color: $nm-muscle; } }
+
+/* --- Smaller screens --- */
+@media (max-width: 900px) {
+  :root { --nm-mark-w: 56px; --nm-spine-x: 14px; }
+  .nm-unit-head { margin-left: var(--nm-mark-w); }
+  .nm-station-mark { padding-left: 0; height: auto; align-items: flex-start; }
+  .nm-station { --y: calc(var(--nm-pad) + 1.1rem); }
+  .nm-station-mark .nm-node, .nm-station-mark .nm-endplate { top: 1.1rem; }
+  .nm-at-nucleus::before, .nm-at-soma::before { left: calc(var(--nm-spine-x) - 15px); width: 30px; }
+  .nm-at-junction::before, .nm-at-fibre::before { left: calc(var(--nm-spine-x) - 11px); width: 22px; }
+  /* the anatomy label runs down the axon */
+  .nm-part { position: absolute; left: calc(var(--nm-spine-x) + 20px); top: 2.6rem; writing-mode: vertical-rl; font-size: 0.72rem; }
+  .nm-hero { display: flex; }
+  .nm-hero-text { order: 1; } .nm-hero-art { order: 2; margin-top: 32px !important; } .nm-hero-meta { order: 3; }
+  .nm-people-strip, .nm-home-feeds, .nm-join-inner { grid-template-columns: minmax(0, 1fr); }
+  .nm-faces { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .nm-faces li:nth-child(n+7) { transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nm-node, .nm-endplate circle, .nm-btn, a.nm-arrow::after { transition: none; }
+}
+
+/* Quarto pads every direct child of #quarto-content; home sections set their own rhythm */
+#quarto-content > .nm-unit { padding-top: clamp(72px, 9vw, 132px); }
+#quarto-content > .nm-people-strip, #quarto-content > .nm-home-feeds { padding-top: clamp(88px, 10vw, 150px); }
+#quarto-content > .nm-joinfield { padding-top: 0; border-radius: 0; }
+#quarto-content > .nm-routes { padding-top: 32px; }
+
+/* Lab: techniques as a measured list, not cards */
+.nm-techniques { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(32px, 5vw, 80px); margin-top: 40px; }
+.nm-techniques > div { border-top: 1px solid $nm-rule; padding: 24px 0 28px; }
+.nm-techniques h3 { font-size: 1.35rem; margin: 0 0 10px; font-stretch: 105%; }
+.nm-techniques p { margin: 0; color: $nm-body; max-width: 62ch; }
+.nm-techniques .nm-muted { display: block; margin-top: 10px; font-size: 0.98rem; }
+@media (max-width: 800px) { .nm-techniques { grid-template-columns: minmax(0, 1fr); } }
+
+/* News: categories live with the date, never above the title */
+.nm-newsmeta { display: flex; flex-direction: column; gap: 6px; }
+.nm-newsmeta .nm-newscats { margin: 0; }
+.nm-home-col .nm-newsmeta { flex-direction: row; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; }
+#quarto-content > .nm-wrap { padding-left: var(--nm-gutter); padding-right: var(--nm-gutter); }
+#quarto-content > .nm-joinfield { padding-left: 0; padding-right: 0; }
+@media (max-width: 700px) {
+  .nm-newsmeta, .nm-home-col .nm-newsmeta { flex-direction: row; flex-wrap: nowrap; align-items: baseline; gap: 12px; min-width: 0; }
+  .nm-newsmeta .nm-newscats { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 }

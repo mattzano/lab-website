@@ -37,134 +37,127 @@ listing:
 </svg>
 <div class="nm-hero-text">
   <h1>From motor neuron to muscle fibre.</h1>
-  <p class="nm-lead">We study the neuromuscular system as one working unit: the neuron, the junction, and the fibre it drives.</p>
+  <p class="nm-lead">We study the neuromuscular system as one working unit: the neuron, the junction, and the fibre it drives. Clinic, bench and data, in Padova.</p>
   <div class="nm-actions">
-    <a class="nm-btn nm-btn-nerve" href="research.html">Our research</a>
-    <a class="nm-btn nm-btn-ghost" href="people.html">Meet the team</a>
+    <a class="nm-btn nm-btn-muscle" href="contact.html#work">Join the lab</a>
+    <a class="nm-btn nm-btn-ghost" href="research.html">Our research</a>
   </div>
 </div>
 <div class="nm-hero-meta">
   <div><strong>Prof. Gianni Sorarù</strong><span>Principal investigator</span></div>
   <div><strong>Department of Neuroscience</strong><span>Università degli Studi di Padova</span></div>
-  <div><strong>Padova University Hospital</strong><span>Padova, Italy</span></div>
+  <div><strong>Motor Neuron Disease Centre</strong><span>Azienda Ospedale Università Padova</span></div>
 </div>
 ```
 :::
 
-:::::::: {.nm-wrap .nm-section}
-::: nm-split
-## What we study
-
-We are neurologists and researchers studying ALS, SBMA and related neuromuscular diseases. We combine patient cohorts and clinical trials with RNA biology, genetics and reproducible, large-scale data analysis.
-:::
-
-:::::: {.nm-grid-3 style="margin-top: 72px"}
-::: nm-card
 ```{=html}
-<svg class="nm-icon" viewBox="0 0 44 44" aria-hidden="true"><circle cx="14" cy="14" r="8" fill="none" stroke="#6DB9EA" stroke-width="2.5"/><path d="M 20 20 C 26 26, 30 30, 40 40" fill="none" stroke="#6DB9EA" stroke-width="2.5" stroke-linecap="round"/></svg>
+<section class="nm-wrap nm-unit" aria-labelledby="unit-title">
+  <div class="nm-unit-head">
+    <h2 id="unit-title">One motor unit, five lines of research</h2>
+    <p>Each line studies a different part of the same unit: the genes in the neuron's nucleus, the RNA in its cell body, the signal along its axon, the junction where it ends, and the muscle fibre it drives.</p>
+  </div>
+  <ol class="nm-stations">
+  <li class="nm-station nm-at-nucleus">
+    <div class="nm-station-mark"><span class="nm-node" aria-hidden="true"></span><span class="nm-part">Nucleus</span></div>
+    <div class="nm-station-body">
+      <h3><a href="research.html#genetics">Genetics</a></h3>
+      <p>Population datasets such as the UK Biobank show that repeat expansions and risk variants for neuromuscular disease are more common than diagnosed cases suggest. We estimate who carries them and what changes their effect.</p>
+      <a class="nm-station-paper" href="https://doi.org/10.1002/ana.78195"><span>High prevalence of SOD1 pathogenic variants in the UK Biobank</span><em>Ann Neurol · 2026</em></a>
+    </div>
+  </li>
+  <li class="nm-station nm-at-soma">
+    <div class="nm-station-mark"><span class="nm-node" aria-hidden="true"></span><span class="nm-part">Cell body</span></div>
+    <div class="nm-station-body">
+      <h3><a href="research.html#tdp-43-and-rna">TDP-43 and RNA</a></h3>
+      <p>When TDP-43 leaves the nucleus, cells include cryptic exons that switch off genes such as UNC13A and STMN2. With UCL Queen Square we map these events, test them as biomarkers and study splice-correcting therapies.</p>
+      <a class="nm-station-paper" href="https://doi.org/10.1038/s41586-026-11256-2"><span>UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss</span><em>Nature · 2026</em></a>
+    </div>
+  </li>
+  <li class="nm-station nm-at-axon">
+    <div class="nm-station-mark"><span class="nm-node" aria-hidden="true"></span><span class="nm-part">Axon</span></div>
+    <div class="nm-station-body">
+      <h3><a href="research.html#als-biomarkers">ALS biomarkers</a></h3>
+      <p>We combine neurophysiology, MRI and [18F]FDG-PET with fluid markers such as neurofilaments and chitinases to measure upper and lower motor neuron involvement and to predict how ALS will progress.</p>
+      <a class="nm-station-paper" href="https://doi.org/10.1002/acn3.70521"><span>Metabolic and fluid biomarkers support microglia activation in amyotrophic lateral sclerosis</span><em>Ann Clin Transl Neurol · 2026</em></a>
+    </div>
+  </li>
+  <li class="nm-station nm-at-junction">
+    <div class="nm-station-mark"><svg class="nm-endplate" viewBox="0 0 40 28" aria-hidden="true"><circle cx="8" cy="16" r="5"/><circle cx="17" cy="10" r="5"/><circle cx="27" cy="12" r="5"/><circle cx="34" cy="19" r="4"/><circle cx="15" cy="22" r="4"/></svg><span class="nm-part">Junction</span></div>
+    <div class="nm-station-body">
+      <h3><a href="research.html#muscle-and-junction">Muscle and junction</a></h3>
+      <p>Muscle is more than a passive victim of motor neuron loss. In patient biopsies and disease models we study regeneration, innervation and the neuromuscular junction, and develop ELISA assays for new biomarkers.</p>
+      <a class="nm-station-paper" href="https://doi.org/10.1111/bpa.13328"><span>Protective role of angiogenin in muscle regeneration in ALS</span><em>Brain Pathol · 2024</em></a>
+    </div>
+  </li>
+  <li class="nm-station nm-at-fibre">
+    <div class="nm-station-mark"><span class="nm-node" aria-hidden="true"></span><span class="nm-part">Fibre</span></div>
+    <div class="nm-station-body">
+      <h3><a href="research.html#sbma">SBMA</a></h3>
+      <p>We follow people with Kennedy's disease over many years, measure the smallest changes in function that patients notice, and coordinate the clenbuterol trial in SBMA.</p>
+      <a class="nm-station-paper" href="https://doi.org/10.1002/mus.70457"><span>Longitudinal progression of 6-minute walk test-derived fatigability in SBMA</span><em>Muscle Nerve · 2026</em></a>
+    </div>
+  </li>
+  </ol>
+</section>
+
+<section class="nm-wrap nm-people-strip" aria-labelledby="people-title">
+  <div class="nm-people-copy">
+    <h2 id="people-title">Clinicians and scientists, side by side</h2>
+    <p>Neurologists, a neurophysiologist, a neuropsychologist, lab scientists, a biostatistician and the trial team work on the same patients and the same questions.</p>
+    <a class="nm-arrow" href="people.html">Meet the team</a>
+  </div>
+  <ul class="nm-faces">
+    <li><img src="images/team/soraru.jpg" alt="Prof. Gianni Sorarù" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/minicuci.jpg" alt="Dr. Giacomo Maria Minicuci" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/paredi.jpg" alt="Dr. Federica Paredi" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/zanovello.jpg" alt="Dr. Matteo Zanovello" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/cannata.jpg" alt="Dr. Isabella Cannata" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/salmaso.jpg" alt="Serenella Salmaso" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/lazzaretto.jpg" alt="Silvia Lazzaretto" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/girotto.jpg" alt="Edoardo Girotto" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/cavallo.jpg" alt="Francesco Cavallo" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/conforti.jpg" alt="Marta Conforti" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/sabbatini.jpg" alt="Dr. Daniele Sabbatini" width="120" height="150" loading="lazy"></li>
+  </ul>
+</section>
 ```
 
-### The motor neuron
+:::::: {.nm-wrap .nm-home-feeds}
+::: nm-home-col
+## Latest papers
 
-[TDP-43 loss and cryptic splicing]{.nm-line}
+{{< include _publications/home.md >}}
 
-When TDP-43 leaves the nucleus, neurons include cryptic exons that switch off genes such as UNC13A and STMN2. We map these events in patient samples and large RNA-seq datasets, and test them as biomarkers and therapeutic targets.
-
-[Read more](research.qmd)
+[All publications](publications.qmd){.nm-arrow}
 :::
 
-::: nm-card
-```{=html}
-<svg class="nm-icon" viewBox="0 0 44 44" aria-hidden="true"><path d="M 6 4 C 10 14, 16 20, 22 24" fill="none" stroke="#6DB9EA" stroke-width="2.5" stroke-linecap="round"/><circle cx="18" cy="30" r="4" fill="#6DB9EA"/><circle cx="27" cy="28" r="4" fill="#6DB9EA"/><line x1="4" y1="38" x2="40" y2="38" stroke="#78D3A6" stroke-width="5" stroke-linecap="round"/></svg>
-```
-
-### The junction
-
-[Synapses and the immune response]{.nm-line}
-
-Loss of TDP-43 disrupts synaptic function, and its cryptic peptides can be recognised by CD8 T cells. We study both at the neuromuscular junction, in human models and in patients.
-
-[Read more](research.qmd)
-:::
-
-::: nm-card
-```{=html}
-<svg class="nm-icon" viewBox="0 0 44 44" aria-hidden="true"><line x1="6" y1="22" x2="38" y2="22" stroke="#78D3A6" stroke-opacity="0.35" stroke-width="20" stroke-linecap="round"/><line x1="10" y1="22" x2="34" y2="22" stroke="#78D3A6" stroke-width="16" stroke-dasharray="2 5"/></svg>
-```
-
-### The muscle fibre
-
-[SBMA and repeat expansions]{.nm-line}
-
-The AR CAG expansion behind SBMA is more common in the population than once thought. We follow patients over time, define meaningful changes in function, and run clinical trials.
-
-[Read more](research.qmd)
-:::
-::::::
-::::::::
-
-:::: {.nm-wrap .nm-section}
-::: nm-split
-## The lab
-
-Our lab is in the Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova. Our patients are seen at the Motor Neuron Disease Centre of Azienda Ospedale Università Padova, where we also run clinical trials. [Explore the lab](lab.qmd) · [Clinical trials](trials.qmd)
-:::
-::::
-
-::::::::::: {.nm-wrap .nm-section}
-::: nm-split
-## Recent publications
-
-[All publications](publications.qmd)
-:::
-
-::::::::: {style="margin-top: 48px"}
-:::: nm-pubrow
-[2026]{.nm-year}
-
-::: {}
-[Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy](https://link.springer.com/article/10.1007/s00415-026-14032-4) [Zanovello M, et al. *Journal of Neurology*]{.nm-meta}
-:::
-::::
-
-:::: nm-pubrow
-[2026]{.nm-year}
-
-::: {}
-[High prevalence of SOD1 pathogenic variants in the UK Biobank: implications for early intervention in amyotrophic lateral sclerosis](https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.78195) [Gagliardi D, et al. *Annals of Neurology*]{.nm-meta}
-:::
-::::
-
-:::: nm-pubrow
-[2025]{.nm-year}
-
-::: {}
-[TDP-43 pathology induces CD8+ T cell activation through cryptic epitope recognition](https://pmc.ncbi.nlm.nih.gov/articles/PMC12262510/) [Chizari S, Zanovello M, et al. *bioRxiv*]{.nm-meta}
-:::
-::::
-:::::::::
-:::::::::::
-
-::::: {.nm-wrap .nm-section}
-::: nm-split
+:::: nm-home-col
 ## News
 
-[All news](news.qmd)
+::: {#news-home}
 :::
 
-::: {#news-home style="margin-top: 40px"}
-:::
-:::::
-
-:::: nm-band
-::: nm-wrap
-## Get in touch
-
-[gianni.soraru\@unipd.it](mailto:gianni.soraru@unipd.it)
-
-[Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova]{.nm-muted}
-:::
+[All news](news.qmd){.nm-arrow}
 ::::
+::::::
+
+```{=html}
+<section class="nm-joinfield" aria-labelledby="join-title">
+  <div class="nm-wrap nm-join-inner">
+    <h2 id="join-title">Join the lab</h2>
+    <div>
+      <p>We welcome students, residents and postdocs interested in neuromuscular disease, at the bench, in the clinic or with data. Tell us what you would like to work on.</p>
+      <a class="nm-btn nm-btn-ink" href="contact.html#work">Write to us</a>
+    </div>
+  </div>
+</section>
+<nav class="nm-wrap nm-routes" aria-label="Other visitors">
+  <a href="patients.html">For patients and families</a>
+  <a href="pazienti.html" lang="it">Per pazienti e famiglie</a>
+  <a href="trials.html">Clinical trials and sponsors</a>
+</nav>
+```
 
 ::: nm-wrap
 [Keep scrolling to discover our research](research.qmd){.nm-next}
