@@ -1,0 +1,89 @@
+---
+pagetitle: "Per pazienti e famiglie · NeuroMuscle Lab"
+description: "Come essere visitati presso il Centro Malattie del Motoneurone di Padova e come partecipare alle sperimentazioni cliniche per SLA e SBMA."
+page-layout: custom
+lang: it
+---
+
+::: nm-wrap
+
+::: nm-pagehead
+# Per pazienti e famiglie
+
+Come essere visitati nel nostro ambulatorio e come partecipare alla ricerca.
+:::
+
+[English](patients.qmd){.nm-lang hreflang="en" lang="en"}
+
+::: nm-topic
+::: {}
+[01]{.nm-num}
+
+## Il nostro ambulatorio
+:::
+
+::: {}
+Seguiamo persone con sclerosi laterale amiotrofica (SLA), atrofia muscolare spinale e bulbare (SBMA, o malattia di Kennedy) e altre malattie del motoneurone presso il **Centro Malattie del Motoneurone** – Centro per la diagnosi, l'assistenza e la ricerca nella sclerosi laterale amiotrofica e le altre malattie di motoneuroni, Azienda Ospedale Università Padova, Via Nicolò Giustiniani 2, Padova.
+
+Neurologi, un neurofisiologo, una neuropsicologa e una case manager seguono ogni persona nel tempo, insieme agli altri specialisti dell'ospedale.
+:::
+:::
+
+::: nm-topic
+::: {}
+[02]{.nm-num}
+
+## Come accedere
+:::
+
+::: {}
+1. **Parli con il suo medico.** Il medico di medicina generale o il neurologo curante può richiedere una visita neurologica presso il nostro ambulatorio.
+2. **Contatti il centro.** Scriva a [centro.motoneurone@aopd.veneto.it](mailto:centro.motoneurone@aopd.veneto.it) o telefoni al [334 931 1619](tel:+393349311619), dal lunedì al venerdì, dalle 11:00 alle 12:00.
+3. **Porti la documentazione.** Referti neurologici precedenti, elettromiografia/studi di conduzione nervosa, risonanze magnetiche, esami del sangue, eventuali test genetici e l'elenco dei farmaci che assume.
+
+Se è già seguito nel nostro ambulatorio, per appuntamenti e domande pratiche la nostra case manager, Serenella Salmaso, risponde alla stessa email e allo stesso numero.
+:::
+:::
+
+::: nm-topic
+::: {}
+[03]{.nm-num}
+
+## Partecipare a una sperimentazione clinica
+:::
+
+::: {}
+Le sperimentazioni cliniche verificano se nuovi trattamenti sono sicuri ed efficaci. Ogni studio ha i propri criteri (per esempio la diagnosi, lo stadio di malattia o i risultati genetici), quindi non tutti possono partecipare a ogni studio. La partecipazione è sempre volontaria e si può interrompere in qualsiasi momento, senza conseguenze sulle cure.
+
+
+::: nm-bulletwrap
+- Veda le [sperimentazioni in corso o concluse](trials.qmd) (pagina in inglese).
+- Chieda al suo neurologo, alla prossima visita, se uno studio può fare al caso suo, oppure scriva all'email del centro chiedendo della nostra trial manager, Silvia Lazzaretto.
+- I registri pubblici elencano gli studi in tutto il mondo: [ClinicalTrials.gov](https://clinicaltrials.gov) e il [portale europeo delle sperimentazioni cliniche](https://euclinicaltrials.eu).
+:::
+:::
+:::
+
+::: nm-topic
+::: {}
+[04]{.nm-num}
+
+## Ricerca senza sperimentazione
+:::
+
+::: {}
+Molti studi utilizzano solo informazioni già raccolte durante le visite, o un campione di sangue prelevato nella stessa occasione. Chiediamo sempre prima il suo consenso scritto, e può rifiutare senza alcuna conseguenza sulle cure.
+:::
+:::
+
+::: {.nm-join .nm-notice}
+::: {}
+## Nota
+
+Questo sito non fornisce consulenze mediche. Non invii documentazione clinica o dati sanitari tramite il modulo di contatto. In caso di emergenza chiami il 112.
+:::
+:::
+
+[Continui a scorrere per contattarci](contact.qmd){.nm-next}
+
+:::

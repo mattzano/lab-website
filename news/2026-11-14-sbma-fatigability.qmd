@@ -1,0 +1,14 @@
+---
+title: "How fatigability progresses in SBMA"
+date: 2026-11-14
+description: "Our study in Muscle & Nerve follows six-minute walk test fatigability in 168 people with SBMA over time."
+categories: [Paper, SBMA]
+---
+
+Fatigue is one of the most disabling symptoms of spinal and bulbar muscular atrophy (SBMA), but fatigability, the drop in performance during sustained activity, had never been followed over time.
+
+In a retrospective study of 168 people with SBMA (703 visits), we measured fatigability as the decline in distance walked between the first and the sixth minute of the six-minute walk test. Almost half of the patients were fatigable at baseline, and fatigability was linked to lower-limb and trunk function and to walking distance.
+
+**Paper:** Zanovello M, Sabbatini D, Paredi F, et al. Longitudinal progression of 6-minute walk test-derived fatigability in spinal and bulbar muscular atrophy: a retrospective study. *Muscle & Nerve*, 2026. [doi:10.1002/mus.70457](https://doi.org/10.1002/mus.70457)
+
+[Back to news](../news.qmd)

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://neuromusclelab.org/index.html</loc>
-    <lastmod>2026-09-28T15:06:16.594Z</lastmod>
+    <lastmod>2026-11-22T17:52:00.275Z</lastmod>
   </url>
   <url>
     <loc>https://neuromusclelab.org/privacy.html</loc>
@@ -10,22 +10,54 @@
   </url>
   <url>
     <loc>https://neuromusclelab.org/people.html</loc>
-    <lastmod>2026-09-28T14:44:39.123Z</lastmod>
+    <lastmod>2026-11-22T17:44:24.444Z</lastmod>
   </url>
   <url>
     <loc>https://neuromusclelab.org/research.html</loc>
-    <lastmod>2026-09-28T14:16:24.869Z</lastmod>
+    <lastmod>2026-11-22T17:35:43.722Z</lastmod>
   </url>
   <url>
     <loc>https://neuromusclelab.org/lab.html</loc>
-    <lastmod>2026-09-28T14:16:25.496Z</lastmod>
+    <lastmod>2026-11-22T17:44:25.026Z</lastmod>
   </url>
   <url>
     <loc>https://neuromusclelab.org/contact.html</loc>
-    <lastmod>2026-09-28T14:16:25.189Z</lastmod>
+    <lastmod>2026-11-22T17:48:04.268Z</lastmod>
   </url>
   <url>
     <loc>https://neuromusclelab.org/publications.html</loc>
-    <lastmod>2026-08-09T17:10:58.841Z</lastmod>
+    <lastmod>2026-11-22T17:35:43.434Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuromusclelab.org/pazienti.html</loc>
+    <lastmod>2026-11-22T17:48:04.641Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuromusclelab.org/news/2026-11-14-sbma-fatigability.html</loc>
+    <lastmod>2026-11-22T17:35:41.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuromusclelab.org/news/2026-09-26-skeletal-muscle-in-als.html</loc>
+    <lastmod>2026-11-22T17:35:40.993Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuromusclelab.org/news.html</loc>
+    <lastmod>2026-11-22T17:35:41.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuromusclelab.org/trials.html</loc>
+    <lastmod>2026-11-22T17:44:25.388Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuromusclelab.org/news/2026-07-31-sbma-mcid.html</loc>
+    <lastmod>2026-11-22T17:35:40.667Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuromusclelab.org/news/2026-11-11-unc13a-nature.html</loc>
+    <lastmod>2026-11-22T17:35:41.266Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuromusclelab.org/patients.html</loc>
+    <lastmod>2026-11-22T17:44:25.970Z</lastmod>
   </url>
 </urlset>

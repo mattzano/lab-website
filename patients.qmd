@@ -1,0 +1,89 @@
+---
+pagetitle: "For patients · NeuroMuscle Lab"
+description: "How to be seen at the Motor Neuron Disease Centre in Padova and how to take part in clinical trials for ALS and SBMA."
+page-layout: custom
+lang: en
+---
+
+::: nm-wrap
+
+::: nm-pagehead
+# For patients and families
+
+How to be seen at our clinic, and how to take part in research.
+:::
+
+[Italiano](pazienti.qmd){.nm-lang hreflang="it" lang="it"}
+
+::: nm-topic
+::: {}
+[01]{.nm-num}
+
+## Our clinic
+:::
+
+::: {}
+We see people with amyotrophic lateral sclerosis (ALS), spinal and bulbar muscular atrophy (SBMA, also called Kennedy's disease) and other motor neuron diseases at the **Motor Neuron Disease Centre** (*Centro Malattie del Motoneurone*), Azienda Ospedale Università Padova, Via Nicolò Giustiniani 2, Padova. The centre provides diagnosis, care and research for ALS and the other motor neuron diseases.
+
+Neurologists, a neurophysiologist, a neuropsychologist and a case manager follow each person over time, together with the hospital's other specialists.
+:::
+:::
+
+::: nm-topic
+::: {}
+[02]{.nm-num}
+
+## How to be referred
+:::
+
+::: {}
+1. **Ask your doctor.** Your GP or your neurologist can refer you for a neurological visit at our clinic.
+2. **Contact the centre.** Email [centro.motoneurone@aopd.veneto.it](mailto:centro.motoneurone@aopd.veneto.it) or call [334 931 1619](tel:+393349311619), Monday to Friday, 11:00–12:00.
+3. **Bring your records.** Previous neurological reports, EMG/nerve conduction studies, MRI scans, blood tests, any genetic test results, and a list of the medicines you take.
+
+If you are already followed at our clinic, our case manager, Serenella Salmaso, can help with appointments and practical questions through the same email and phone line.
+:::
+:::
+
+::: nm-topic
+::: {}
+[03]{.nm-num}
+
+## Taking part in a clinical trial
+:::
+
+::: {}
+Clinical trials test whether new treatments are safe and effective. Each trial has its own criteria (for example diagnosis, disease stage or genetic results), so not everyone can join every trial. Taking part is always voluntary, and you can stop at any time without it affecting your care.
+
+
+::: nm-bulletwrap
+- See the [trials we run or have run](trials.qmd).
+- Ask your neurologist at your next visit whether a trial could suit you, or write to the centre's email address and ask for our trial manager, Silvia Lazzaretto.
+- Public registries list trials worldwide: [ClinicalTrials.gov](https://clinicaltrials.gov) and the [EU Clinical Trials portal](https://euclinicaltrials.eu).
+:::
+:::
+:::
+
+::: nm-topic
+::: {}
+[04]{.nm-num}
+
+## Research without a trial
+:::
+
+::: {}
+Many studies only need information you already give during your visits, or a blood sample taken at the same time. We always ask for your written consent first, and you can say no without any effect on your care.
+:::
+:::
+
+::: {.nm-join .nm-notice}
+::: {}
+## Please note
+
+This website cannot give medical advice. Do not send medical records or personal health information through the contact form. In an emergency, call 112.
+:::
+:::
+
+[Keep scrolling to get in touch](contact.qmd){.nm-next}
+
+:::

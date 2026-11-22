@@ -36,7 +36,7 @@ page-layout: custom
 ::: nm-card
 [Clinic]{.nm-kicker}
 
-**Motor Neuron Disease Clinic**
+**Motor Neuron Disease Centre**
 
 [Azienda Ospedale Università Padova, Via Nicolò Giustiniani 2, Padova]{.nm-muted}
 
@@ -57,9 +57,11 @@ We welcome students, residents and postdocs interested in neuromuscular disease.
 
 ::: nm-card
 ```{=html}
-<!-- The form posts to Formspree (https://formspree.io). Create a free form there for
-     gianni.soraru@unipd.it and replace YOUR_FORM_ID below with the ID it gives you. -->
+<!-- The form posts to Formspree. Create it from this claim link (sign in, then copy the /f/ ID):
+     https://formspree.io/claim?name=NeuroMuscle+Lab+-+Work+with+us&project=NeuroMuscle+Lab&field.name=text,required,maxlength:100&field.surname=text,required,maxlength:100&field.email=email,required&field.phone=text,maxlength:40&field.message=text,required,maxlength:5000&field.privacy_consent=text,required
+     and replace YOUR_FORM_ID below. Set the notification email in Formspree's form settings. -->
 <form class="nm-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
   <input type="hidden" name="_subject" value="Work with us: new request from neuromusclelab.org">
   <div class="nm-row">
     <div><label for="f-name">Name *</label><input class="form-control" id="f-name" name="name" type="text" autocomplete="given-name" required></div>

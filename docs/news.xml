@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>NeuroMuscle Lab</title>
+<link>https://neuromusclelab.org/news.html</link>
+<atom:link href="https://neuromusclelab.org/news.xml" rel="self" type="application/rss+xml"/>
+<description>News, papers and events from the NeuroMuscle Lab in Padova.</description>
+<image>
+<url>https://neuromusclelab.org/images/social-card.png</url>
+<title>NeuroMuscle Lab</title>
+<link>https://neuromusclelab.org/news.html</link>
+<height>76</height>
+<width>144</width>
+</image>
+<generator>quarto-1.10.19</generator>
+<lastBuildDate>Fri, 13 Nov 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>How fatigability progresses in SBMA</title>
+  <link>https://neuromusclelab.org/news/2026-11-14-sbma-fatigability.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Fatigue is one of the most disabling symptoms of spinal and bulbar muscular atrophy (SBMA), but fatigability, the drop in performance during sustained activity, had never been followed over time.</p>
+<p>In a retrospective study of 168 people with SBMA (703 visits), we measured fatigability as the decline in distance walked between the first and the sixth minute of the six-minute walk test. Almost half of the patients were fatigable at baseline, and fatigability was linked to lower-limb and trunk function and to walking distance.</p>
+<p><strong>Paper:</strong> Zanovello M, Sabbatini D, Paredi F, et al.&nbsp;Longitudinal progression of 6-minute walk test-derived fatigability in spinal and bulbar muscular atrophy: a retrospective study. <em>Muscle &amp; Nerve</em>, 2026. <a href="https://doi.org/10.1002/mus.70457">doi:10.1002/mus.70457</a></p>
+<p><a href="../news.html">Back to news</a></p>
+
+
+
+ ]]></description>
+  <category>Paper</category>
+  <category>SBMA</category>
+  <guid>https://neuromusclelab.org/news/2026-11-14-sbma-fatigability.html</guid>
+  <pubDate>Fri, 13 Nov 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Correcting UNC13A splicing rescues synapses after TDP-43 loss</title>
+  <link>https://neuromusclelab.org/news/2026-11-11-unc13a-nature.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Loss of TDP-43 from the nucleus is the hallmark of almost all cases of ALS and of about half of frontotemporal dementia. It causes cryptic splicing in hundreds of RNAs, but whether it affects how neurons talk to each other was unclear.</p>
+<p>This study, led by Pietro Fratta’s group at UCL with our contribution, shows that TDP-43 loss leaves neurons structurally intact but breaks down synaptic communication. Correcting one cryptic splicing event, in UNC13A, was enough to rescue it. Splice-switching antisense oligonucleotides corrected UNC13A in human cortical and spinal motor neurons and in a humanised mouse model, restoring synaptic vesicle release and network synchrony.</p>
+<p><strong>Paper:</strong> Keuss MJ, Harley P, Ryadnov E, et al.&nbsp;UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss. <em>Nature</em>, 2026. <a href="https://doi.org/10.1038/s41586-026-11256-2">doi:10.1038/s41586-026-11256-2</a></p>
+<p><a href="../news.html">Back to news</a></p>
+
+
+
+ ]]></description>
+  <category>Paper</category>
+  <category>ALS</category>
+  <category>TDP-43</category>
+  <guid>https://neuromusclelab.org/news/2026-11-11-unc13a-nature.html</guid>
+  <pubDate>Tue, 10 Nov 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Skeletal Muscle in ALS: an international conference in Padova</title>
+  <link>https://neuromusclelab.org/news/2026-09-26-skeletal-muscle-in-als.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><strong>Skeletal Muscle in ALS: Mechanisms, Biomarkers, and Therapeutic Perspectives</strong> brought together clinicians and scientists at Hotel Mantegna, Padova, on 25–26 September 2026.</p>
+<p>Four sessions covered muscle pathology, models and omics; muscle and neuromuscular junction physiology in ALS; muscle biomarkers; and therapies that target skeletal muscle. Keynote lectures were given by Marco Sandri (University of Padova, VIMM) and Pietro Fratta (UCL), and selected posters were presented as short talks.</p>
+<p>The conference was organised by Gianni Sorarù, Maria Pennuto, Manuela Basso and Matteo Zanovello, sponsored by ASLA, with the patronage of the University of Padova and Azienda Ospedale Università Padova.</p>
+<p><a href="https://sites.google.com/view/muscle-als-conference/home">Conference website</a> · <a href="../news.html">Back to news</a></p>
+
+
+
+ ]]></description>
+  <category>Event</category>
+  <category>ALS</category>
+  <category>Muscle</category>
+  <guid>https://neuromusclelab.org/news/2026-09-26-skeletal-muscle-in-als.html</guid>
+  <pubDate>Fri, 25 Sep 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What counts as a meaningful change in SBMA?</title>
+  <link>https://neuromusclelab.org/news/2026-07-31-sbma-mcid.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>To read the results of a clinical trial, we need to know how much change in a score matters to patients. For spinal and bulbar muscular atrophy (SBMA) this was not known.</p>
+<p>We asked people with SBMA how they felt they had changed between visits and compared their answers with the SBMA Functional Rating Scale, its lower-limb and trunk subscale and the six-minute walk test. The study gives the first patient-anchored estimates of the minimal clinically important difference for these measures, supports the use of the subscale, and offers thresholds for responder definitions and sample-size calculations in future SBMA trials.</p>
+<p><strong>Paper:</strong> Zanovello M, Sabbatini D, Paredi F, et al.&nbsp;Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy. <em>Journal of Neurology</em>, 2026. <a href="https://doi.org/10.1007/s00415-026-14032-4">doi:10.1007/s00415-026-14032-4</a></p>
+<p><a href="../news.html">Back to news</a></p>
+
+
+
+ ]]></description>
+  <category>Paper</category>
+  <category>SBMA</category>
+  <guid>https://neuromusclelab.org/news/2026-07-31-sbma-mcid.html</guid>
+  <pubDate>Thu, 30 Jul 2026 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

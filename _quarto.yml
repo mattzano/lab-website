@@ -6,7 +6,12 @@ project:
     - research.qmd
     - lab.qmd
     - people.qmd
+    - trials.qmd
     - publications.qmd
+    - news.qmd
+    - news/*.qmd
+    - patients.qmd
+    - pazienti.qmd
     - contact.qmd
     - privacy.qmd
   resources:
@@ -18,9 +23,20 @@ website:
   site-url: https://neuromusclelab.org
   description: "NeuroMuscle Lab, Università degli Studi di Padova: from motor neuron to muscle fibre."
   favicon: images/mark.svg
+  image: images/social-card.png
+  open-graph:
+    locale: en_GB
+    site-name: "NeuroMuscle Lab"
+    image-width: 1200
+    image-height: 630
+  twitter-card:
+    card-style: summary_large_image
+    image-width: 1200
+    image-height: 630
   search: false
   page-navigation: false
   navbar:
+    collapse-below: xl
     logo: images/mark.svg
     logo-alt: "NeuroMuscle Lab"
     title: "NeuroMuscle Lab"
@@ -29,10 +45,16 @@ website:
         text: Research
       - href: lab.qmd
         text: Lab
+      - href: trials.qmd
+        text: Trials
       - href: people.qmd
         text: Team
       - href: publications.qmd
         text: Publications
+      - href: news.qmd
+        text: News
+      - href: patients.qmd
+        text: Patients
       - href: contact.qmd
         text: Get in touch
 

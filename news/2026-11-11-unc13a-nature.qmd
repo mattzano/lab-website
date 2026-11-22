@@ -1,0 +1,14 @@
+---
+title: "Correcting UNC13A splicing rescues synapses after TDP-43 loss"
+date: 2026-11-11
+description: "A Nature paper with UCL colleagues shows that fixing a single cryptic splicing event in UNC13A restores synaptic function in human neurons."
+categories: [Paper, ALS, TDP-43]
+---
+
+Loss of TDP-43 from the nucleus is the hallmark of almost all cases of ALS and of about half of frontotemporal dementia. It causes cryptic splicing in hundreds of RNAs, but whether it affects how neurons talk to each other was unclear.
+
+This study, led by Pietro Fratta's group at UCL with our contribution, shows that TDP-43 loss leaves neurons structurally intact but breaks down synaptic communication. Correcting one cryptic splicing event, in UNC13A, was enough to rescue it. Splice-switching antisense oligonucleotides corrected UNC13A in human cortical and spinal motor neurons and in a humanised mouse model, restoring synaptic vesicle release and network synchrony.
+
+**Paper:** Keuss MJ, Harley P, Ryadnov E, et al. UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss. *Nature*, 2026. [doi:10.1038/s41586-026-11256-2](https://doi.org/10.1038/s41586-026-11256-2)
+
+[Back to news](../news.qmd)

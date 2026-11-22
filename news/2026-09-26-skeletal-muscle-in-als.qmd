@@ -1,0 +1,14 @@
+---
+title: "Skeletal Muscle in ALS: an international conference in Padova"
+date: 2026-09-26
+description: "On 25–26 September 2026 we co-organised a two-day international meeting on the role of skeletal muscle in ALS."
+categories: [Event, ALS, Muscle]
+---
+
+**Skeletal Muscle in ALS: Mechanisms, Biomarkers, and Therapeutic Perspectives** brought together clinicians and scientists at Hotel Mantegna, Padova, on 25–26 September 2026.
+
+Four sessions covered muscle pathology, models and omics; muscle and neuromuscular junction physiology in ALS; muscle biomarkers; and therapies that target skeletal muscle. Keynote lectures were given by Marco Sandri (University of Padova, VIMM) and Pietro Fratta (UCL), and selected posters were presented as short talks.
+
+The conference was organised by Gianni Sorarù, Maria Pennuto, Manuela Basso and Matteo Zanovello, sponsored by ASLA, with the patronage of the University of Padova and Azienda Ospedale Università Padova.
+
+[Conference website](https://sites.google.com/view/muscle-als-conference/home) · [Back to news](../news.qmd)

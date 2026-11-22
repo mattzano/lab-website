@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/2026-11-14-sbma-fatigability.html",
+      "/news/2026-11-11-unc13a-nature.html",
+      "/news/2026-09-26-skeletal-muscle-in-als.html",
+      "/news/2026-07-31-sbma-mcid.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2026-11-14-sbma-fatigability.html",
+      "/news/2026-11-11-unc13a-nature.html",
+      "/news/2026-09-26-skeletal-muscle-in-als.html",
+      "/news/2026-07-31-sbma-mcid.html"
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+---
+pagetitle: "Clinical trials · NeuroMuscle Lab"
+description: "Phase 2 and 3 clinical trials in ALS and SBMA at the Motor Neuron Disease Centre, Azienda Ospedale Università Padova, with on-site trial facilities."
+page-layout: custom
+---
+
+<!-- Source: "TRICALS / WEBSITE" doc (Drive). Update numbers here when recruitment changes. -->
+
+::: nm-wrap
+
+::: nm-pagehead
+# Clinical trials
+
+We run phase 2 and 3 trials in ALS and spinal and bulbar muscular atrophy (SBMA, Kennedy's disease) at the Motor Neuron Disease Centre of Azienda Ospedale Università Padova, and coordinate the clenbuterol trial in SBMA.
+:::
+
+::: nm-trial-year
+## 2026
+
+::: nm-trials
+::: nm-trial
+[ALS · Phase 3]{.nm-trial-tag}
+
+### PREVAILS
+
+A randomised, double-blind, placebo-controlled study of the efficacy and safety of pridopidine in people with amyotrophic lateral sclerosis.
+
+[Expected to randomise: **10**]{.nm-trial-stats}
+:::
+:::
+:::
+
+::: nm-trial-year
+## 2025
+
+::: nm-trials
+::: nm-trial
+[ALS · Phase 2/3]{.nm-trial-tag}
+
+### ALCALS (acetyl-carnitine)
+
+A randomised study of the biological and clinical effects of acetyl-carnitine in people with amyotrophic lateral sclerosis.
+
+[Patients in the study: **3** · Expected to randomise: **10**]{.nm-trial-stats}
+:::
+:::
+:::
+
+::: nm-trial-year
+## 2023
+
+::: nm-trials
+::: {.nm-trial .nm-trial-lead}
+[SBMA · Coordinating centre]{.nm-trial-tag}
+
+### Clenbuterol in SBMA
+
+A placebo-controlled study of the efficacy and safety of clenbuterol in people with spinal and bulbar muscular atrophy. Our centre coordinates the trial.
+
+[Completed: **27** · Still in the study: **3**]{.nm-trial-stats}
+:::
+
+::: nm-trial
+[SBMA · Phase 2]{.nm-trial-tag}
+
+### NIDO 361-002
+
+A randomised, double-blind, placebo-controlled study of NIDO-361 in people with spinal and bulbar muscular atrophy (Kennedy's disease).
+
+[Completed: **5**]{.nm-trial-stats}
+:::
+
+::: nm-trial
+[ALS · Phase 3b · Open-label extension]{.nm-trial-tag}
+
+### PHOENIX-OLE (A35-011)
+
+An open-label extension of PHOENIX on the safety and tolerability of AMX0035 (sodium phenylbutyrate and taurursodiol) for up to 108 weeks.
+
+[Randomised: **6** · Completed: **5**]{.nm-trial-stats}
+:::
+
+::: nm-trial
+[ALS · Phase 3 · Open-label extension · Suspended by the sponsor, January 2024]{.nm-trial-tag}
+
+### ADOREXT (FAB122-CT-2201)
+
+A multinational open-label extension on the long-term safety of oral FAB122 (edaravone) 100 mg once daily for people previously enrolled in ADORE.
+
+[Randomised: **3** · Completed: **3**]{.nm-trial-stats}
+:::
+:::
+:::
+
+::: nm-trial-year
+## 2022
+
+::: nm-trials
+::: nm-trial
+[ALS · Phase 3]{.nm-trial-tag}
+
+### ADORE (FAB122-CT-2001)
+
+ALS Deceleration with ORal Edaravone: a multicentre, randomised, double-blind, placebo-controlled study of oral FAB122 once daily.
+
+[Randomised: **6** · Completed: **3**]{.nm-trial-stats}
+:::
+
+::: nm-trial
+[ALS · Phase 3]{.nm-trial-tag}
+
+### PHOENIX (A35-004)
+
+A multicentre, randomised, double-blind, placebo-controlled study of AMX0035 (sodium phenylbutyrate and taurursodiol) for 48 weeks.
+
+[Randomised: **10** · Completed: **8**]{.nm-trial-stats}
+:::
+
+::: nm-trial
+[ALS · Phase 3]{.nm-trial-tag}
+
+### Masitinib (AB19001)
+
+A multicentre, randomised, double-blind, placebo-controlled, parallel-group study of masitinib with riluzole versus placebo with riluzole.
+
+[Randomised: **3** · Completed: **1**]{.nm-trial-stats}
+:::
+:::
+:::
+
+::: {.nm-section .nm-facilities}
+## Trial facilities
+
+::: nm-grid-2
+::: nm-card
+### Clinical areas
+
+- 2 rooms for examination and for blood and biological sample collection
+- 1 room, with a bed, for administering investigational products
+- 1 waiting area, also used for post-dose monitoring and safety assessments
+- Rooms and waiting areas close to emergency medical services
+:::
+
+::: nm-card
+### Laboratory
+
+- On-site certified external laboratory for routine and protocol-required analyses
+- 2 centrifuges and biosafety cabinets
+- −20 °C and −80 °C freezers for biological samples
+- Biobanking for long-term sample storage, on request
+- Equipment calibration programme
+- Access to an Electronic Data Capture (EDC) system
+:::
+:::
+:::
+
+::: nm-join
+::: {}
+## For sponsors and patients
+
+Sponsors and investigators can reach our trial team through the contact page. If you live with ALS or SBMA and want to know about trials, see the patients page.
+:::
+
+::: nm-actions
+[Contact the trial team](contact.qmd){.nm-btn .nm-btn-muscle}
+[For patients](patients.qmd){.nm-btn .nm-btn-ghost}
+:::
+:::
+
+[Keep scrolling to meet the team](people.qmd){.nm-next}
+
+:::

@@ -1,0 +1,314 @@
+{
+  "_help": "Lab members whose papers feed the Publications page. Order = order on the page. pubmed_query: PubMed search for the person; last_names/first_names/affiliations: checks applied to each paper's author list so homonyms are dropped (affiliations is matched against that author's own affiliation; leave it empty for rare surnames). key_pmids: pin specific papers as 'key' (otherwise the script picks them). exclude_pmids: papers to hide for that person. photo: image under images/team/ (or omit to show initials).",
+  "settings": {
+    "latest_count": 12,
+    "key_years": 5,
+    "key_count": 5,
+    "key_exclude_types": [
+      "Letter",
+      "Case Reports"
+    ],
+    "exclude_types": [
+      "Published Erratum",
+      "Retraction of Publication",
+      "Retracted Publication",
+      "Comment",
+      "Editorial",
+      "News"
+    ],
+    "contact_email": "",
+    "ncbi_api_key": ""
+  },
+  "members": [
+    {
+      "id": "soraru",
+      "name": "Prof. Gianni Sorarù",
+      "short": "Sorarù G",
+      "role": "Associate Professor of Neurology",
+      "photo": "images/team/soraru.jpg",
+      "pubmed_query": "Soraru G[Author]",
+      "last_names": [
+        "Sorarù",
+        "Soraru",
+        "Soraru'"
+      ],
+      "first_names": [
+        "Gianni",
+        "Giovanni"
+      ],
+      "initials": "G",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "minicuci",
+      "name": "Dr. Giacomo Maria Minicuci",
+      "short": "Minicuci GM",
+      "role": "Neurologist, Neurophysiologist",
+      "photo": "images/team/minicuci.jpg",
+      "pubmed_query": "Minicuci GM[Author]",
+      "last_names": [
+        "Minicuci"
+      ],
+      "first_names": [
+        "Giacomo"
+      ],
+      "initials": "GM",
+      "affiliations": [],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "paredi",
+      "name": "Dr. Federica Paredi",
+      "short": "Paredi F",
+      "role": "Neurology Resident",
+      "photo": "images/team/paredi.jpg",
+      "pubmed_query": "Paredi F[Author]",
+      "last_names": [
+        "Paredi"
+      ],
+      "first_names": [
+        "Federica"
+      ],
+      "initials": "F",
+      "affiliations": [],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "zanovello",
+      "name": "Dr. Matteo Zanovello",
+      "short": "Zanovello M",
+      "role": "Neurology Resident",
+      "photo": "images/team/zanovello.jpg",
+      "pubmed_query": "Zanovello M[Author]",
+      "last_names": [
+        "Zanovello"
+      ],
+      "first_names": [
+        "Matteo"
+      ],
+      "initials": "M",
+      "affiliations": [],
+      "key_pmids": [],
+      "exclude_pmids": [
+        "35775797"
+      ]
+    },
+    {
+      "id": "cannata",
+      "name": "Dr. Isabella Cannata",
+      "short": "Cannata I",
+      "role": "Clinical Research Fellow",
+      "photo": "images/team/cannata.jpg",
+      "pubmed_query": "Cannata I[Author]",
+      "last_names": [
+        "Cannata"
+      ],
+      "first_names": [
+        "Isabella"
+      ],
+      "initials": "I",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "vianello",
+      "name": "Dr. Sara Vianello",
+      "short": "Vianello S",
+      "role": "Senior Lab Technician",
+      "photo": "",
+      "pubmed_query": "Vianello S[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Vianello"
+      ],
+      "first_names": [
+        "Sara"
+      ],
+      "initials": "S",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "girotto",
+      "name": "Edoardo Girotto",
+      "short": "Girotto E",
+      "role": "PhD Student",
+      "photo": "images/team/girotto.jpg",
+      "pubmed_query": "Girotto E[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Girotto"
+      ],
+      "first_names": [
+        "Edoardo"
+      ],
+      "initials": "E",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "cavallo",
+      "name": "Francesco Cavallo",
+      "short": "Cavallo F",
+      "role": "Research Assistant",
+      "photo": "images/team/cavallo.jpg",
+      "pubmed_query": "Cavallo F[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Cavallo"
+      ],
+      "first_names": [
+        "Francesco"
+      ],
+      "initials": "F",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "conforti",
+      "name": "Marta Conforti",
+      "short": "Conforti M",
+      "role": "Research Assistant",
+      "photo": "images/team/conforti.jpg",
+      "pubmed_query": "Conforti M[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Conforti"
+      ],
+      "first_names": [
+        "Marta"
+      ],
+      "initials": "M",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "marcato",
+      "name": "Sonia Marcato",
+      "short": "Marcato S",
+      "role": "Neuropsychologist",
+      "photo": "",
+      "pubmed_query": "Marcato S[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Marcato"
+      ],
+      "first_names": [
+        "Sonia"
+      ],
+      "initials": "S",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "sabbatini",
+      "name": "Dr. Daniele Sabbatini",
+      "short": "Sabbatini D",
+      "role": "Biostatistician",
+      "photo": "images/team/sabbatini.jpg",
+      "pubmed_query": "Sabbatini D[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Sabbatini"
+      ],
+      "first_names": [
+        "Daniele"
+      ],
+      "initials": "D",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "salmaso",
+      "name": "Serenella Salmaso",
+      "short": "Salmaso S",
+      "role": "Case Manager",
+      "photo": "images/team/salmaso.jpg",
+      "pubmed_query": "Salmaso S[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Salmaso"
+      ],
+      "first_names": [
+        "Serenella"
+      ],
+      "initials": "S",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "lazzaretto",
+      "name": "Silvia Lazzaretto",
+      "short": "Lazzaretto S",
+      "role": "Trial Manager",
+      "photo": "images/team/lazzaretto.jpg",
+      "pubmed_query": "Lazzaretto S[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Lazzaretto"
+      ],
+      "first_names": [
+        "Silvia"
+      ],
+      "initials": "S",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "pegoraro",
+      "name": "Prof. Elena Pegoraro",
+      "short": "Pegoraro E",
+      "role": "Head of Neuromuscular Laboratory",
+      "photo": "",
+      "pubmed_query": "Pegoraro E[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Pegoraro"
+      ],
+      "first_names": [
+        "Elena"
+      ],
+      "initials": "E",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    }
+  ]
+}

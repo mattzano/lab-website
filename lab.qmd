@@ -8,11 +8,7 @@ page-layout: custom
 ::: nm-pagehead
 # The lab
 
-Our lab is in the Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova. Our patients are seen at the Motor Neuron Disease Clinic of Azienda Ospedale Università Padova, and samples and data move between the two.
-:::
-
-::: {.nm-photo-panel style="min-height: clamp(260px, 38vw, 560px)"}
-<!-- Replace with a wide lab photo or short video loop -->
+Our lab is in the Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova. Our patients are seen at the Motor Neuron Disease Centre of Azienda Ospedale Università Padova, and samples and data move between the two.
 :::
 
 ::: {.nm-grid-3 .nm-section}
@@ -35,15 +31,6 @@ We work with patient biofluids and muscle tissue, develop ELISA assays for new b
 We analyse large RNA-seq and genomic datasets with reproducible pipelines in R and bash, from transcript-level splicing to repeat expansions across whole populations.
 :::
 
-:::
-
-::: {.nm-grid-2 .nm-section}
-::: {.nm-photo-panel style="min-height: 380px"}
-<!-- Photo: bench work -->
-:::
-::: {.nm-photo-panel style="min-height: 380px"}
-<!-- Photo: clinic or team -->
-:::
 :::
 
 ::: nm-section
@@ -77,6 +64,6 @@ We analyse large RNA-seq and genomic datasets with reproducible pipelines in R a
 :::
 :::
 
-[Keep scrolling to meet the team](people.qmd){.nm-next}
+[Keep scrolling to our clinical trials](trials.qmd){.nm-next}
 
 :::

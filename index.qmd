@@ -1,6 +1,13 @@
 ---
 pagetitle: "NeuroMuscle Lab"
 page-layout: custom
+listing:
+  id: news-home
+  contents: news/*.qmd
+  sort: "date desc"
+  max-items: 3
+  template: theme/news.ejs
+  date-format: "D MMMM YYYY"
 ---
 
 ::: {.nm-wrap .nm-hero}
@@ -96,21 +103,13 @@ The AR CAG expansion behind SBMA is more common in the population than once thou
 ::::::
 ::::::::
 
-:::::: {.nm-wrap .nm-section}
-::::: nm-grid-2
-::: nm-photo-panel
-<!-- Replace this panel with a lab photo, e.g. ![](images/lab.jpg){fig-alt="The lab"} -->
-:::
-
-::: {.nm-lab-teaser style="padding-top: 24px"}
+:::: {.nm-wrap .nm-section}
+::: nm-split
 ## The lab
 
-Our lab is in the Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova. Our patients are seen at the Motor Neuron Disease Clinic of Azienda Ospedale Università Padova.
-
-[Explore the lab](lab.qmd)
+Our lab is in the Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova. Our patients are seen at the Motor Neuron Disease Centre of Azienda Ospedale Università Padova, where we also run clinical trials. [Explore the lab](lab.qmd) · [Clinical trials](trials.qmd)
 :::
-:::::
-::::::
+::::
 
 ::::::::::: {.nm-wrap .nm-section}
 ::: nm-split
@@ -123,34 +122,39 @@ Our lab is in the Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova. Our pati
 :::: nm-pubrow
 [2026]{.nm-year}
 
-<div>
-
+::: {}
 [Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy](https://link.springer.com/article/10.1007/s00415-026-14032-4) [Zanovello M, et al. *Journal of Neurology*]{.nm-meta}
-
-</div>
+:::
 ::::
 
 :::: nm-pubrow
 [2026]{.nm-year}
 
-<div>
-
+::: {}
 [High prevalence of SOD1 pathogenic variants in the UK Biobank: implications for early intervention in amyotrophic lateral sclerosis](https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.78195) [Gagliardi D, et al. *Annals of Neurology*]{.nm-meta}
-
-</div>
+:::
 ::::
 
 :::: nm-pubrow
 [2025]{.nm-year}
 
-<div>
-
+::: {}
 [TDP-43 pathology induces CD8+ T cell activation through cryptic epitope recognition](https://pmc.ncbi.nlm.nih.gov/articles/PMC12262510/) [Chizari S, Zanovello M, et al. *bioRxiv*]{.nm-meta}
-
-</div>
+:::
 ::::
 :::::::::
 :::::::::::
+
+::::: {.nm-wrap .nm-section}
+::: nm-split
+## News
+
+[All news](news.qmd)
+:::
+
+::: {#news-home style="margin-top: 40px"}
+:::
+:::::
 
 :::: nm-band
 ::: nm-wrap

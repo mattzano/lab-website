@@ -1,0 +1,14 @@
+---
+title: "What counts as a meaningful change in SBMA?"
+date: 2026-07-31
+description: "Our paper in the Journal of Neurology gives the first patient-anchored estimates of the minimal clinically important difference for SBMA outcome measures."
+categories: [Paper, SBMA]
+---
+
+To read the results of a clinical trial, we need to know how much change in a score matters to patients. For spinal and bulbar muscular atrophy (SBMA) this was not known.
+
+We asked people with SBMA how they felt they had changed between visits and compared their answers with the SBMA Functional Rating Scale, its lower-limb and trunk subscale and the six-minute walk test. The study gives the first patient-anchored estimates of the minimal clinically important difference for these measures, supports the use of the subscale, and offers thresholds for responder definitions and sample-size calculations in future SBMA trials.
+
+**Paper:** Zanovello M, Sabbatini D, Paredi F, et al. Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy. *Journal of Neurology*, 2026. [doi:10.1007/s00415-026-14032-4](https://doi.org/10.1007/s00415-026-14032-4)
+
+[Back to news](../news.qmd)

@@ -1,0 +1,29 @@
+---
+pagetitle: "News · NeuroMuscle Lab"
+description: "News, papers and events from the NeuroMuscle Lab in Padova."
+page-layout: custom
+listing:
+  id: news-all
+  contents: news/*.qmd
+  sort: "date desc"
+  template: theme/news.ejs
+  date-format: "D MMMM YYYY"
+  feed: true
+---
+
+<!-- To add a news item: copy one of the files in news/, change the date, title, description and text. -->
+
+::: nm-wrap
+
+::: nm-pagehead
+# News
+
+Papers, events and updates from the lab.
+:::
+
+::: {#news-all}
+:::
+
+[Keep scrolling for patient information](patients.qmd){.nm-next}
+
+:::

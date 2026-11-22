@@ -1,0 +1,12 @@
+<div class="nm-newslist">
+<% for (const item of items) { %>
+<a class="nm-newsitem" href="<%- item.path %>" <%= metadataAttrs(item) %>>
+  <span class="nm-newsdate listing-date"><%= item.date %></span>
+  <span class="nm-newsbody">
+    <% if (item.categories) { %><span class="nm-newscats"><%= item.categories.join(' · ') %></span><% } %>
+    <span class="nm-newstitle listing-title"><%= item.title %></span>
+    <% if (item.description) { %><span class="nm-newsdesc listing-description"><%= item.description %></span><% } %>
+  </span>
+</a>
+<% } %>
+</div>
