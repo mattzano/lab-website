@@ -308,7 +308,8 @@
         "Padua"
       ],
       "key_pmids": [],
-      "exclude_pmids": []
+      "exclude_pmids": [],
+      "publications": false
     }
   ]
 }

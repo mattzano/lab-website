@@ -351,6 +351,8 @@ def main():
     args = ap.parse_args()
 
     cfg = json.load(open(MEMBERS, encoding="utf-8"))
+    # "publications": false keeps a member on the team page but out of the feed
+    cfg["members"] = [m for m in cfg["members"] if m.get("publications", True)]
     s = cfg["settings"]
     cache = {"records": [], "citations": {}}
     if os.path.exists(CACHE):
