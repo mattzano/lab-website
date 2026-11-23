@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/news.html",
     "items": [
       "/news/2026-11-14-sbma-fatigability.html",
       "/news/2026-11-11-unc13a-nature.html",
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
       "/news/2026-11-14-sbma-fatigability.html",
       "/news/2026-11-11-unc13a-nature.html",
