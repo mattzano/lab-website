@@ -27,12 +27,13 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./images/mark.svg" rel="icon" type="image/svg+xml">
+<link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -42,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5e49fed5625536532c60c9ce0ea8afb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e050301a18cb343668e4f0235e7964d0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -126,20 +127,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lab</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./trials.html"> 
-<span class="menu-text">Trials</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
+    <a class="nav-link" href="./trials.html"> 
+<span class="menu-text">Trials</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./patients.html" aria-current="page"> 
@@ -249,12 +242,9 @@ ul.task-list li input[type="checkbox"] {
     <div class="nm-footer-contact">
       <span class="nm-footer-name">NeuroMuscle Lab</span>
       <span>Department of Neuroscience, Università degli Studi di Padova</span>
-      <span>Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova</span>
-      <a href="mailto:gianni.soraru@unipd.it">gianni.soraru@unipd.it</a>
     </div>
   </div>
   <div class="nm-footer-bottom">
-    <span>Prof. Gianni Sorarù, principal investigator</span>
     <span class="nm-footer-links"><a href="privacy.html">Privacy policy</a><span>Built with Quarto</span></span>
   </div>
 </footer>
@@ -278,6 +268,38 @@ ul.task-list li input[type="checkbox"] {
     clearTimeout(timer);
     timer = setTimeout(function () { setPull(0); }, 700);
   }, { passive: true });
+})();
+
+/* Home: the spine draws itself station by station as you scroll; stations light as they arrive. */
+(function () {
+  var stations = document.querySelectorAll('.nm-unit .nm-station');
+  if (!stations.length) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    stations.forEach(function (s) { s.classList.add('is-on'); });
+    return;
+  }
+  var queued = false;
+  function update() {
+    queued = false;
+    var line = window.innerHeight * 0.62;
+    stations.forEach(function (s) {
+      var r = s.getBoundingClientRect();
+      var p = Math.max(0, Math.min(1, (line - r.top) / r.height));
+      s.style.setProperty('--draw', p.toFixed(4));
+      s.classList.toggle('is-on', r.top + 40 < line);
+    });
+  }
+  window.addEventListener('scroll', function () { if (!queued) { queued = true; requestAnimationFrame(update); } }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+/* External links (papers, PubMed, funders, registries) open in a new tab. */
+(function () {
+  document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+    if (a.hostname === location.hostname || a.hostname === 'neuromusclelab.org' || a.hostname === 'www.neuromusclelab.org') return;
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
@@ -360,6 +382,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

@@ -19,13 +19,12 @@ We run phase 2 and 3 trials in ALS and spinal and bulbar muscular atrophy (SBMA,
 
 ::: nm-trials
 ::: nm-trial
-[ALS · Phase 3]{.nm-trial-tag}
-
 ### PREVAILS
+
+[ALS · Phase 3]{.nm-trial-tag}
 
 A randomised, double-blind, placebo-controlled study of the efficacy and safety of pridopidine in people with amyotrophic lateral sclerosis.
 
-[Expected to randomise: **10**]{.nm-trial-stats}
 :::
 :::
 :::
@@ -35,13 +34,12 @@ A randomised, double-blind, placebo-controlled study of the efficacy and safety 
 
 ::: nm-trials
 ::: nm-trial
-[ALS · Phase 2/3]{.nm-trial-tag}
-
 ### ALCALS (acetyl-carnitine)
+
+[ALS · Phase 2/3]{.nm-trial-tag}
 
 A randomised study of the biological and clinical effects of acetyl-carnitine in people with amyotrophic lateral sclerosis.
 
-[Patients in the study: **3** · Expected to randomise: **10**]{.nm-trial-stats}
 :::
 :::
 :::
@@ -51,43 +49,39 @@ A randomised study of the biological and clinical effects of acetyl-carnitine in
 
 ::: nm-trials
 ::: {.nm-trial .nm-trial-lead}
-[SBMA · Coordinating centre]{.nm-trial-tag}
-
 ### Clenbuterol in SBMA
+
+[SBMA · Coordinating centre]{.nm-trial-tag}
 
 A placebo-controlled study of the efficacy and safety of clenbuterol in people with spinal and bulbar muscular atrophy. Our centre coordinates the trial.
 
-[Completed: **27** · Still in the study: **3**]{.nm-trial-stats}
 :::
 
 ::: nm-trial
-[SBMA · Phase 2]{.nm-trial-tag}
-
 ### NIDO 361-002
+
+[SBMA · Phase 2]{.nm-trial-tag}
 
 A randomised, double-blind, placebo-controlled study of NIDO-361 in people with spinal and bulbar muscular atrophy (Kennedy's disease).
 
-[Completed: **5**]{.nm-trial-stats}
 :::
 
 ::: nm-trial
-[ALS · Phase 3b · Open-label extension]{.nm-trial-tag}
-
 ### PHOENIX-OLE (A35-011)
+
+[ALS · Phase 3b · Open-label extension]{.nm-trial-tag}
 
 An open-label extension of PHOENIX on the safety and tolerability of AMX0035 (sodium phenylbutyrate and taurursodiol) for up to 108 weeks.
 
-[Randomised: **6** · Completed: **5**]{.nm-trial-stats}
 :::
 
 ::: nm-trial
-[ALS · Phase 3 · Open-label extension · Suspended by the sponsor, January 2024]{.nm-trial-tag}
-
 ### ADOREXT (FAB122-CT-2201)
+
+[ALS · Phase 3 · Open-label extension · Suspended by the sponsor, January 2024]{.nm-trial-tag}
 
 A multinational open-label extension on the long-term safety of oral FAB122 (edaravone) 100 mg once daily for people previously enrolled in ADORE.
 
-[Randomised: **3** · Completed: **3**]{.nm-trial-stats}
 :::
 :::
 :::
@@ -97,33 +91,30 @@ A multinational open-label extension on the long-term safety of oral FAB122 (eda
 
 ::: nm-trials
 ::: nm-trial
-[ALS · Phase 3]{.nm-trial-tag}
-
 ### ADORE (FAB122-CT-2001)
+
+[ALS · Phase 3]{.nm-trial-tag}
 
 ALS Deceleration with ORal Edaravone: a multicentre, randomised, double-blind, placebo-controlled study of oral FAB122 once daily.
 
-[Randomised: **6** · Completed: **3**]{.nm-trial-stats}
 :::
 
 ::: nm-trial
-[ALS · Phase 3]{.nm-trial-tag}
-
 ### PHOENIX (A35-004)
+
+[ALS · Phase 3]{.nm-trial-tag}
 
 A multicentre, randomised, double-blind, placebo-controlled study of AMX0035 (sodium phenylbutyrate and taurursodiol) for 48 weeks.
 
-[Randomised: **10** · Completed: **8**]{.nm-trial-stats}
 :::
 
 ::: nm-trial
-[ALS · Phase 3]{.nm-trial-tag}
-
 ### Masitinib (AB19001)
+
+[ALS · Phase 3]{.nm-trial-tag}
 
 A multicentre, randomised, double-blind, placebo-controlled, parallel-group study of masitinib with riluzole versus placebo with riluzole.
 
-[Randomised: **3** · Completed: **1**]{.nm-trial-stats}
 :::
 :::
 :::
@@ -145,8 +136,7 @@ A multicentre, randomised, double-blind, placebo-controlled, parallel-group stud
 ### Laboratory
 
 - On-site certified external laboratory for routine and protocol-required analyses
-- 2 centrifuges and biosafety cabinets
-- −20 °C and −80 °C freezers for biological samples
+- 8 bench spaces with equipment, biosafety cabinets, centrifuge, freezers and fridges
 - Biobanking for long-term sample storage, on request
 - Equipment calibration programme
 - Access to an Electronic Data Capture (EDC) system
@@ -167,6 +157,6 @@ Sponsors and investigators can reach our trial team through the contact page. If
 :::
 :::
 
-[Keep scrolling to meet the team](people.qmd){.nm-next}
+[Keep scrolling for patients and families](patients.qmd){.nm-next}
 
 :::

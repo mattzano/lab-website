@@ -27,12 +27,13 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./images/mark.svg" rel="icon" type="image/svg+xml">
+<link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -42,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5e49fed5625536532c60c9ce0ea8afb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ece177f0111c819662e4d9f960dbecf1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Nessun risultato",
@@ -132,14 +133,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
 <span class="menu-text">Team</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./patients.html"> 
@@ -279,6 +272,60 @@ ul.task-list li input[type="checkbox"] {
     timer = setTimeout(function () { setPull(0); }, 700);
   }, { passive: true });
 })();
+
+/* Home: the spine draws itself station by station as you scroll; stations light as they arrive. */
+(function () {
+  var stations = document.querySelectorAll('.nm-unit .nm-station');
+  if (!stations.length) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    stations.forEach(function (s) { s.classList.add('is-on'); });
+    return;
+  }
+  var queued = false;
+  function update() {
+    queued = false;
+    var line = window.innerHeight * 0.62;
+    stations.forEach(function (s) {
+      var r = s.getBoundingClientRect();
+      var p = Math.max(0, Math.min(1, (line - r.top) / r.height));
+      s.style.setProperty('--draw', p.toFixed(4));
+      s.classList.toggle('is-on', r.top + 40 < line);
+    });
+  }
+  window.addEventListener('scroll', function () { if (!queued) { queued = true; requestAnimationFrame(update); } }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+/* External links (papers, PubMed, funders, registries) open in a new tab. */
+(function () {
+  document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+    if (a.hostname === location.hostname || a.hostname === 'neuromusclelab.org' || a.hostname === 'www.neuromusclelab.org') return;
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
+})();
+/* Contact: Google Form for CVs, loaded only when the visitor asks for it. */
+(function () {
+  var box = document.querySelector('.nm-gform');
+  if (!box) return;
+  var src = box.getAttribute('data-src') || '';
+  if (src.indexOf('GOOGLE_FORM_ID') !== -1) return;   // not configured yet: stays hidden
+  box.hidden = false;
+  var link = box.querySelector('.nm-gform-link');
+  link.href = src.replace('?embedded=true', '');
+  link.target = '_blank'; link.rel = 'noopener';
+  box.querySelector('.nm-gform-open').addEventListener('click', function () {
+    var f = document.createElement('iframe');
+    f.src = src; f.title = 'Application form (Google Forms)'; f.loading = 'lazy'; f.className = 'nm-gform-frame';
+    this.replaceWith(f);
+  });
+})();
+/* Contact: #work opens the "Work with us" tab. */
+(function () {
+  if (location.hash !== '#work') return;
+  var tab = Array.prototype.find.call(document.querySelectorAll('.panel-tabset .nav-link'), function (a) { return /work with us/i.test(a.textContent); });
+  if (tab) { tab.click(); tab.scrollIntoView({ block: 'start' }); }
+})();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -360,6 +407,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

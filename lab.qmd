@@ -14,19 +14,19 @@ Our lab is in the Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova. Our pati
 ::: {.nm-grid-3 .nm-section}
 
 ::: nm-card
-### The clinic
+## The clinic
 
 Neurologists and neurophysiologists see people with ALS, SBMA and other motor neuron diseases, and collect clinical, functional and neurophysiological data over time.
 :::
 
 ::: nm-card
-### The bench
+## The bench
 
 We work with patient biofluids and muscle tissue, develop ELISA assays for new biomarkers, and study phosphorylated tau in ALS skeletal muscle.
 :::
 
 ::: nm-card
-### The data
+## The data
 
 We analyse large RNA-seq and genomic datasets with reproducible pipelines in R and bash, from transcript-level splicing to repeat expansions across whole populations.
 :::
@@ -97,6 +97,6 @@ RNA-seq analysis of cryptic splicing and polyadenylation, and repeat expansion a
 :::
 :::
 
-[Keep scrolling to our clinical trials](trials.qmd){.nm-next}
+[Keep scrolling to meet the team](people.qmd){.nm-next}
 
 :::

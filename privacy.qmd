@@ -17,11 +17,11 @@ Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova, Italy
 
 ## Types of Data collected
 
-Among the types of Personal Data that this Application collects, by itself or through third parties, there are: first name; last name; email address; phone number (optional); Usage Data.
+Among the types of Personal Data that this Application collects, by itself or through third parties, there are: first name; last name; email address; phone number (optional); link to a curriculum vitae; Usage Data.
 
 Complete details on each type of Personal Data collected are given in the dedicated sections of this privacy policy or in specific explanation texts displayed before the Data are collected. Personal Data may be freely provided by the User or, in the case of Usage Data, collected automatically when using this Application.
 
-Unless specified otherwise, all Data requested by this Application are mandatory, and failure to provide them may make it impossible for this Application to provide its Service. Where this Application states that some Data are not mandatory, such as the phone number in the contact form, Users are free not to communicate them without consequences for the availability or functioning of the Service.
+Unless specified otherwise, all Data requested by this Application are mandatory, and failure to provide them may make it impossible for this Application to provide its Service. Where this Application states that some Data are not mandatory, such as the phone number in the application form, Users are free not to communicate them without consequences for the availability or functioning of the Service.
 
 Users who are uncertain about which Personal Data are mandatory are welcome to contact the Owner. Any use of Cookies or other tracking tools by this Application or by third-party services it uses serves to provide the Service required by the User, in addition to any other purposes described in this document and in the Cookie Policy.
 
@@ -51,11 +51,13 @@ For specific information about the Personal Data used for each purpose, the User
 
 Personal Data are collected for the following purposes and using the following services:
 
-### Contacting the User: contact form (this Application)
+### Contacting the User: application form (Google Forms, Google Ireland Limited)
 
-By filling in the contact form ("Work with us") with their Data, the User authorises this Application to use these details to reply to requests for information, applications or any other kind of request as indicated by the form's header. The form is delivered to the Owner through Formspree (Formspree, Inc., USA), which acts as a Data Processor.
+The "Work with us" application form is hosted by Google Forms, a service provided by Google Ireland Limited, and embedded in this Application; it loads when the User opens the "Work with us" section. No Google account is needed. Answers are stored in the Owner's Google account and are used only to evaluate the application and reply to the User. Google acts as a Data Processor; see the [Google Privacy Policy](https://policies.google.com/privacy).
 
-Personal Data processed: first name; last name; email address; phone number (optional, only if the User chooses to provide it).
+Personal Data processed: first name; last name; email address; phone number (optional); information about the position of interest; message; link to the User's curriculum vitae and the information it contains.
+
+Place of processing: European Union and other countries where Google operates. Applications are kept for as long as needed to evaluate them, unless the User asks for earlier deletion.
 
 ## Cookie Policy
 

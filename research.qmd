@@ -29,7 +29,7 @@ Spinal and bulbar muscular atrophy is caused by a CAG repeat expansion in the an
 
 We have estimated the smallest changes in function that patients perceive, measured fatigability with the six-minute walk test, validated outcome scales and studied blood markers such as creatinine. We also coordinate the [clenbuterol trial in SBMA](trials.qmd).
 
-[Selected papers]{.nm-kicker}
+### Selected papers
 
 - [Longitudinal progression of 6-minute walk test-derived fatigability in spinal and bulbar muscular atrophy: a retrospective study.](https://doi.org/10.1002/mus.70457) *Muscle Nerve*, 2026
 - [Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy.](https://doi.org/10.1007/s00415-026-14032-4) *J Neurol*, 2026
@@ -52,7 +52,7 @@ ALS varies widely from person to person. We combine neurophysiology (cortical ex
 
 We also follow biomarkers in people receiving new treatments, such as tofersen in SOD1-ALS, and take part in phase 2 and 3 [clinical trials](trials.qmd).
 
-[Selected papers]{.nm-kicker}
+### Selected papers
 
 - [Cortical excitability as a prognostic and phenotypic stratification biomarker in amyotrophic lateral sclerosis.](https://doi.org/10.1002/ana.27305) *Ann Neurol*, 2025
 - [Metabolic and fluid biomarkers support microglia activation in amyotrophic lateral sclerosis.](https://doi.org/10.1002/acn3.70521) *Ann Clin Transl Neurol*, 2026
@@ -75,7 +75,7 @@ In almost all people with ALS, the RNA-binding protein TDP-43 leaves the nucleus
 
 With colleagues at UCL Queen Square, we map these events, ask which cryptic exons can be measured as biomarkers in patients, and test splice-correcting therapies. Cryptic peptides can also be recognised by CD8 T cells, a link between TDP-43 pathology and adaptive immunity that we are now studying in Padova.
 
-[Selected papers]{.nm-kicker}
+### Selected papers
 
 - [TDP-43 loss and ALS-risk SNPs drive mis-splicing and depletion of UNC13A.](https://doi.org/10.1038/s41586-022-04436-3) *Nature*, 2022
 - [UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss.](https://doi.org/10.1038/s41586-026-11256-2) *Nature*, 2026
@@ -96,9 +96,9 @@ With colleagues at UCL Queen Square, we map these events, ask which cryptic exon
 ::: {}
 Muscle is more than a passive victim of motor neuron loss. Using patient muscle biopsies and disease models, we study muscle regeneration, innervation and the neuromuscular junction in ALS and SBMA.
 
-At the bench we are studying phosphorylated tau in ALS skeletal muscle and developing ELISA assays for new muscle and blood biomarkers. In 2026 we co-organised the international conference [Skeletal Muscle in ALS](news.qmd) in Padova.
+At the bench we are studying phosphorylated tau in ALS skeletal muscle and developing ELISA assays for new muscle and blood biomarkers. In 2026 we co-organised the international conference [Skeletal Muscle in ALS](news/2026-09-26-skeletal-muscle-in-als.qmd) in Padova.
 
-[Selected papers]{.nm-kicker}
+### Selected papers
 
 - [Protective role of angiogenin in muscle regeneration in amyotrophic lateral sclerosis: diagnostic and therapeutic implications.](https://doi.org/10.1111/bpa.13328) *Brain Pathol*, 2024
 - [Sympathetic neuropathology is revealed in muscles affected by amyotrophic lateral sclerosis.](https://doi.org/10.3389/fphys.2023.1165811) *Front Physiol*, 2023
@@ -121,7 +121,7 @@ Population-scale genomic datasets, such as the UK Biobank, show that pathogenic 
 
 We use these data to estimate how many people carry disease-causing variants, to study what modifies their effect, and to plan for earlier diagnosis and intervention.
 
-[Selected papers]{.nm-kicker}
+### Selected papers
 
 - [Unexpected frequency of the pathogenic AR CAG repeat expansion in the general population.](https://doi.org/10.1093/brain/awad050) *Brain*, 2023
 - [Increased frequency of repeat expansion mutations across different populations.](https://doi.org/10.1038/s41591-024-03190-5) *Nat Med*, 2024

@@ -11,4 +11,4 @@ We asked people with SBMA how they felt they had changed between visits and comp
 
 **Paper:** Zanovello M, Sabbatini D, Paredi F, et al. Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy. *Journal of Neurology*, 2026. [doi:10.1007/s00415-026-14032-4](https://doi.org/10.1007/s00415-026-14032-4)
 
-[Back to news](../news.qmd)
+[Back to the home page](../index.qmd)

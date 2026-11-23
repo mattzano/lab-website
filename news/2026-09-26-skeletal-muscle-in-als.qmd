@@ -11,4 +11,4 @@ Four sessions covered muscle pathology, models and omics; muscle and neuromuscul
 
 The conference was organised by Gianni Sorarù, Maria Pennuto, Manuela Basso and Matteo Zanovello, sponsored by ASLA, with the patronage of the University of Padova and Azienda Ospedale Università Padova.
 
-[Conference website](https://sites.google.com/view/muscle-als-conference/home) · [Back to news](../news.qmd)
+[Conference website](https://sites.google.com/view/muscle-als-conference/home) · [Back to the home page](../index.qmd)

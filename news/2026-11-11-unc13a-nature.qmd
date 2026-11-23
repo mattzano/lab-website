@@ -11,4 +11,4 @@ This study, led by Pietro Fratta's group at UCL with our contribution, shows tha
 
 **Paper:** Keuss MJ, Harley P, Ryadnov E, et al. UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss. *Nature*, 2026. [doi:10.1038/s41586-026-11256-2](https://doi.org/10.1038/s41586-026-11256-2)
 
-[Back to news](../news.qmd)
+[Back to the home page](../index.qmd)

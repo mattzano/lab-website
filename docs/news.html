@@ -27,6 +27,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
@@ -44,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5e49fed5625536532c60c9ce0ea8afb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-651114166c135a832cdfdf51e76d97c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -112,35 +113,6 @@ ul.task-list li input[type="checkbox"] {
 </style>
 <meta name="theme-color" content="#0B2530">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="alternate" type="application/rss+xml" title="NeuroMuscle Lab" href="news.xml" data-external="1"><meta property="og:title" content="News · NeuroMuscle Lab">
 <meta property="og:description" content="News, papers and events from the NeuroMuscle Lab in Padova.">
@@ -233,10 +205,10 @@ window.Quarto = {
 </section>
 <div id="listing-news-all" class="quarto-listing quarto-listing-container-custom">
 <div class="nm-newslist">
-<p><a class="nm-newsitem" href="./news/2026-11-14-sbma-fatigability.html" data-index="0" data-categories="UGFwZXIlMkNTQk1B" data-listing-date-sort="1794610800000" data-listing-file-modified-sort="1795368941544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114"> <span class="nm-newsdate listing-date">14 November 2026</span> <span class="nm-newsbody"> <span class="nm-newscats">Paper · SBMA</span> <span class="nm-newstitle listing-title">How fatigability progresses in SBMA</span> <span class="nm-newsdesc listing-description">Our study in Muscle &amp; Nerve follows six-minute walk test fatigability in 168 people with SBMA over time.</span> </span> </a></p>
-<p><a class="nm-newsitem" href="./news/2026-11-11-unc13a-nature.html" data-index="1" data-categories="UGFwZXIlMkNBTFMlMkNURFAtNDM=" data-listing-date-sort="1794351600000" data-listing-file-modified-sort="1795368941266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126"> <span class="nm-newsdate listing-date">11 November 2026</span> <span class="nm-newsbody"> <span class="nm-newscats">Paper · ALS · TDP-43</span> <span class="nm-newstitle listing-title">Correcting UNC13A splicing rescues synapses after TDP-43 loss</span> <span class="nm-newsdesc listing-description">A Nature paper with UCL colleagues shows that fixing a single cryptic splicing event in UNC13A restores synaptic function in human neurons.</span> </span> </a></p>
-<p><a class="nm-newsitem" href="./news/2026-09-26-skeletal-muscle-in-als.html" data-index="2" data-categories="RXZlbnQlMkNBTFMlMkNNdXNjbGU=" data-listing-date-sort="1790373600000" data-listing-file-modified-sort="1795368940993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101"> <span class="nm-newsdate listing-date">26 September 2026</span> <span class="nm-newsbody"> <span class="nm-newscats">Event · ALS · Muscle</span> <span class="nm-newstitle listing-title">Skeletal Muscle in ALS: an international conference in Padova</span> <span class="nm-newsdesc listing-description">On 25–26 September 2026 we co-organised a two-day international meeting on the role of skeletal muscle in ALS.</span> </span> </a></p>
-<p><a class="nm-newsitem" href="./news/2026-07-31-sbma-mcid.html" data-index="3" data-categories="UGFwZXIlMkNTQk1B" data-listing-date-sort="1785448800000" data-listing-file-modified-sort="1795368940667" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129"> <span class="nm-newsdate listing-date">31 July 2026</span> <span class="nm-newsbody"> <span class="nm-newscats">Paper · SBMA</span> <span class="nm-newstitle listing-title">What counts as a meaningful change in SBMA?</span> <span class="nm-newsdesc listing-description">Our paper in the Journal of Neurology gives the first patient-anchored estimates of the minimal clinically important difference for SBMA outcome measures.</span> </span> </a></p>
+<p><a class="nm-newsitem" href="./news/2026-11-14-sbma-fatigability.html" data-index="0" data-categories="UGFwZXIlMkNTQk1B" data-listing-date-sort="1794610800000" data-listing-file-modified-sort="1795368941544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114"> <span class="nm-newsmeta"> <span class="nm-newsdate listing-date">14 November 2026</span> <span class="nm-newscats">Paper · SBMA</span> </span> <span class="nm-newsbody"> <span class="nm-newstitle listing-title">How fatigability progresses in SBMA</span> <span class="nm-newsdesc listing-description">Our study in Muscle &amp; Nerve follows six-minute walk test fatigability in 168 people with SBMA over time.</span> </span> </a></p>
+<p><a class="nm-newsitem" href="./news/2026-11-11-unc13a-nature.html" data-index="1" data-categories="UGFwZXIlMkNBTFMlMkNURFAtNDM=" data-listing-date-sort="1794351600000" data-listing-file-modified-sort="1795368941266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126"> <span class="nm-newsmeta"> <span class="nm-newsdate listing-date">11 November 2026</span> <span class="nm-newscats">Paper · ALS · TDP-43</span> </span> <span class="nm-newsbody"> <span class="nm-newstitle listing-title">Correcting UNC13A splicing rescues synapses after TDP-43 loss</span> <span class="nm-newsdesc listing-description">A Nature paper with UCL colleagues shows that fixing a single cryptic splicing event in UNC13A restores synaptic function in human neurons.</span> </span> </a></p>
+<p><a class="nm-newsitem" href="./news/2026-09-26-skeletal-muscle-in-als.html" data-index="2" data-categories="RXZlbnQlMkNBTFMlMkNNdXNjbGU=" data-listing-date-sort="1790373600000" data-listing-file-modified-sort="1795368940993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101"> <span class="nm-newsmeta"> <span class="nm-newsdate listing-date">26 September 2026</span> <span class="nm-newscats">Event · ALS · Muscle</span> </span> <span class="nm-newsbody"> <span class="nm-newstitle listing-title">Skeletal Muscle in ALS: an international conference in Padova</span> <span class="nm-newsdesc listing-description">On 25–26 September 2026 we co-organised a two-day international meeting on the role of skeletal muscle in ALS.</span> </span> </a></p>
+<p><a class="nm-newsitem" href="./news/2026-07-31-sbma-mcid.html" data-index="3" data-categories="UGFwZXIlMkNTQk1B" data-listing-date-sort="1785448800000" data-listing-file-modified-sort="1795368940667" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129"> <span class="nm-newsmeta"> <span class="nm-newsdate listing-date">31 July 2026</span> <span class="nm-newscats">Paper · SBMA</span> </span> <span class="nm-newsbody"> <span class="nm-newstitle listing-title">What counts as a meaningful change in SBMA?</span> <span class="nm-newsdesc listing-description">Our paper in the Journal of Neurology gives the first patient-anchored estimates of the minimal clinically important difference for SBMA outcome measures.</span> </span> </a></p>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -285,6 +257,36 @@ window.Quarto = {
     clearTimeout(timer);
     timer = setTimeout(function () { setPull(0); }, 700);
   }, { passive: true });
+})();
+
+/* Home: the spine draws itself station by station as you scroll; stations light as they arrive. */
+(function () {
+  var stations = document.querySelectorAll('.nm-unit .nm-station');
+  if (!stations.length) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    stations.forEach(function (s) { s.classList.add('is-on'); });
+    return;
+  }
+  var queued = false;
+  function update() {
+    queued = false;
+    var line = window.innerHeight * 0.62;
+    stations.forEach(function (s) {
+      var r = s.getBoundingClientRect();
+      var p = Math.max(0, Math.min(1, (line - r.top) / r.height));
+      s.style.setProperty('--draw', p.toFixed(4));
+      s.classList.toggle('is-on', r.top + 40 < line);
+    });
+  }
+  window.addEventListener('scroll', function () { if (!queued) { queued = true; requestAnimationFrame(update); } }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+/* Contact: #work opens the "Work with us" tab. */
+(function () {
+  if (location.hash !== '#work') return;
+  var tab = Array.prototype.find.call(document.querySelectorAll('.panel-tabset .nav-link'), function (a) { return /work with us/i.test(a.textContent); });
+  if (tab) { tab.click(); tab.scrollIntoView({ block: 'start' }); }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

@@ -69,7 +69,7 @@ h1, h2, h3, .nm-display {
   box-shadow: none;
   .navbar-container, .container-fluid { max-width: var(--nm-max); padding-left: var(--nm-gutter); padding-right: var(--nm-gutter); margin: 0 auto; }
   .navbar-brand { display: flex; align-items: center; gap: 12px; }
-  .navbar-logo { max-height: 32px; width: 32px; }
+  .navbar-logo { max-height: 44px; width: 44px; height: 44px; }
   .navbar-title {
     font-family: $headings-font-family; font-stretch: 125%; font-weight: 800;
     font-size: 1.35rem; letter-spacing: -0.01em; color: $nm-text;
@@ -511,8 +511,7 @@ a.nm-station-paper em { color: $nm-muted; font-style: normal; font-size: 0.92rem
 .nm-people-strip { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(32px, 5vw, 80px); align-items: center; padding-top: clamp(88px, 10vw, 150px); }
 .nm-people-copy h2 { margin: 0 0 16px; }
 .nm-people-copy p { margin: 0; color: $nm-body; font-size: 1.1rem; max-width: 46ch; }
-.nm-faces { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
-.nm-faces li:nth-child(n+7) { transform: translateX(calc(50% + 6px)); }
+.nm-faces { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
 .nm-faces img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 14px; display: block; filter: grayscale(1) contrast(1.06) brightness(0.96); background: $nm-panel; }
 
 /* --- Latest papers + news, two columns --- */
@@ -550,7 +549,6 @@ a.nm-station-paper em { color: $nm-muted; font-style: normal; font-size: 0.92rem
   .nm-hero-text { order: 1; } .nm-hero-art { order: 2; margin-top: 32px !important; } .nm-hero-meta { order: 3; }
   .nm-people-strip, .nm-home-feeds, .nm-join-inner { grid-template-columns: minmax(0, 1fr); }
   .nm-faces { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .nm-faces li:nth-child(n+7) { transform: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   .nm-node, .nm-endplate circle, .nm-btn, a.nm-arrow::after { transition: none; }
@@ -563,8 +561,8 @@ a.nm-station-paper em { color: $nm-muted; font-style: normal; font-size: 0.92rem
 #quarto-content > .nm-routes { padding-top: 32px; }
 
 /* Lab: techniques as a measured list, not cards */
-.nm-techniques { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(32px, 5vw, 80px); margin-top: 40px; }
-.nm-techniques > div { border-top: 1px solid $nm-rule; padding: 24px 0 28px; }
+.nm-techniques { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(40px, 6vw, 112px); row-gap: 8px; margin-top: 48px; }
+.nm-techniques > div { border-top: 1px solid $nm-rule; padding: 32px 0 48px; }
 .nm-techniques h3 { font-size: 1.35rem; margin: 0 0 10px; font-stretch: 105%; }
 .nm-techniques p { margin: 0; color: $nm-body; max-width: 62ch; }
 .nm-techniques .nm-muted { display: block; margin-top: 10px; font-size: 0.98rem; }
@@ -580,3 +578,63 @@ a.nm-station-paper em { color: $nm-muted; font-style: normal; font-size: 0.92rem
   .nm-newsmeta, .nm-home-col .nm-newsmeta { flex-direction: row; flex-wrap: nowrap; align-items: baseline; gap: 12px; min-width: 0; }
   .nm-newsmeta .nm-newscats { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 }
+
+/* Team: PubMed link per person */
+a.nm-pubmed { display: inline-flex; align-items: center; gap: 8px; margin-top: 12px; font-weight: 600; color: $nm-text; text-decoration: none; }
+a.nm-pubmed::after { content: ""; width: 18px; height: 2px; background: $nm-nerve; transition: width 200ms var(--nm-ease-out); }
+@media (hover: hover) and (pointer: fine) { a.nm-pubmed:hover::after { width: 30px; } }
+.nm-person .nm-bio { display: block; color: $nm-body; margin-top: 10px; line-height: 1.5; font-size: 0.98rem; }
+
+/* Headings that replaced the old uppercase labels */
+.nm-card-h { font-family: $headings-font-family; font-size: 1.35rem; font-weight: 700; font-stretch: 105%; letter-spacing: -0.01em; color: $nm-text; margin: 0 0 10px; }
+.nm-card-h-lg { font-size: clamp(1.8rem, 3vw, 2.4rem); }
+.nm-topic h3 { font-family: $headings-font-family; font-size: 1.2rem; font-weight: 700; font-stretch: 105%; color: $nm-text; margin: 28px 0 4px; }
+.page-layout-custom .nm-card h2 { font-size: 1.75rem; font-weight: 700; font-stretch: 105%; line-height: 1.15; margin: 0 0 12px; }
+
+/* Trials: the tag follows the title */
+.nm-trial .nm-trial-tag { display: block; margin: 6px 0 12px; }
+
+/* Contact: file input in the palette */
+.nm-form input[type="file"] { padding: 10px 12px; color: $nm-body; }
+.nm-form input[type="file"]::file-selector-button { margin-right: 14px; border: 1.5px solid $nm-edge; border-radius: 999px; background: transparent; color: $nm-text; padding: 6px 16px; font: inherit; font-weight: 600; cursor: pointer; }
+@media (hover: hover) and (pointer: fine) { .nm-form input[type="file"]::file-selector-button:hover { border-color: $nm-text; } }
+
+/* Home: funders and networks */
+.nm-funders { padding-top: clamp(88px, 10vw, 150px); }
+#quarto-content > .nm-funders { padding-top: clamp(88px, 10vw, 150px); }
+.nm-funders h2 { margin: 0 0 8px; }
+.nm-funder-list { list-style: none; margin: 24px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid $nm-rule; }
+.nm-funder-list li { display: flex; }
+.nm-funder-list li + li { border-left: 1px solid $nm-rule; }
+.nm-funder-list a { flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 28px 24px; text-decoration: none; transition: background-color 200ms ease; }
+.nm-funder-list li:first-child a { padding-left: 0; }
+.nm-funder-list strong { font-family: $headings-font-family; font-weight: 800; font-stretch: 108%; white-space: nowrap; font-size: clamp(1.4rem, 2.2vw, 2rem); line-height: 1; color: $nm-text; letter-spacing: -0.02em; }
+.nm-funder-list span { color: $nm-muted; font-size: 0.95rem; line-height: 1.4; }
+.nm-funder-list em { margin-top: auto; padding-top: 10px; font-style: normal; font-size: 0.92rem; font-weight: 600; color: $nm-link; display: inline-flex; align-items: center; gap: 6px; text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 0.25em; transition: text-decoration-color 200ms ease; }
+.nm-ext { width: 12px; height: 12px; flex: none; }
+@media (hover: hover) and (pointer: fine) {
+  .nm-funder-list a:hover strong { color: $nm-muscle; }
+  .nm-funder-list a:hover em { text-decoration-color: currentColor; }
+}
+.nm-network { margin: 8px 0 0; padding-top: 20px; border-top: 1px solid $nm-rule; color: $nm-body; }
+.nm-network a { color: $nm-text; font-weight: 600; }
+@media (max-width: 900px) {
+  .nm-funder-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .nm-funder-list li:nth-child(3) { border-left: 0; }
+  .nm-funder-list li:nth-child(3) a { padding-left: 0; }
+  .nm-funder-list li:nth-child(n+3) { border-top: 1px solid $nm-rule; }
+}
+h3.nm-card-h { margin-top: 32px; }
+
+/* Contact: Google Form (click to load) */
+.nm-gform p { color: $nm-body; max-width: 62ch; }
+.nm-gform-alt { margin-top: 12px; font-size: 0.95rem; }
+.nm-gform { padding: 0; overflow: hidden; }
+.nm-gform-frame { display: block; width: 100%; height: 1900px; border: 0; border-radius: 14px; background: #fff; }
+@media (max-width: 900px) { .nm-gform-frame { height: 2200px; } }
+
+/* Contact: one page, Information then Work with us */
+.nm-contact-h { font-family: $headings-font-family; font-size: clamp(2rem, 3.6vw, 3rem); font-weight: 800; font-stretch: 112%; color: $nm-text; margin: 0 0 32px; }
+.nm-anchor { display: block; height: 0; scroll-margin-top: 110px; }
+.nm-contact .nm-work { margin-top: clamp(72px, 9vw, 128px); padding-top: clamp(40px, 5vw, 64px); border-top: 1px solid $nm-rule; }
+.nm-funder-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }

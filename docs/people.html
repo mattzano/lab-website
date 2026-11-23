@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./images/mark.svg" rel="icon" type="image/svg+xml">
+<link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-651114166c135a832cdfdf51e76d97c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e050301a18cb343668e4f0235e7964d0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -124,20 +124,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lab</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./trials.html"> 
-<span class="menu-text">Trials</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./people.html" aria-current="page"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
+    <a class="nav-link" href="./trials.html"> 
+<span class="menu-text">Trials</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./patients.html"> 
@@ -168,60 +160,64 @@ ul.task-list li input[type="checkbox"] {
 <h1>Meet the team</h1>
 <p>Neurologists, neurophysiologists, researchers and clinical research staff working between the neuromuscular clinic and the lab.</p>
 </section>
-<!-- Team list from the "TRICALS / WEBSITE" doc. Cards marked .nm-nophoto have no picture;
-     to add one, put a 4:5 photo in images/team/, add an image line and drop .nm-nophoto. -->
+<!-- Team list from the "TRICALS / WEBSITE" doc. Photos are 4:5 (600x750) in images/team/.
+     Each card has a bio placeholder comment: replace it with a short bio as plain text.
+     PubMed links search the query in data/members.json, newest first. -->
 <div class="nm-team">
 <div class="nm-person">
-<p><img src="images/team/soraru.jpg" class="img-fluid" alt="Prof. Gianni Sorarù"> <span class="nm-name">Prof.&nbsp;Gianni Sorarù</span> <span class="nm-role">Associate Professor of Neurology</span> <span class="nm-focus">ALS, SBMA and other motor neuron diseases</span></p>
-</div>
-<div class="nm-person nm-nophoto">
-<p><span class="nm-name">Prof.&nbsp;Elena Pegoraro</span> <span class="nm-role">Head of Neuromuscular Laboratory</span></p>
+<p><img src="images/team/soraru.jpg" class="img-fluid" alt="Prof. Gianni Sorarù"> <span class="nm-name">Prof.&nbsp;Gianni Sorarù</span> <span class="nm-role">Associate Professor of Neurology</span> <span class="nm-focus">ALS, SBMA and other motor neuron diseases</span> <!-- bio: one or two sentences, to be provided --> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Soraru%20G%5BAuthor%5D&amp;sort=date" class="nm-pubmed">Papers on PubMed</a></p>
 </div>
 <div class="nm-person">
-<p><img src="images/team/minicuci.jpg" class="img-fluid" alt="Dr. Giacomo Maria Minicuci"> <span class="nm-name">Dr.&nbsp;Giacomo Maria Minicuci</span> <span class="nm-role">Neurologist, Neurophysiologist · Co-Investigator</span> <span class="nm-focus">SBMA outcome measures and ALS biomarkers</span></p>
+<p><img src="images/team/pegoraro.jpg" class="img-fluid" alt="Prof. Elena Pegoraro"> <span class="nm-name">Prof.&nbsp;Elena Pegoraro</span> <span class="nm-role">Head of Neuromuscular Laboratory</span> <!-- bio: one or two sentences, to be provided --> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Pegoraro%20E%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&amp;sort=date" class="nm-pubmed">Papers on PubMed</a></p>
 </div>
 <div class="nm-person">
-<p><img src="images/team/paredi.jpg" class="img-fluid" alt="Dr. Federica Paredi"> <span class="nm-name">Dr.&nbsp;Federica Paredi</span> <span class="nm-role">Neurology Resident · Co-Investigator</span> <span class="nm-focus">SBMA clinical outcomes and cognition</span></p>
+<p><img src="images/team/minicuci.jpg" class="img-fluid" alt="Dr. Giacomo Maria Minicuci"> <span class="nm-name">Dr.&nbsp;Giacomo Maria Minicuci</span> <span class="nm-role">Neurologist, Neurophysiologist · Co-Investigator</span> <span class="nm-focus">SBMA outcome measures and ALS biomarkers</span> <!-- bio: one or two sentences, to be provided --> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Minicuci%20GM%5BAuthor%5D&amp;sort=date" class="nm-pubmed">Papers on PubMed</a></p>
 </div>
 <div class="nm-person">
-<p><img src="images/team/zanovello.jpg" class="img-fluid" alt="Dr. Matteo Zanovello"> <span class="nm-name">Dr.&nbsp;Matteo Zanovello</span> <span class="nm-role">Neurology Resident · Co-Investigator</span> <span class="nm-focus">TDP-43 cryptic exons, repeat expansions and SBMA</span></p>
+<p><img src="images/team/paredi.jpg" class="img-fluid" alt="Dr. Federica Paredi"> <span class="nm-name">Dr.&nbsp;Federica Paredi</span> <span class="nm-role">Neurology Resident · Co-Investigator</span> <span class="nm-focus">SBMA clinical outcomes and cognition</span> <!-- bio: one or two sentences, to be provided --> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Paredi%20F%5BAuthor%5D&amp;sort=date" class="nm-pubmed">Papers on PubMed</a></p>
 </div>
 <div class="nm-person">
-<p><img src="images/team/cannata.jpg" class="img-fluid" alt="Dr. Isabella Cannata"> <span class="nm-name">Dr.&nbsp;Isabella Cannata</span> <span class="nm-role">Clinical Research Fellow · Co-Investigator</span></p>
+<p><img src="images/team/zanovello.jpg" class="img-fluid" alt="Dr. Matteo Zanovello"> <span class="nm-name">Dr.&nbsp;Matteo Zanovello</span> <span class="nm-role">Neurology Resident · Co-Investigator</span> <span class="nm-focus">TDP-43 cryptic exons, repeat expansions and SBMA</span> <!-- bio: one or two sentences, to be provided --> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Zanovello%20M%5BAuthor%5D&amp;sort=date" class="nm-pubmed">Papers on PubMed</a></p>
 </div>
 <div class="nm-person">
-<p><img src="images/team/salmaso.jpg" class="img-fluid" alt="Serenella Salmaso"> <span class="nm-name">Serenella Salmaso</span> <span class="nm-role">Case Manager</span></p>
+<p><img src="images/team/cannata.jpg" class="img-fluid" alt="Dr. Isabella Cannata"> <span class="nm-name">Dr.&nbsp;Isabella Cannata</span> <span class="nm-role">Clinical Research Fellow · Co-Investigator</span> <!-- bio: one or two sentences, to be provided --></p>
 </div>
 <div class="nm-person">
-<p><img src="images/team/lazzaretto.jpg" class="img-fluid" alt="Silvia Lazzaretto"> <span class="nm-name">Silvia Lazzaretto</span> <span class="nm-role">Trial Manager</span></p>
-</div>
-<div class="nm-person nm-nophoto">
-<p><span class="nm-name">Dr.&nbsp;Sara Vianello</span> <span class="nm-role">Senior Lab Technician</span></p>
+<p><img src="images/team/salmaso.jpg" class="img-fluid" alt="Serenella Salmaso"> <span class="nm-name">Serenella Salmaso</span> <span class="nm-role">Case Manager</span> <!-- bio: one or two sentences, to be provided --></p>
 </div>
 <div class="nm-person">
-<p><img src="images/team/girotto.jpg" class="img-fluid" alt="Edoardo Girotto"> <span class="nm-name">Edoardo Girotto</span> <span class="nm-role">PhD Student</span> <span class="nm-focus">Phosphorylated tau in ALS skeletal muscle</span></p>
+<p><img src="images/team/lazzaretto.jpg" class="img-fluid" alt="Silvia Lazzaretto"> <span class="nm-name">Silvia Lazzaretto</span> <span class="nm-role">Trial Manager</span> <!-- bio: one or two sentences, to be provided --></p>
 </div>
 <div class="nm-person">
-<p><img src="images/team/cavallo.jpg" class="img-fluid" alt="Francesco Cavallo"> <span class="nm-name">Francesco Cavallo</span> <span class="nm-role">Research Assistant</span></p>
+<p><img src="images/team/vianello.jpg" class="img-fluid" alt="Dr. Sara Vianello"> <span class="nm-name">Dr.&nbsp;Sara Vianello</span> <span class="nm-role">Senior Lab Technician</span> <!-- bio: one or two sentences, to be provided --> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Vianello%20S%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&amp;sort=date" class="nm-pubmed">Papers on PubMed</a></p>
 </div>
 <div class="nm-person">
-<p><img src="images/team/conforti.jpg" class="img-fluid" alt="Marta Conforti"> <span class="nm-name">Marta Conforti</span> <span class="nm-role">Research Assistant</span> <span class="nm-focus">Developing ELISA assays for new biomarkers</span></p>
-</div>
-<div class="nm-person nm-nophoto">
-<p><span class="nm-name">Sonia Marcato</span> <span class="nm-role">Neuropsychologist</span></p>
+<p><img src="images/team/gorgoglione.jpg" class="img-fluid" alt="Dr. Domenico Gorgoglione"> <span class="nm-name">Dr.&nbsp;Domenico Gorgoglione</span> <span class="nm-role">Postdoctoral Researcher</span> <!-- bio: one or two sentences, to be provided --> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Gorgoglione%20D%5BAuthor%5D&amp;sort=date" class="nm-pubmed">Papers on PubMed</a></p>
 </div>
 <div class="nm-person">
-<p><img src="images/team/sabbatini.jpg" class="img-fluid" alt="Dr. Daniele Sabbatini"> <span class="nm-name">Dr.&nbsp;Daniele Sabbatini</span> <span class="nm-role">Biostatistician</span></p>
+<p><img src="images/team/girotto.jpg" class="img-fluid" alt="Edoardo Girotto"> <span class="nm-name">Edoardo Girotto</span> <span class="nm-role">PhD Student</span> <span class="nm-focus">Phosphorylated tau in ALS skeletal muscle</span> <!-- bio: one or two sentences, to be provided --></p>
+</div>
+<div class="nm-person">
+<p><img src="images/team/cavallo.jpg" class="img-fluid" alt="Francesco Cavallo"> <span class="nm-name">Francesco Cavallo</span> <span class="nm-role">Research Assistant</span> <!-- bio: one or two sentences, to be provided --></p>
+</div>
+<div class="nm-person">
+<p><img src="images/team/conforti.jpg" class="img-fluid" alt="Marta Conforti"> <span class="nm-name">Marta Conforti</span> <span class="nm-role">Research Assistant</span> <span class="nm-focus">Developing ELISA assays for new biomarkers</span> <!-- bio: one or two sentences, to be provided --></p>
+</div>
+<div class="nm-person">
+<p><img src="images/team/marcato.jpg" class="img-fluid" alt="Sonia Marcato"> <span class="nm-name">Sonia Marcato</span> <span class="nm-role">Neuropsychologist</span> <!-- bio: one or two sentences, to be provided --> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Marcato%20S%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&amp;sort=date" class="nm-pubmed">Papers on PubMed</a></p>
+</div>
+<div class="nm-person">
+<p><img src="images/team/sabbatini.jpg" class="img-fluid" alt="Dr. Daniele Sabbatini"> <span class="nm-name">Dr.&nbsp;Daniele Sabbatini</span> <span class="nm-role">Biostatistician</span> <!-- bio: one or two sentences, to be provided --> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Sabbatini%20D%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&amp;sort=date" class="nm-pubmed">Papers on PubMed</a></p>
 </div>
 </div>
 <div class="nm-join">
 <section id="join-us" class="level2">
 <h2 data-anchor-id="join-us">Join us</h2>
-<p>Prospective students and postdocs are welcome. Send us your CV and a brief statement of interest.</p>
+<p>Prospective students and postdocs are welcome. Send us your CV and a short note on what you would like to work on.</p>
 </section>
-<p><a href="./contact.html" class="nm-btn nm-btn-muscle">Work with us</a></p>
+<p><a href="contact.html#work" class="nm-btn nm-btn-muscle">Work with us</a></p>
 </div>
-<p><a href="./publications.html" class="nm-next">Keep scrolling to our publications</a></p>
+<p><a href="./trials.html" class="nm-next">Keep scrolling to our clinical trials</a></p>
 </div>
 
 
@@ -236,12 +232,9 @@ ul.task-list li input[type="checkbox"] {
     <div class="nm-footer-contact">
       <span class="nm-footer-name">NeuroMuscle Lab</span>
       <span>Department of Neuroscience, Università degli Studi di Padova</span>
-      <span>Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova</span>
-      <a href="mailto:gianni.soraru@unipd.it">gianni.soraru@unipd.it</a>
     </div>
   </div>
   <div class="nm-footer-bottom">
-    <span>Prof. Gianni Sorarù, principal investigator</span>
     <span class="nm-footer-links"><a href="privacy.html">Privacy policy</a><span>Built with Quarto</span></span>
   </div>
 </footer>
@@ -290,11 +283,13 @@ ul.task-list li input[type="checkbox"] {
   window.addEventListener('resize', update);
   update();
 })();
-/* Contact: #work opens the "Work with us" tab. */
+/* External links (papers, PubMed, funders, registries) open in a new tab. */
 (function () {
-  if (location.hash !== '#work') return;
-  var tab = Array.prototype.find.call(document.querySelectorAll('.panel-tabset .nav-link'), function (a) { return /work with us/i.test(a.textContent); });
-  if (tab) { tab.click(); tab.scrollIntoView({ block: 'start' }); }
+  document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+    if (a.hostname === location.hostname || a.hostname === 'neuromusclelab.org' || a.hostname === 'www.neuromusclelab.org') return;
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
@@ -377,6 +372,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

@@ -116,7 +116,7 @@
     "href": "privacy.html#types-of-data-collected",
     "title": "Privacy policy",
     "section": "Types of Data collected",
-    "text": "Types of Data collected\nAmong the types of Personal Data that this Application collects, by itself or through third parties, there are: first name; last name; email address; phone number (optional); Usage Data.\nComplete details on each type of Personal Data collected are given in the dedicated sections of this privacy policy or in specific explanation texts displayed before the Data are collected. Personal Data may be freely provided by the User or, in the case of Usage Data, collected automatically when using this Application.\nUnless specified otherwise, all Data requested by this Application are mandatory, and failure to provide them may make it impossible for this Application to provide its Service. Where this Application states that some Data are not mandatory, such as the phone number in the contact form, Users are free not to communicate them without consequences for the availability or functioning of the Service.\nUsers who are uncertain about which Personal Data are mandatory are welcome to contact the Owner. Any use of Cookies or other tracking tools by this Application or by third-party services it uses serves to provide the Service required by the User, in addition to any other purposes described in this document and in the Cookie Policy.\nUsers are responsible for any third-party Personal Data obtained, published or shared through this Application."
+    "text": "Types of Data collected\nAmong the types of Personal Data that this Application collects, by itself or through third parties, there are: first name; last name; email address; phone number (optional); link to a curriculum vitae; Usage Data.\nComplete details on each type of Personal Data collected are given in the dedicated sections of this privacy policy or in specific explanation texts displayed before the Data are collected. Personal Data may be freely provided by the User or, in the case of Usage Data, collected automatically when using this Application.\nUnless specified otherwise, all Data requested by this Application are mandatory, and failure to provide them may make it impossible for this Application to provide its Service. Where this Application states that some Data are not mandatory, such as the phone number in the application form, Users are free not to communicate them without consequences for the availability or functioning of the Service.\nUsers who are uncertain about which Personal Data are mandatory are welcome to contact the Owner. Any use of Cookies or other tracking tools by this Application or by third-party services it uses serves to provide the Service required by the User, in addition to any other purposes described in this document and in the Cookie Policy.\nUsers are responsible for any third-party Personal Data obtained, published or shared through this Application."
   },
   {
     "objectID": "privacy.html#mode-and-place-of-processing-the-data",
@@ -137,7 +137,7 @@
     "href": "privacy.html#detailed-information-on-the-processing-of-personal-data",
     "title": "Privacy policy",
     "section": "Detailed information on the processing of Personal Data",
-    "text": "Detailed information on the processing of Personal Data\nPersonal Data are collected for the following purposes and using the following services:\n\nContacting the User: contact form (this Application)\nBy filling in the contact form (“Work with us”) with their Data, the User authorises this Application to use these details to reply to requests for information, applications or any other kind of request as indicated by the form’s header. The form is delivered to the Owner through Formspree (Formspree, Inc., USA), which acts as a Data Processor.\nPersonal Data processed: first name; last name; email address; phone number (optional, only if the User chooses to provide it)."
+    "text": "Detailed information on the processing of Personal Data\nPersonal Data are collected for the following purposes and using the following services:\n\nContacting the User: application form (Google Forms, Google Ireland Limited)\nThe “Work with us” application form is hosted by Google Forms, a service provided by Google Ireland Limited, and embedded in this Application; it loads when the User opens the “Work with us” section. No Google account is needed. Answers are stored in the Owner’s Google account and are used only to evaluate the application and reply to the User. Google acts as a Data Processor; see the Google Privacy Policy.\nPersonal Data processed: first name; last name; email address; phone number (optional); information about the position of interest; message; link to the User’s curriculum vitae and the information it contains.\nPlace of processing: European Union and other countries where Google operates. Applications are kept for as long as needed to evaluate them, unless the User asks for earlier deletion."
   },
   {
     "objectID": "privacy.html#cookie-policy",
@@ -172,7 +172,7 @@
     "href": "people.html#join-us",
     "title": "NeuroMuscle Lab",
     "section": "Join us",
-    "text": "Join us\nProspective students and postdocs are welcome. Send us your CV and a brief statement of interest."
+    "text": "Join us\nProspective students and postdocs are welcome. Send us your CV and a short note on what you would like to work on."
   },
   {
     "objectID": "research.html#the-motor-neuron",
@@ -207,7 +207,7 @@
     "href": "index.html#news",
     "title": "NeuroMuscle Lab",
     "section": "News",
-    "text": "News\n\n\n  14 November 2026 Paper · SBMA   How fatigability progresses in SBMA Our study in Muscle & Nerve follows six-minute walk test fatigability in 168 people with SBMA over time.  \n  11 November 2026 Paper · ALS · TDP-43   Correcting UNC13A splicing rescues synapses after TDP-43 loss A Nature paper with UCL colleagues shows that fixing a single cryptic splicing event in UNC13A restores synaptic function in human neurons.  \n  26 September 2026 Event · ALS · Muscle   Skeletal Muscle in ALS: an international conference in Padova On 25–26 September 2026 we co-organised a two-day international meeting on the role of skeletal muscle in ALS.  \n\nNo matching items\n\nAll news"
+    "text": "News\n\n\n  14 November 2026 Paper · SBMA   How fatigability progresses in SBMA Our study in Muscle & Nerve follows six-minute walk test fatigability in 168 people with SBMA over time.  \n  11 November 2026 Paper · ALS · TDP-43   Correcting UNC13A splicing rescues synapses after TDP-43 loss A Nature paper with UCL colleagues shows that fixing a single cryptic splicing event in UNC13A restores synaptic function in human neurons.  \n  26 September 2026 Event · ALS · Muscle   Skeletal Muscle in ALS: an international conference in Padova On 25–26 September 2026 we co-organised a two-day international meeting on the role of skeletal muscle in ALS.  \n  31 July 2026 Paper · SBMA   What counts as a meaningful change in SBMA? Our paper in the Journal of Neurology gives the first patient-anchored estimates of the minimal clinically important difference for SBMA outcome measures.  \n\nNo matching items"
   },
   {
     "objectID": "pazienti.html#il-nostro-ambulatorio",
@@ -249,49 +249,49 @@
     "href": "news/2026-11-14-sbma-fatigability.html",
     "title": "How fatigability progresses in SBMA",
     "section": "",
-    "text": "Fatigue is one of the most disabling symptoms of spinal and bulbar muscular atrophy (SBMA), but fatigability, the drop in performance during sustained activity, had never been followed over time.\nIn a retrospective study of 168 people with SBMA (703 visits), we measured fatigability as the decline in distance walked between the first and the sixth minute of the six-minute walk test. Almost half of the patients were fatigable at baseline, and fatigability was linked to lower-limb and trunk function and to walking distance.\nPaper: Zanovello M, Sabbatini D, Paredi F, et al. Longitudinal progression of 6-minute walk test-derived fatigability in spinal and bulbar muscular atrophy: a retrospective study. Muscle & Nerve, 2026. doi:10.1002/mus.70457\nBack to news"
+    "text": "Fatigue is one of the most disabling symptoms of spinal and bulbar muscular atrophy (SBMA), but fatigability, the drop in performance during sustained activity, had never been followed over time.\nIn a retrospective study of 168 people with SBMA (703 visits), we measured fatigability as the decline in distance walked between the first and the sixth minute of the six-minute walk test. Almost half of the patients were fatigable at baseline, and fatigability was linked to lower-limb and trunk function and to walking distance.\nPaper: Zanovello M, Sabbatini D, Paredi F, et al. Longitudinal progression of 6-minute walk test-derived fatigability in spinal and bulbar muscular atrophy: a retrospective study. Muscle & Nerve, 2026. doi:10.1002/mus.70457\nBack to the home page"
   },
   {
     "objectID": "news/2026-09-26-skeletal-muscle-in-als.html",
     "href": "news/2026-09-26-skeletal-muscle-in-als.html",
     "title": "Skeletal Muscle in ALS: an international conference in Padova",
     "section": "",
-    "text": "Skeletal Muscle in ALS: Mechanisms, Biomarkers, and Therapeutic Perspectives brought together clinicians and scientists at Hotel Mantegna, Padova, on 25–26 September 2026.\nFour sessions covered muscle pathology, models and omics; muscle and neuromuscular junction physiology in ALS; muscle biomarkers; and therapies that target skeletal muscle. Keynote lectures were given by Marco Sandri (University of Padova, VIMM) and Pietro Fratta (UCL), and selected posters were presented as short talks.\nThe conference was organised by Gianni Sorarù, Maria Pennuto, Manuela Basso and Matteo Zanovello, sponsored by ASLA, with the patronage of the University of Padova and Azienda Ospedale Università Padova.\nConference website · Back to news"
+    "text": "Skeletal Muscle in ALS: Mechanisms, Biomarkers, and Therapeutic Perspectives brought together clinicians and scientists at Hotel Mantegna, Padova, on 25–26 September 2026.\nFour sessions covered muscle pathology, models and omics; muscle and neuromuscular junction physiology in ALS; muscle biomarkers; and therapies that target skeletal muscle. Keynote lectures were given by Marco Sandri (University of Padova, VIMM) and Pietro Fratta (UCL), and selected posters were presented as short talks.\nThe conference was organised by Gianni Sorarù, Maria Pennuto, Manuela Basso and Matteo Zanovello, sponsored by ASLA, with the patronage of the University of Padova and Azienda Ospedale Università Padova.\nConference website · Back to the home page"
   },
   {
     "objectID": "trials.html#section",
     "href": "trials.html#section",
     "title": "NeuroMuscle Lab",
     "section": "2026",
-    "text": "2026\n\n\nALS · Phase 3\n\nPREVAILS\nA randomised, double-blind, placebo-controlled study of the efficacy and safety of pridopidine in people with amyotrophic lateral sclerosis.\nExpected to randomise: 10"
+    "text": "2026\n\n\nPREVAILS\nALS · Phase 3\nA randomised, double-blind, placebo-controlled study of the efficacy and safety of pridopidine in people with amyotrophic lateral sclerosis."
   },
   {
     "objectID": "trials.html#section-1",
     "href": "trials.html#section-1",
     "title": "NeuroMuscle Lab",
     "section": "2025",
-    "text": "2025\n\n\nALS · Phase 2/3\n\nALCALS (acetyl-carnitine)\nA randomised study of the biological and clinical effects of acetyl-carnitine in people with amyotrophic lateral sclerosis.\nPatients in the study: 3 · Expected to randomise: 10"
+    "text": "2025\n\n\nALCALS (acetyl-carnitine)\nALS · Phase 2/3\nA randomised study of the biological and clinical effects of acetyl-carnitine in people with amyotrophic lateral sclerosis."
   },
   {
     "objectID": "trials.html#section-2",
     "href": "trials.html#section-2",
     "title": "NeuroMuscle Lab",
     "section": "2023",
-    "text": "2023\n\n\nSBMA · Coordinating centre\n\nClenbuterol in SBMA\nA placebo-controlled study of the efficacy and safety of clenbuterol in people with spinal and bulbar muscular atrophy. Our centre coordinates the trial.\nCompleted: 27 · Still in the study: 3\n\n\n\nSBMA · Phase 2\n\nNIDO 361-002\nA randomised, double-blind, placebo-controlled study of NIDO-361 in people with spinal and bulbar muscular atrophy (Kennedy’s disease).\nCompleted: 5\n\n\n\nALS · Phase 3b · Open-label extension\n\nPHOENIX-OLE (A35-011)\nAn open-label extension of PHOENIX on the safety and tolerability of AMX0035 (sodium phenylbutyrate and taurursodiol) for up to 108 weeks.\nRandomised: 6 · Completed: 5\n\n\n\nALS · Phase 3 · Open-label extension · Suspended by the sponsor, January 2024\n\nADOREXT (FAB122-CT-2201)\nA multinational open-label extension on the long-term safety of oral FAB122 (edaravone) 100 mg once daily for people previously enrolled in ADORE.\nRandomised: 3 · Completed: 3"
+    "text": "2023\n\n\nClenbuterol in SBMA\nSBMA · Coordinating centre\nA placebo-controlled study of the efficacy and safety of clenbuterol in people with spinal and bulbar muscular atrophy. Our centre coordinates the trial.\n\n\nNIDO 361-002\nSBMA · Phase 2\nA randomised, double-blind, placebo-controlled study of NIDO-361 in people with spinal and bulbar muscular atrophy (Kennedy’s disease).\n\n\nPHOENIX-OLE (A35-011)\nALS · Phase 3b · Open-label extension\nAn open-label extension of PHOENIX on the safety and tolerability of AMX0035 (sodium phenylbutyrate and taurursodiol) for up to 108 weeks.\n\n\nADOREXT (FAB122-CT-2201)\nALS · Phase 3 · Open-label extension · Suspended by the sponsor, January 2024\nA multinational open-label extension on the long-term safety of oral FAB122 (edaravone) 100 mg once daily for people previously enrolled in ADORE."
   },
   {
     "objectID": "trials.html#section-3",
     "href": "trials.html#section-3",
     "title": "NeuroMuscle Lab",
     "section": "2022",
-    "text": "2022\n\n\nALS · Phase 3\n\nADORE (FAB122-CT-2001)\nALS Deceleration with ORal Edaravone: a multicentre, randomised, double-blind, placebo-controlled study of oral FAB122 once daily.\nRandomised: 6 · Completed: 3\n\n\n\nALS · Phase 3\n\nPHOENIX (A35-004)\nA multicentre, randomised, double-blind, placebo-controlled study of AMX0035 (sodium phenylbutyrate and taurursodiol) for 48 weeks.\nRandomised: 10 · Completed: 8\n\n\n\nALS · Phase 3\n\nMasitinib (AB19001)\nA multicentre, randomised, double-blind, placebo-controlled, parallel-group study of masitinib with riluzole versus placebo with riluzole.\nRandomised: 3 · Completed: 1"
+    "text": "2022\n\n\nADORE (FAB122-CT-2001)\nALS · Phase 3\nALS Deceleration with ORal Edaravone: a multicentre, randomised, double-blind, placebo-controlled study of oral FAB122 once daily.\n\n\nPHOENIX (A35-004)\nALS · Phase 3\nA multicentre, randomised, double-blind, placebo-controlled study of AMX0035 (sodium phenylbutyrate and taurursodiol) for 48 weeks.\n\n\nMasitinib (AB19001)\nALS · Phase 3\nA multicentre, randomised, double-blind, placebo-controlled, parallel-group study of masitinib with riluzole versus placebo with riluzole."
   },
   {
     "objectID": "trials.html#trial-facilities",
     "href": "trials.html#trial-facilities",
     "title": "NeuroMuscle Lab",
     "section": "Trial facilities",
-    "text": "Trial facilities\n\n\nClinical areas\n\n2 rooms for examination and for blood and biological sample collection\n1 room, with a bed, for administering investigational products\n1 waiting area, also used for post-dose monitoring and safety assessments\nRooms and waiting areas close to emergency medical services\n\n\n\nLaboratory\n\nOn-site certified external laboratory for routine and protocol-required analyses\n2 centrifuges and biosafety cabinets\n−20 °C and −80 °C freezers for biological samples\nBiobanking for long-term sample storage, on request\nEquipment calibration programme\nAccess to an Electronic Data Capture (EDC) system"
+    "text": "Trial facilities\n\n\nClinical areas\n\n2 rooms for examination and for blood and biological sample collection\n1 room, with a bed, for administering investigational products\n1 waiting area, also used for post-dose monitoring and safety assessments\nRooms and waiting areas close to emergency medical services\n\n\n\nLaboratory\n\nOn-site certified external laboratory for routine and protocol-required analyses\n8 bench spaces with equipment, biosafety cabinets, centrifuge, freezers and fridges\nBiobanking for long-term sample storage, on request\nEquipment calibration programme\nAccess to an Electronic Data Capture (EDC) system"
   },
   {
     "objectID": "trials.html#for-sponsors-and-patients",
@@ -340,14 +340,14 @@
     "href": "news/2026-07-31-sbma-mcid.html",
     "title": "What counts as a meaningful change in SBMA?",
     "section": "",
-    "text": "To read the results of a clinical trial, we need to know how much change in a score matters to patients. For spinal and bulbar muscular atrophy (SBMA) this was not known.\nWe asked people with SBMA how they felt they had changed between visits and compared their answers with the SBMA Functional Rating Scale, its lower-limb and trunk subscale and the six-minute walk test. The study gives the first patient-anchored estimates of the minimal clinically important difference for these measures, supports the use of the subscale, and offers thresholds for responder definitions and sample-size calculations in future SBMA trials.\nPaper: Zanovello M, Sabbatini D, Paredi F, et al. Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy. Journal of Neurology, 2026. doi:10.1007/s00415-026-14032-4\nBack to news"
+    "text": "To read the results of a clinical trial, we need to know how much change in a score matters to patients. For spinal and bulbar muscular atrophy (SBMA) this was not known.\nWe asked people with SBMA how they felt they had changed between visits and compared their answers with the SBMA Functional Rating Scale, its lower-limb and trunk subscale and the six-minute walk test. The study gives the first patient-anchored estimates of the minimal clinically important difference for these measures, supports the use of the subscale, and offers thresholds for responder definitions and sample-size calculations in future SBMA trials.\nPaper: Zanovello M, Sabbatini D, Paredi F, et al. Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophy. Journal of Neurology, 2026. doi:10.1007/s00415-026-14032-4\nBack to the home page"
   },
   {
     "objectID": "news/2026-11-11-unc13a-nature.html",
     "href": "news/2026-11-11-unc13a-nature.html",
     "title": "Correcting UNC13A splicing rescues synapses after TDP-43 loss",
     "section": "",
-    "text": "Loss of TDP-43 from the nucleus is the hallmark of almost all cases of ALS and of about half of frontotemporal dementia. It causes cryptic splicing in hundreds of RNAs, but whether it affects how neurons talk to each other was unclear.\nThis study, led by Pietro Fratta’s group at UCL with our contribution, shows that TDP-43 loss leaves neurons structurally intact but breaks down synaptic communication. Correcting one cryptic splicing event, in UNC13A, was enough to rescue it. Splice-switching antisense oligonucleotides corrected UNC13A in human cortical and spinal motor neurons and in a humanised mouse model, restoring synaptic vesicle release and network synchrony.\nPaper: Keuss MJ, Harley P, Ryadnov E, et al. UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss. Nature, 2026. doi:10.1038/s41586-026-11256-2\nBack to news"
+    "text": "Loss of TDP-43 from the nucleus is the hallmark of almost all cases of ALS and of about half of frontotemporal dementia. It causes cryptic splicing in hundreds of RNAs, but whether it affects how neurons talk to each other was unclear.\nThis study, led by Pietro Fratta’s group at UCL with our contribution, shows that TDP-43 loss leaves neurons structurally intact but breaks down synaptic communication. Correcting one cryptic splicing event, in UNC13A, was enough to rescue it. Splice-switching antisense oligonucleotides corrected UNC13A in human cortical and spinal motor neurons and in a humanised mouse model, restoring synaptic vesicle release and network synchrony.\nPaper: Keuss MJ, Harley P, Ryadnov E, et al. UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss. Nature, 2026. doi:10.1038/s41586-026-11256-2\nBack to the home page"
   },
   {
     "objectID": "patients.html#our-clinic",
@@ -389,7 +389,7 @@
     "href": "index.html#latest-papers",
     "title": "NeuroMuscle Lab",
     "section": "Latest papers",
-    "text": "Latest papers\n\n2026TDP-43 dysfunction induces cryptic circular RNAs in ALS/FTDDattilo D, Pellegrini F, Barattucci S, …, Zanovello M, …, Fratta PbioRxiv · Sep 2026\n2026Integrating Genetic Modifier Genotype With Serum Proteomics in Duchenne Muscular Dystrophy Clinical Trials Links LTBP4 Genetic Modifier to IL-23/CD93 Pathways in MuscleDang UJ, Fang Y, Sabbatini D, Pegoraro E, …, Hoffman EPAm J Med Genet A · Aug 2026\n2026The UNC13A cryptic exon associates with cognitive impairment in Alzheimer's diseaseReeves MM, Aviles Carpintero S, Zanovello M, …, Prudencio MAlzheimers Res Ther · Aug 2026\n2026Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophyZanovello M, Sabbatini D, Paredi F, …, Minicuci GM, Pegoraro E, …, Sorarù GJ Neurol · Jul 2026\n\nAll publications"
+    "text": "Latest papers\n\n2026TDP-43 dysfunction induces cryptic circular RNAs in ALS/FTDDattilo D, Pellegrini F, Barattucci S, …, Zanovello M, …, Fratta PbioRxiv · Sep 2026\n2026Integrating Genetic Modifier Genotype With Serum Proteomics in Duchenne Muscular Dystrophy Clinical Trials Links LTBP4 Genetic Modifier to IL-23/CD93 Pathways in MuscleDang UJ, Fang Y, Sabbatini D, Pegoraro E, …, Hoffman EPAm J Med Genet A · Aug 2026\n2026The UNC13A cryptic exon associates with cognitive impairment in Alzheimer's diseaseReeves MM, Aviles Carpintero S, Zanovello M, …, Prudencio MAlzheimers Res Ther · Aug 2026\n2026Estimating the minimal clinically important difference of functional outcomes in spinal and bulbar muscular atrophyZanovello M, Sabbatini D, Paredi F, …, Minicuci GM, Pegoraro E, …, Sorarù GJ Neurol · Jul 2026"
   },
   {
     "objectID": "lab.html#what-we-can-measure",
@@ -397,5 +397,26 @@
     "title": "NeuroMuscle Lab",
     "section": "What we can measure",
     "text": "What we can measure\n\n\n\nClinical cohorts and outcomes\nLong-term follow-up of people with ALS and SBMA with standard functional scales, the six-minute walk test and patient-anchored change scores. Answers: how disease progresses, and which change is meaningful for a trial.\n\n\nNeurophysiology\nElectromyography, nerve conduction studies, transcranial magnetic stimulation for cortical excitability and motor evoked potentials. Answers: how much upper and lower motor neuron function is lost.\n\n\nBrain imaging\nMRI, including the motor band sign, and [18F]FDG-PET. Answers: where and how strongly the motor system and its glia are affected.\n\n\nFluid biomarkers\nNeurofilaments, chitinases, serum p-tau181 and creatinine in blood and CSF, and new ELISA assays developed in the lab. Answers: who progresses faster, and whether a treatment reaches its target.\n\n\nMuscle pathology\nHistology and immunostaining of patient muscle biopsies, including phosphorylated tau and markers of regeneration and innervation. Answers: what happens in muscle, not only in the nerve.\n\n\nRNA and genomic data\nRNA-seq analysis of cryptic splicing and polyadenylation, and repeat expansion and variant analysis in population datasets such as the UK Biobank. Answers: which RNA changes mark TDP-43 loss, and how common disease variants are."
+  },
+  {
+    "objectID": "lab.html#the-clinic",
+    "href": "lab.html#the-clinic",
+    "title": "NeuroMuscle Lab",
+    "section": "The clinic",
+    "text": "The clinic\nNeurologists and neurophysiologists see people with ALS, SBMA and other motor neuron diseases, and collect clinical, functional and neurophysiological data over time."
+  },
+  {
+    "objectID": "lab.html#the-bench",
+    "href": "lab.html#the-bench",
+    "title": "NeuroMuscle Lab",
+    "section": "The bench",
+    "text": "The bench\nWe work with patient biofluids and muscle tissue, develop ELISA assays for new biomarkers, and study phosphorylated tau in ALS skeletal muscle."
+  },
+  {
+    "objectID": "lab.html#the-data",
+    "href": "lab.html#the-data",
+    "title": "NeuroMuscle Lab",
+    "section": "The data",
+    "text": "The data\nWe analyse large RNA-seq and genomic datasets with reproducible pipelines in R and bash, from transcript-level splicing to repeat expansions across whole populations."
   }
 ]

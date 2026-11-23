@@ -9,22 +9,26 @@ page-layout: custom
 # Get in touch
 :::
 
-::: panel-tabset
-
-## Information
+```{=html}
+<h2 class="nm-contact-h">Information</h2>
+```
 
 ::: nm-grid-3
 
 ::: nm-card
-[Email]{.nm-kicker}
+```{=html}
+<h3 class="nm-card-h">For patients and sponsors</h3>
+```
 
-[gianni.soraru@unipd.it](mailto:gianni.soraru@unipd.it){style="font-size: 1.4rem; font-weight: 600"}
+[centro.motoneurone@aopd.veneto.it](mailto:centro.motoneurone@aopd.veneto.it){style="font-size: 1.15rem; font-weight: 600; word-break: break-word"}
 
-[Prof. Gianni Sorarù, principal investigator]{.nm-muted}
+[Motor Neuron Disease Centre]{.nm-muted}
 :::
 
 ::: nm-card
-[Lab]{.nm-kicker}
+```{=html}
+<h3 class="nm-card-h">Lab</h3>
+```
 
 **Campus Biomedico Pietro d'Abano**
 
@@ -34,7 +38,9 @@ page-layout: custom
 :::
 
 ::: nm-card
-[Clinic]{.nm-kicker}
+```{=html}
+<h3 class="nm-card-h">Clinic</h3>
+```
 
 **Motor Neuron Disease Centre**
 
@@ -45,18 +51,26 @@ page-layout: custom
 
 :::
 
-## Work with us
+```{=html}
+<span id="work" class="nm-anchor"></span>
+```
 
 ::: nm-work
 
 ::: nm-card
-### Work with us
+```{=html}
+<h2 class="nm-card-h nm-card-h-lg">Work with us</h2>
+```
 
-We welcome students, residents and postdocs interested in neuromuscular disease. Tell us about yourself and what you would like to work on, and we will get back to you.
+We welcome students, residents and postdocs interested in neuromuscular disease. Use the application form to tell us about yourself and what you would like to work on, and we will get back to you.
 
-### Open positions
+Add a link to your CV (for example Google Drive, Dropbox or LinkedIn). The form is hosted by Google Forms and needs no Google account.
 
-There are no open positions listed at the moment. Theses, internships and fellowships can be discussed at any time through this form.
+```{=html}
+<h3 class="nm-card-h">Open positions</h3>
+```
+
+There are no open positions listed at the moment. Theses, internships and fellowships can be discussed at any time through the application form.
 
 <!-- To list a position, replace the paragraph above with one block per role:
 #### Role title (e.g. PhD student, ALS muscle biomarkers)
@@ -65,31 +79,13 @@ One short paragraph: the project, what you will do, the skills you need.
 -->
 :::
 
-::: nm-card
 ```{=html}
-<!-- The form posts to Formspree. Create it from this claim link (sign in, then copy the /f/ ID):
-     https://formspree.io/claim?name=NeuroMuscle+Lab+-+Work+with+us&project=NeuroMuscle+Lab&field.name=text,required,maxlength:100&field.surname=text,required,maxlength:100&field.email=email,required&field.phone=text,maxlength:40&field.message=text,required,maxlength:5000&field.privacy_consent=text,required
-     (form created: xvkavpqz). Set the notification email in Formspree's form settings. -->
-<form class="nm-form" action="https://formspree.io/f/xvkavpqz" method="POST">
-  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
-  <input type="hidden" name="_subject" value="Work with us: new request from neuromusclelab.org">
-  <div class="nm-row">
-    <div><label for="f-name">Name *</label><input class="form-control" id="f-name" name="name" type="text" autocomplete="given-name" required></div>
-    <div><label for="f-surname">Surname *</label><input class="form-control" id="f-surname" name="surname" type="text" autocomplete="family-name" required></div>
-    <div><label for="f-email">E-mail *</label><input class="form-control" id="f-email" name="email" type="email" autocomplete="email" required></div>
-    <div><label for="f-phone">Telephone (optional)</label><input class="form-control" id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
-  </div>
-  <div><label for="f-msg">Message *</label><textarea class="form-control" id="f-msg" name="message" rows="6" required></textarea></div>
-  <div class="form-check">
-    <input class="form-check-input" id="f-privacy" name="privacy_consent" type="checkbox" value="yes" required>
-    <label class="form-check-label" for="f-privacy">I have read the <a href="privacy.html">privacy policy</a> and consent to the processing of my personal data. *</label>
-  </div>
-  <div><button class="nm-btn nm-btn-muscle" type="submit" style="border: 0">Send request</button></div>
-</form>
+<!-- Application form: Google Forms, embedded. Edit it at
+     https://docs.google.com/forms/d/1DP5WcC_3mF4pz8a1xieQSoQ8stkEzTNmoF1zZ_dIOuo/edit -->
+<section class="nm-card nm-gform" aria-label="Application form">
+  <iframe class="nm-gform-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSe2s9x412vYqJbO4qGSnZujLkamxneSbSgU7TSnRzP8B-wcDA/viewform?embedded=true" title="NeuroMuscle Lab application form (Google Forms)" loading="lazy">Loading…</iframe>
+</section>
 ```
-:::
-
-:::
 
 :::
 

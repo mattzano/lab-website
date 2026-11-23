@@ -49,7 +49,7 @@
       "name": "Prof. Elena Pegoraro",
       "short": "Pegoraro E",
       "role": "Head of Neuromuscular Laboratory",
-      "photo": "",
+      "photo": "images/team/pegoraro.jpg",
       "pubmed_query": "Pegoraro E[Author] AND (Padova[ad] OR Padua[ad])",
       "last_names": [
         "Pegoraro"
@@ -147,7 +147,7 @@
       "name": "Dr. Sara Vianello",
       "short": "Vianello S",
       "role": "Senior Lab Technician",
-      "photo": "",
+      "photo": "images/team/vianello.jpg",
       "pubmed_query": "Vianello S[Author] AND (Padova[ad] OR Padua[ad])",
       "last_names": [
         "Vianello"
@@ -160,6 +160,24 @@
         "Padova",
         "Padua"
       ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
+      "id": "gorgoglione",
+      "name": "Dr. Domenico Gorgoglione",
+      "short": "Gorgoglione D",
+      "role": "Postdoctoral Researcher",
+      "photo": "images/team/gorgoglione.jpg",
+      "pubmed_query": "Gorgoglione D[Author]",
+      "last_names": [
+        "Gorgoglione"
+      ],
+      "first_names": [
+        "Domenico"
+      ],
+      "initials": "D",
+      "affiliations": [],
       "key_pmids": [],
       "exclude_pmids": []
     },
@@ -231,7 +249,7 @@
       "name": "Sonia Marcato",
       "short": "Marcato S",
       "role": "Neuropsychologist",
-      "photo": "",
+      "photo": "images/team/marcato.jpg",
       "pubmed_query": "Marcato S[Author] AND (Padova[ad] OR Padua[ad])",
       "last_names": [
         "Marcato"

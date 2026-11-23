@@ -11,8 +11,9 @@ page-layout: custom
 Neurologists, neurophysiologists, researchers and clinical research staff working between the neuromuscular clinic and the lab.
 :::
 
-<!-- Team list from the "TRICALS / WEBSITE" doc. Cards marked .nm-nophoto have no picture;
-     to add one, put a 4:5 photo in images/team/, add an image line and drop .nm-nophoto. -->
+<!-- Team list from the "TRICALS / WEBSITE" doc. Photos are 4:5 (600x750) in images/team/.
+     Each card has a bio placeholder comment: replace it with a short bio as plain text.
+     PubMed links search the query in data/members.json, newest first. -->
 
 ::: nm-team
 
@@ -21,11 +22,16 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 [Prof. Gianni Sorarù]{.nm-name}
 [Associate Professor of Neurology]{.nm-role}
 [ALS, SBMA and other motor neuron diseases]{.nm-focus}
+<!-- bio: one or two sentences, to be provided -->
+[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Soraru%20G%5BAuthor%5D&sort=date){.nm-pubmed}
 :::
 
-::: {.nm-person .nm-nophoto}
+::: nm-person
+![](images/team/pegoraro.jpg){fig-alt="Prof. Elena Pegoraro"}
 [Prof. Elena Pegoraro]{.nm-name}
 [Head of Neuromuscular Laboratory]{.nm-role}
+<!-- bio: one or two sentences, to be provided -->
+[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Pegoraro%20E%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&sort=date){.nm-pubmed}
 :::
 
 ::: nm-person
@@ -33,6 +39,8 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 [Dr. Giacomo Maria Minicuci]{.nm-name}
 [Neurologist, Neurophysiologist · Co-Investigator]{.nm-role}
 [SBMA outcome measures and ALS biomarkers]{.nm-focus}
+<!-- bio: one or two sentences, to be provided -->
+[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Minicuci%20GM%5BAuthor%5D&sort=date){.nm-pubmed}
 :::
 
 ::: nm-person
@@ -40,6 +48,8 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 [Dr. Federica Paredi]{.nm-name}
 [Neurology Resident · Co-Investigator]{.nm-role}
 [SBMA clinical outcomes and cognition]{.nm-focus}
+<!-- bio: one or two sentences, to be provided -->
+[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Paredi%20F%5BAuthor%5D&sort=date){.nm-pubmed}
 :::
 
 ::: nm-person
@@ -47,29 +57,45 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 [Dr. Matteo Zanovello]{.nm-name}
 [Neurology Resident · Co-Investigator]{.nm-role}
 [TDP-43 cryptic exons, repeat expansions and SBMA]{.nm-focus}
+<!-- bio: one or two sentences, to be provided -->
+[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Zanovello%20M%5BAuthor%5D&sort=date){.nm-pubmed}
 :::
 
 ::: nm-person
 ![](images/team/cannata.jpg){fig-alt="Dr. Isabella Cannata"}
 [Dr. Isabella Cannata]{.nm-name}
 [Clinical Research Fellow · Co-Investigator]{.nm-role}
+<!-- bio: one or two sentences, to be provided -->
 :::
 
 ::: nm-person
 ![](images/team/salmaso.jpg){fig-alt="Serenella Salmaso"}
 [Serenella Salmaso]{.nm-name}
 [Case Manager]{.nm-role}
+<!-- bio: one or two sentences, to be provided -->
 :::
 
 ::: nm-person
 ![](images/team/lazzaretto.jpg){fig-alt="Silvia Lazzaretto"}
 [Silvia Lazzaretto]{.nm-name}
 [Trial Manager]{.nm-role}
+<!-- bio: one or two sentences, to be provided -->
 :::
 
-::: {.nm-person .nm-nophoto}
+::: nm-person
+![](images/team/vianello.jpg){fig-alt="Dr. Sara Vianello"}
 [Dr. Sara Vianello]{.nm-name}
 [Senior Lab Technician]{.nm-role}
+<!-- bio: one or two sentences, to be provided -->
+[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Vianello%20S%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&sort=date){.nm-pubmed}
+:::
+
+::: nm-person
+![](images/team/gorgoglione.jpg){fig-alt="Dr. Domenico Gorgoglione"}
+[Dr. Domenico Gorgoglione]{.nm-name}
+[Postdoctoral Researcher]{.nm-role}
+<!-- bio: one or two sentences, to be provided -->
+[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Gorgoglione%20D%5BAuthor%5D&sort=date){.nm-pubmed}
 :::
 
 ::: nm-person
@@ -77,12 +103,14 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 [Edoardo Girotto]{.nm-name}
 [PhD Student]{.nm-role}
 [Phosphorylated tau in ALS skeletal muscle]{.nm-focus}
+<!-- bio: one or two sentences, to be provided -->
 :::
 
 ::: nm-person
 ![](images/team/cavallo.jpg){fig-alt="Francesco Cavallo"}
 [Francesco Cavallo]{.nm-name}
 [Research Assistant]{.nm-role}
+<!-- bio: one or two sentences, to be provided -->
 :::
 
 ::: nm-person
@@ -90,17 +118,23 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 [Marta Conforti]{.nm-name}
 [Research Assistant]{.nm-role}
 [Developing ELISA assays for new biomarkers]{.nm-focus}
+<!-- bio: one or two sentences, to be provided -->
 :::
 
-::: {.nm-person .nm-nophoto}
+::: nm-person
+![](images/team/marcato.jpg){fig-alt="Sonia Marcato"}
 [Sonia Marcato]{.nm-name}
 [Neuropsychologist]{.nm-role}
+<!-- bio: one or two sentences, to be provided -->
+[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Marcato%20S%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&sort=date){.nm-pubmed}
 :::
 
 ::: nm-person
 ![](images/team/sabbatini.jpg){fig-alt="Dr. Daniele Sabbatini"}
 [Dr. Daniele Sabbatini]{.nm-name}
 [Biostatistician]{.nm-role}
+<!-- bio: one or two sentences, to be provided -->
+[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Sabbatini%20D%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&sort=date){.nm-pubmed}
 :::
 
 :::
@@ -109,11 +143,11 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 ::: {}
 ## Join us
 
-Prospective students and postdocs are welcome. Send us your CV and a brief statement of interest.
+Prospective students and postdocs are welcome. Send us your CV and a short note on what you would like to work on.
 :::
-[Work with us](contact.qmd){.nm-btn .nm-btn-muscle}
+[Work with us](contact.html#work){.nm-btn .nm-btn-muscle}
 :::
 
-[Keep scrolling to our publications](publications.qmd){.nm-next}
+[Keep scrolling to our clinical trials](trials.qmd){.nm-next}
 
 :::

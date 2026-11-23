@@ -5,7 +5,7 @@ listing:
   id: news-home
   contents: news/*.qmd
   sort: "date desc"
-  max-items: 3
+  max-items: 8
   template: theme/news.ejs
   date-format: "D MMMM YYYY"
 ---
@@ -44,7 +44,6 @@ listing:
   </div>
 </div>
 <div class="nm-hero-meta">
-  <div><strong>Prof. Gianni Sorarù</strong><span>Principal investigator</span></div>
   <div><strong>Department of Neuroscience</strong><span>Università degli Studi di Padova</span></div>
   <div><strong>Motor Neuron Disease Centre</strong><span>Azienda Ospedale Università Padova</span></div>
 </div>
@@ -54,7 +53,7 @@ listing:
 ```{=html}
 <section class="nm-wrap nm-unit" aria-labelledby="unit-title">
   <div class="nm-unit-head">
-    <h2 id="unit-title">One motor unit, five lines of research</h2>
+    <h2 id="unit-title">One motor unit, many lines of research</h2>
     <p>Each line studies a different part of the same unit: the genes in the neuron's nucleus, the RNA in its cell body, the signal along its axon, the junction where it ends, and the muscle fibre it drives.</p>
   </div>
   <ol class="nm-stations">
@@ -104,20 +103,24 @@ listing:
 <section class="nm-wrap nm-people-strip" aria-labelledby="people-title">
   <div class="nm-people-copy">
     <h2 id="people-title">Clinicians and scientists, side by side</h2>
-    <p>Neurologists, a neurophysiologist, a neuropsychologist, lab scientists, a biostatistician and the trial team work on the same patients and the same questions.</p>
+    <p>Neurologists, neurophysiologists, neuropsychologists, lab scientists, bioinformaticians and the trial team work on the same patients and the same questions.</p>
     <a class="nm-arrow" href="people.html">Meet the team</a>
   </div>
   <ul class="nm-faces">
     <li><img src="images/team/soraru.jpg" alt="Prof. Gianni Sorarù" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/pegoraro.jpg" alt="Prof. Elena Pegoraro" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/minicuci.jpg" alt="Dr. Giacomo Maria Minicuci" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/paredi.jpg" alt="Dr. Federica Paredi" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/zanovello.jpg" alt="Dr. Matteo Zanovello" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/cannata.jpg" alt="Dr. Isabella Cannata" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/salmaso.jpg" alt="Serenella Salmaso" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/lazzaretto.jpg" alt="Silvia Lazzaretto" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/vianello.jpg" alt="Dr. Sara Vianello" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/gorgoglione.jpg" alt="Dr. Domenico Gorgoglione" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/girotto.jpg" alt="Edoardo Girotto" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/cavallo.jpg" alt="Francesco Cavallo" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/conforti.jpg" alt="Marta Conforti" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/marcato.jpg" alt="Sonia Marcato" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/sabbatini.jpg" alt="Dr. Daniele Sabbatini" width="120" height="150" loading="lazy"></li>
   </ul>
 </section>
@@ -128,8 +131,6 @@ listing:
 ## Latest papers
 
 {{< include _publications/home.md >}}
-
-[All publications](publications.qmd){.nm-arrow}
 :::
 
 :::: nm-home-col
@@ -137,10 +138,20 @@ listing:
 
 ::: {#news-home}
 :::
-
-[All news](news.qmd){.nm-arrow}
 ::::
 ::::::
+
+```{=html}
+<section class="nm-wrap nm-funders" aria-labelledby="funders-title">
+  <h2 id="funders-title">Funded by</h2>
+  <ul class="nm-funder-list">
+    <li><a href="https://www.arisla.it/"><strong>AriSLA</strong><span>Italian research foundation for ALS</span><em>arisla.it <svg class="nm-ext" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 9 L9 3 M4.5 3 H9 V7.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></em></a></li>
+    <li><a href="https://kennedysdisease.org/"><strong>KDA</strong><span>Kennedy's Disease Association</span><em>kennedysdisease.org <svg class="nm-ext" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 9 L9 3 M4.5 3 H9 V7.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></em></a></li>
+    <li><a href="https://www.afm-telethon.fr/"><strong>AFM-Téléthon</strong><span>French Muscular Dystrophy Association</span><em>afm-telethon.fr <svg class="nm-ext" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 9 L9 3 M4.5 3 H9 V7.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></em></a></li>
+  </ul>
+  <p class="nm-network">Member of <a href="https://ern-euro-nmd.eu/">ERN EURO-NMD</a>, the European Reference Network for rare neuromuscular diseases.</p>
+</section>
+```
 
 ```{=html}
 <section class="nm-joinfield" aria-labelledby="join-title">

@@ -7,12 +7,9 @@
     <div class="nm-footer-contact">
       <span class="nm-footer-name">NeuroMuscle Lab</span>
       <span>Department of Neuroscience, Università degli Studi di Padova</span>
-      <span>Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova</span>
-      <a href="mailto:gianni.soraru@unipd.it">gianni.soraru@unipd.it</a>
     </div>
   </div>
   <div class="nm-footer-bottom">
-    <span>Prof. Gianni Sorarù, principal investigator</span>
     <span class="nm-footer-links"><a href="privacy.html">Privacy policy</a><span>Built with Quarto</span></span>
   </div>
 </footer>
@@ -61,10 +58,12 @@
   window.addEventListener('resize', update);
   update();
 })();
-/* Contact: #work opens the "Work with us" tab. */
+/* External links (papers, PubMed, funders, registries) open in a new tab. */
 (function () {
-  if (location.hash !== '#work') return;
-  var tab = Array.prototype.find.call(document.querySelectorAll('.panel-tabset .nav-link'), function (a) { return /work with us/i.test(a.textContent); });
-  if (tab) { tab.click(); tab.scrollIntoView({ block: 'start' }); }
+  document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+    if (a.hostname === location.hostname || a.hostname === 'neuromusclelab.org' || a.hostname === 'www.neuromusclelab.org') return;
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
 })();
 </script>

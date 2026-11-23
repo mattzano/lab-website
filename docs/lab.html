@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./images/mark.svg" rel="icon" type="image/svg+xml">
+<link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-651114166c135a832cdfdf51e76d97c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e050301a18cb343668e4f0235e7964d0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -124,20 +124,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lab</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./trials.html"> 
-<span class="menu-text">Trials</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
+    <a class="nav-link" href="./trials.html"> 
+<span class="menu-text">Trials</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./patients.html"> 
@@ -169,16 +161,16 @@ ul.task-list li input[type="checkbox"] {
 <p>Our lab is in the Campus Biomedico Pietro d’Abano, Via Orus 2B, Padova. Our patients are seen at the Motor Neuron Disease Centre of Azienda Ospedale Università Padova, and samples and data move between the two.</p>
 </section>
 <div class="nm-grid-3 nm-section">
-<section id="the-clinic" class="level3 nm-card">
-<h3 data-anchor-id="the-clinic">The clinic</h3>
+<section id="the-clinic" class="level2 nm-card">
+<h2 data-anchor-id="the-clinic">The clinic</h2>
 <p>Neurologists and neurophysiologists see people with ALS, SBMA and other motor neuron diseases, and collect clinical, functional and neurophysiological data over time.</p>
 </section>
-<section id="the-bench" class="level3 nm-card">
-<h3 data-anchor-id="the-bench">The bench</h3>
+<section id="the-bench" class="level2 nm-card">
+<h2 data-anchor-id="the-bench">The bench</h2>
 <p>We work with patient biofluids and muscle tissue, develop ELISA assays for new biomarkers, and study phosphorylated tau in ALS skeletal muscle.</p>
 </section>
-<section id="the-data" class="level3 nm-card">
-<h3 data-anchor-id="the-data">The data</h3>
+<section id="the-data" class="level2 nm-card">
+<h2 data-anchor-id="the-data">The data</h2>
 <p>We analyse large RNA-seq and genomic datasets with reproducible pipelines in R and bash, from transcript-level splicing to repeat expansions across whole populations.</p>
 </section>
 </div>
@@ -235,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<p><a href="./trials.html" class="nm-next">Keep scrolling to our clinical trials</a></p>
+<p><a href="./people.html" class="nm-next">Keep scrolling to meet the team</a></p>
 </div>
 
 
@@ -250,12 +242,9 @@ ul.task-list li input[type="checkbox"] {
     <div class="nm-footer-contact">
       <span class="nm-footer-name">NeuroMuscle Lab</span>
       <span>Department of Neuroscience, Università degli Studi di Padova</span>
-      <span>Campus Biomedico Pietro d'Abano, Via Orus 2B, Padova</span>
-      <a href="mailto:gianni.soraru@unipd.it">gianni.soraru@unipd.it</a>
     </div>
   </div>
   <div class="nm-footer-bottom">
-    <span>Prof. Gianni Sorarù, principal investigator</span>
     <span class="nm-footer-links"><a href="privacy.html">Privacy policy</a><span>Built with Quarto</span></span>
   </div>
 </footer>
@@ -304,11 +293,13 @@ ul.task-list li input[type="checkbox"] {
   window.addEventListener('resize', update);
   update();
 })();
-/* Contact: #work opens the "Work with us" tab. */
+/* External links (papers, PubMed, funders, registries) open in a new tab. */
 (function () {
-  if (location.hash !== '#work') return;
-  var tab = Array.prototype.find.call(document.querySelectorAll('.panel-tabset .nav-link'), function (a) { return /work with us/i.test(a.textContent); });
-  if (tab) { tab.click(); tab.scrollIntoView({ block: 'start' }); }
+  document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+    if (a.hostname === location.hostname || a.hostname === 'neuromusclelab.org' || a.hostname === 'www.neuromusclelab.org') return;
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
@@ -391,6 +382,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
