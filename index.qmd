@@ -115,13 +115,13 @@ listing:
     <li><img src="images/team/cannata.jpg" alt="Dr. Isabella Cannata" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/salmaso.jpg" alt="Serenella Salmaso" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/lazzaretto.jpg" alt="Silvia Lazzaretto" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/sabbatini.jpg" alt="Dr. Daniele Sabbatini" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/vianello.jpg" alt="Dr. Sara Vianello" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/gorgoglione.jpg" alt="Dr. Domenico Gorgoglione" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/girotto.jpg" alt="Edoardo Girotto" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/cavallo.jpg" alt="Francesco Cavallo" width="120" height="150" loading="lazy"></li>
     <li><img src="images/team/conforti.jpg" alt="Marta Conforti" width="120" height="150" loading="lazy"></li>
-    <li><img src="images/team/marcato.jpg" alt="Sonia Marcato" width="120" height="150" loading="lazy"></li>
-    <li><img src="images/team/sabbatini.jpg" alt="Dr. Daniele Sabbatini" width="120" height="150" loading="lazy"></li>
+    <li><img src="images/team/marcato.jpg" alt="Dr. Sonia Marcato" width="120" height="150" loading="lazy"></li>
   </ul>
 </section>
 ```

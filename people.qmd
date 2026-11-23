@@ -37,7 +37,7 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 ::: nm-person
 ![](images/team/minicuci.jpg){fig-alt="Dr. Giacomo Maria Minicuci"}
 [Dr. Giacomo Maria Minicuci]{.nm-name}
-[Neurologist, Neurophysiologist · Co-Investigator]{.nm-role}
+[Neurologist, Neurophysiologist]{.nm-role}
 [SBMA outcome measures and ALS biomarkers]{.nm-focus}
 <!-- bio: one or two sentences, to be provided -->
 [Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Minicuci%20GM%5BAuthor%5D&sort=date){.nm-pubmed}
@@ -46,7 +46,7 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 ::: nm-person
 ![](images/team/paredi.jpg){fig-alt="Dr. Federica Paredi"}
 [Dr. Federica Paredi]{.nm-name}
-[Neurology Resident · Co-Investigator]{.nm-role}
+[Neurology Resident]{.nm-role}
 [SBMA clinical outcomes and cognition]{.nm-focus}
 <!-- bio: one or two sentences, to be provided -->
 [Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Paredi%20F%5BAuthor%5D&sort=date){.nm-pubmed}
@@ -55,7 +55,7 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 ::: nm-person
 ![](images/team/zanovello.jpg){fig-alt="Dr. Matteo Zanovello"}
 [Dr. Matteo Zanovello]{.nm-name}
-[Neurology Resident · Co-Investigator]{.nm-role}
+[Neurology Resident]{.nm-role}
 [TDP-43 cryptic exons, repeat expansions and SBMA]{.nm-focus}
 <!-- bio: one or two sentences, to be provided -->
 [Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Zanovello%20M%5BAuthor%5D&sort=date){.nm-pubmed}
@@ -64,7 +64,7 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 ::: nm-person
 ![](images/team/cannata.jpg){fig-alt="Dr. Isabella Cannata"}
 [Dr. Isabella Cannata]{.nm-name}
-[Clinical Research Fellow · Co-Investigator]{.nm-role}
+[Clinical Research Fellow]{.nm-role}
 <!-- bio: one or two sentences, to be provided -->
 :::
 
@@ -80,6 +80,14 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 [Silvia Lazzaretto]{.nm-name}
 [Trial Manager]{.nm-role}
 <!-- bio: one or two sentences, to be provided -->
+:::
+
+::: nm-person
+![](images/team/sabbatini.jpg){fig-alt="Dr. Daniele Sabbatini"}
+[Dr. Daniele Sabbatini]{.nm-name}
+[Biostatistician]{.nm-role}
+<!-- bio: one or two sentences, to be provided -->
+[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Sabbatini%20D%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&sort=date){.nm-pubmed}
 :::
 
 ::: nm-person
@@ -122,19 +130,11 @@ Neurologists, neurophysiologists, researchers and clinical research staff workin
 :::
 
 ::: nm-person
-![](images/team/marcato.jpg){fig-alt="Sonia Marcato"}
-[Sonia Marcato]{.nm-name}
+![](images/team/marcato.jpg){fig-alt="Dr. Sonia Marcato"}
+[Dr. Sonia Marcato]{.nm-name}
 [Neuropsychologist]{.nm-role}
 <!-- bio: one or two sentences, to be provided -->
 [Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Marcato%20S%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&sort=date){.nm-pubmed}
-:::
-
-::: nm-person
-![](images/team/sabbatini.jpg){fig-alt="Dr. Daniele Sabbatini"}
-[Dr. Daniele Sabbatini]{.nm-name}
-[Biostatistician]{.nm-role}
-<!-- bio: one or two sentences, to be provided -->
-[Papers on PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Sabbatini%20D%5BAuthor%5D%20AND%20%28Padova%5Bad%5D%20OR%20Padua%5Bad%5D%29&sort=date){.nm-pubmed}
 :::
 
 :::

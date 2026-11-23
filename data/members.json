@@ -143,6 +143,27 @@
       "exclude_pmids": []
     },
     {
+      "id": "sabbatini",
+      "name": "Dr. Daniele Sabbatini",
+      "short": "Sabbatini D",
+      "role": "Biostatistician",
+      "photo": "images/team/sabbatini.jpg",
+      "pubmed_query": "Sabbatini D[Author] AND (Padova[ad] OR Padua[ad])",
+      "last_names": [
+        "Sabbatini"
+      ],
+      "first_names": [
+        "Daniele"
+      ],
+      "initials": "D",
+      "affiliations": [
+        "Padova",
+        "Padua"
+      ],
+      "key_pmids": [],
+      "exclude_pmids": []
+    },
+    {
       "id": "vianello",
       "name": "Dr. Sara Vianello",
       "short": "Vianello S",
@@ -246,7 +267,7 @@
     },
     {
       "id": "marcato",
-      "name": "Sonia Marcato",
+      "name": "Dr. Sonia Marcato",
       "short": "Marcato S",
       "role": "Neuropsychologist",
       "photo": "images/team/marcato.jpg",
@@ -258,27 +279,6 @@
         "Sonia"
       ],
       "initials": "S",
-      "affiliations": [
-        "Padova",
-        "Padua"
-      ],
-      "key_pmids": [],
-      "exclude_pmids": []
-    },
-    {
-      "id": "sabbatini",
-      "name": "Dr. Daniele Sabbatini",
-      "short": "Sabbatini D",
-      "role": "Biostatistician",
-      "photo": "images/team/sabbatini.jpg",
-      "pubmed_query": "Sabbatini D[Author] AND (Padova[ad] OR Padua[ad])",
-      "last_names": [
-        "Sabbatini"
-      ],
-      "first_names": [
-        "Daniele"
-      ],
-      "initials": "D",
       "affiliations": [
         "Padova",
         "Padua"
